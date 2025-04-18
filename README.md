@@ -1,4 +1,4 @@
-# separated_blocks
+# Cherax Documentation
 
 This repository contains structured blocks of Cherax Lua modding components.  
 Each file or folder inside is meant to represent a specific part of the Cherax mod menu environment such as:
