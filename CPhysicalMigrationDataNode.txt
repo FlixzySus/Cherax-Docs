@@ -1,0 +1,6 @@
+    "CPhysicalMigrationDataNode": {
+        "isDead": {
+            "Description": "does this object have zero health?",
+            "Example": "bool object.isDead"
+        }
+    },

@@ -1,0 +1,14 @@
+    "NetworkObjectMgr": {
+        "ChangeOwner": {
+            "Description": "Changes the ownership of a network object.",
+            "Example": "void NetworkObjectMgr.ChangeOwner(CNetObject object, CNetGamePlayer player, int migrationType)"
+        },
+        "GetNetworkObject": {
+            "Description": "includeAll - If this flag is set the function will also return unregistering objects and those being reassigned",
+            "Example": "CNetObject NetworkObjectMgr.GetNetworkObject(int netId, bool includeAll = false)"
+        },
+        "UnregisterNetworkObject": {
+            "Description": "Unregisters a network object with the manager and removes clones on remote machines if necessary.",
+            "Example": "void NetworkObjectMgr.UnregisterNetworkObject(CNetObject object, int reason, bool bForce, bool bDestroyObject)"
+        }
+    },

@@ -1,0 +1,5 @@
+    "CPedScriptCreationDataNode": {
+        "StayInCarWhenJacked": {
+            "Example": "bool object.StayInCarWhenJacked"
+        }
+    },

@@ -1,0 +1,137 @@
+    "FeatureMgr": {
+        "AddFeature": {
+            "Description": "Create and add a new feature to the list.",
+            "Example": "Feature FeatureMgr.AddFeature(int hash, string name, eFeatureType type, string desc = , function(Feature) callback = 0, bool nativeThreadExecution = true, bool forceQueue = false)"
+        },
+        "AddFeatureArray": {
+            "Description": "Create and add a new features. Returns list of the created feature hashes.",
+            "Example": "table<int, int> FeatureMgr.AddFeatureArray(int size, int hash, string name, eFeatureType type, string desc = ,function(Feature) callback = 0, bool nativeThreadExecution = true, bool forceQueue = false)"
+        },
+        "AddPlayerFeature": {
+            "Description": "Creates an array of 32 features which will automatically reset when the player leaves.",
+            "Example": "table<int, int> FeatureMgr.AddPlayerFeature(int hash, string name, eFeatureType type, string desc = , function(Feature) callback = 0, bool nativeThreadExecution = true, bool forceQueue = false)"
+        },
+        "GetAllFeatureHashes": {
+            "Description": "Returns all feaure hashes.",
+            "Example": "table<int, int> FeatureMgr.GetAllFeatureHashes()"
+        },
+        "GetAllFeatures": {
+            "Description": "Returns all feaures.",
+            "Example": "table<int, Feature> FeatureMgr.GetAllFeatures()"
+        },
+        "GetAllPlayerFeatureHashes": {
+            "Description": "Returns all player feaure hashes.",
+            "Example": "table<int, int> FeatureMgr.GetAllPlayerFeatureHashes()\ntable<int, int> FeatureMgr.GetAllPlayerFeatureHashes(int playerId)"
+        },
+        "GetCurrentFeatureListString": {
+            "Description": "Returns the string value of the current feature list index.",
+            "Example": "string FeatureMgr.GetCurrentFeatureListString(int hash)\nstring FeatureMgr.GetCurrentFeatureListString(int hash, int index)"
+        },
+        "GetFeature": {
+            "Description": "Returns a feature by hash.",
+            "Example": "Feature FeatureMgr.GetFeature(int hash)\nFeature FeatureMgr.GetFeature(int hash, int index)"
+        },
+        "GetFeatureByName": {
+            "Description": "Returns a feature by name.",
+            "Example": "Feature FeatureMgr.GetFeatureByName(string name)\nFeature FeatureMgr.GetFeatureByName(string name, int index)"
+        },
+        "GetFeatureColor": {
+            "Description": "Returns the color value of the feature.",
+            "Example": "int r, g, b, a FeatureMgr.GetFeatureColor(int hash)\nint r, g, b, a FeatureMgr.GetFeatureColor(int hash, int index)"
+        },
+        "GetFeatureFloat": {
+            "Description": "Returns the float value of the feature.",
+            "Example": "number FeatureMgr.GetFeatureFloat(int hash)\nnumber FeatureMgr.GetFeatureFloat(int hash, int index)"
+        },
+        "GetFeatureInt": {
+            "Description": "Returns the int value of the feature.",
+            "Example": "int FeatureMgr.GetFeatureInt(int hash)\nint FeatureMgr.GetFeatureInt(int hash, int index)"
+        },
+        "GetFeatureList": {
+            "Description": "Returns all string items of the feature list.",
+            "Example": "table<int, string> FeatureMgr.GetFeatureList(int hash)\ntable<int, string> FeatureMgr.GetFeatureList(int hash, int index)"
+        },
+        "GetFeatureListIndex": {
+            "Description": "Returns the current index of the feature list.",
+            "Example": "int FeatureMgr.GetFeatureListIndex(int hash)\nint FeatureMgr.GetFeatureListIndex(int hash, int index)"
+        },
+        "GetFeatureString": {
+            "Description": "Returns the string value of the feature.",
+            "Example": "string FeatureMgr.GetFeatureString(int hash)\nstring FeatureMgr.GetFeatureString(int hash, int index)"
+        },
+        "GetFocusedFeature": {
+            "Description": "Returns the current focused(ClickGui) / selected(ListGui) feature.",
+            "Example": "Feature FeatureMgr.GetFocusedFeature()"
+        },
+        "GetHoveredFeature": {
+            "Description": "Returns the current hovered(ClickGui) / selected(ListGui) feature.",
+            "Example": "Feature FeatureMgr.GetHoveredFeature()"
+        },
+        "IsFeatureEnabled": {
+            "Description": "Returns the boolean value of the feature.",
+            "Example": "bool FeatureMgr.IsFeatureEnabled(int hash)\nbool FeatureMgr.IsFeatureEnabled(int hash, int index)"
+        },
+        "IsFeatureToggled": {
+            "Description": "Returns if the feature is toggled.",
+            "Example": "bool FeatureMgr.IsFeatureToggled(int hash)\nbool FeatureMgr.IsFeatureToggled(int hash, int index)"
+        },
+        "LoadSettings": {
+            "Description": "Loads the given settings. File can be relative or absolute.",
+            "Example": "bool FeatureMgr.LoadSettings(string file)\nFeatureMgr.LoadSettings(\"Default.json\")"
+        },
+        "RemoveFeature": {
+            "Description": "Removes the feature for the given hash.",
+            "Example": "bool FeatureMgr.RemoveFeature(int hash)"
+        },
+        "RemoveFeatureArray": {
+            "Description": "Removes the feature array for the given hash and size.",
+            "Example": "bool FeatureMgr.RemoveFeatureArray(int hash, int size)"
+        },
+        "RemovePlayerFeature": {
+            "Description": "Removes the player feature for the given hash.",
+            "Example": "bool FeatureMgr.RemovePlayerFeature(int hash)"
+        },
+        "ResetAllPlayerFeatures": {
+            "Description": "Resets all player features for every player.",
+            "Example": "void FeatureMgr.ResetAllPlayerFeatures()"
+        },
+        "ResetFeature": {
+            "Description": "Restore the current values with the default values of the feature.",
+            "Example": "void FeatureMgr.ResetFeature(int hash)\nvoid FeatureMgr.ResetFeature(int hash, int index)"
+        },
+        "ResetPlayerFeatures": {
+            "Description": "Resets all player features for given player id.",
+            "Example": "void FeatureMgr.ResetPlayerFeatures(int playerIndex)"
+        },
+        "SearchFeature": {
+            "Description": "Searches the best matching features for a given result. Uses translations for results. You should cache results whenever input changes. Expensive execution time.",
+            "Example": "table<int, int> FeatureMgr.SearchFeature(string input, int maxResults, number cutoffPercent)"
+        },
+        "SetFeatureColor": {
+            "Description": "Sets the color value of the feature.",
+            "Example": "void FeatureMgr.SetFeatureColor(int hash, int r, int g, int b, int a)\nvoid FeatureMgr.SetFeatureColor(int hash, int index, int r, int g, int b, int a)"
+        },
+        "SetFeatureFloat": {
+            "Description": "Sets the float value of the feature.",
+            "Example": "void FeatureMgr.SetFeatureFloat(int hash, number value)\nvoid FeatureMgr.SetFeatureFloat(int hash, int index, number value)"
+        },
+        "SetFeatureInt": {
+            "Description": "Sets the int value of the feature.",
+            "Example": "void FeatureMgr.SetFeatureInt(int hash, int value)\nvoid FeatureMgr.SetFeatureInt(int hash, int index, int value)"
+        },
+        "SetFeatureListIndex": {
+            "Description": "Sets the current index of the feature list.",
+            "Example": "void FeatureMgr.SetFeatureListIndex(int hash, int listIndex)\nvoid FeatureMgr.SetFeatureListIndex(int hash, int index, int listIndex)"
+        },
+        "SetFeatureString": {
+            "Description": "Sets the string value of the feature.",
+            "Example": "void FeatureMgr.SetFeatureString(int hash, string value)\nvoid FeatureMgr.SetFeatureString(int hash, int index, string value)"
+        },
+        "ToggleFeature": {
+            "Description": "Flips the current boolean value of the feature.",
+            "Example": "void FeatureMgr.ToggleFeature(int hash)\nvoid FeatureMgr.ToggleFeature(int hash, int index)"
+        },
+        "TriggerFeatureCallback": {
+            "Example": "void FeatureMgr.TriggerFeatureCallback(int hash)\nvoid FeatureMgr.TriggerFeatureCallback(int hash, int index)"
+        }
+    },

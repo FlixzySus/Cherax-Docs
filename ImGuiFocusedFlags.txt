@@ -1,0 +1,7 @@
+    "ImGuiFocusedFlags": {
+        "AnyWindow": null,
+        "ChildWindows": null,
+        "None": null,
+        "RootAndChildWindows": null,
+        "RootWindow": null
+    },

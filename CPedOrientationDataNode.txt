@@ -1,0 +1,10 @@
+    "CPedOrientationDataNode": {
+        "currentHeading": {
+            "Description": "ped current heading",
+            "Example": "number object.currentHeading"
+        },
+        "desiredHeading": {
+            "Description": "ped desired heading",
+            "Example": "number object.desiredHeading"
+        }
+    },

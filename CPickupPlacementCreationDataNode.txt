@@ -1,0 +1,38 @@
+    "CPickupPlacementCreationDataNode": {
+        "amount": {
+            "Description": "a variable amount used by some pickup types (eg money).",
+            "Example": "int object.amount"
+        },
+        "customModelHash": {
+            "Description": "a custom model, if specified by script",
+            "Example": "int object.customModelHash"
+        },
+        "customRegenTime": {
+            "Description": "a custom regeneration time, if specified by script",
+            "Example": "int object.customRegenTime"
+        },
+        "mapPlacement": {
+            "Description": "indicates whether this is a map placement or not",
+            "Example": "bool object.mapPlacement"
+        },
+        "pickupHash": {
+            "Description": "the hash of the pickup type",
+            "Example": "int object.pickupHash"
+        },
+        "pickupOrientation": {
+            "Description": "the pickup orientation in eulers",
+            "Example": "V3 object.pickupOrientation"
+        },
+        "pickupPosition": {
+            "Description": "the pickup position",
+            "Example": "V3 object.pickupPosition"
+        },
+        "placementFlags": {
+            "Description": "the placement flags",
+            "Example": "int object.placementFlags"
+        },
+        "teamPermits": {
+            "Description": "which teams are allowed to collect this pickup",
+            "Example": "int object.teamPermits"
+        }
+    },

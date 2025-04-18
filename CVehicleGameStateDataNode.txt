@@ -1,0 +1,255 @@
+    "CVehicleGameStateDataNode": {
+        "AICanUseExclusiveSeats": {
+            "Description": "AI can use driver seat even if marked exclusive",
+            "Example": "bool object.AICanUseExclusiveSeats"
+        },
+        "DontTryToEnterThisVehicleIfLockedForPlayer": {
+            "Description": "should players attempt to enter vehicle if its locked for them?",
+            "Example": "bool object.DontTryToEnterThisVehicleIfLockedForPlayer"
+        },
+        "ExtraBrokenFlags": {
+            "Example": "int object.ExtraBrokenFlags"
+        },
+        "HeadlightMultiplier": {
+            "Example": "number object.HeadlightMultiplier"
+        },
+        "OverridenVehHornHash": {
+            "Description": "Hash of a horn sound used for overriden vehicle horn",
+            "Example": "int object.OverridenVehHornHash"
+        },
+        "OverridingVehHorn": {
+            "Description": "Is vehicle horn has been overriden",
+            "Example": "bool object.OverridingVehHorn"
+        },
+        "PlayerLocks": {
+            "Example": "int object.PlayerLocks"
+        },
+        "RemoveAggressivelyForCarjackingMission": {
+            "Description": "Allows the vehicle to be removed aggressively during the car jacking missions",
+            "Example": "bool object.RemoveAggressivelyForCarjackingMission"
+        },
+        "UnFreezeWhenCleaningUp": {
+            "Description": "Vehicle flag set by script but can't be synced in script node because it would reset",
+            "Example": "bool object.UnFreezeWhenCleaningUp"
+        },
+        "alarmActivated": {
+            "Description": "is the alarm activated",
+            "Example": "bool object.alarmActivated"
+        },
+        "alarmSet": {
+            "Description": "is the alarm set?",
+            "Example": "bool object.alarmSet"
+        },
+        "canEjectPassengersIfLocked": {
+            "Example": "bool object.canEjectPassengersIfLocked"
+        },
+        "checkForEnoughRoomToFitPed": {
+            "Example": "bool object.checkForEnoughRoomToFitPed"
+        },
+        "customPathNodeStreamingRadius": {
+            "Example": "number object.customPathNodeStreamingRadius"
+        },
+        "detachedTombStone": {
+            "Example": "bool object.detachedTombStone"
+        },
+        "disableSuperDummy": {
+            "Example": "bool object.disableSuperDummy"
+        },
+        "doorIndividualLockedState": {
+            "Example": "table<int, int> object.doorIndividualLockedState"
+        },
+        "doorIndividualLockedStateFilter": {
+            "Example": "int object.doorIndividualLockedStateFilter"
+        },
+        "doorLockState": {
+            "Description": "door lock state",
+            "Example": "int object.doorLockState"
+        },
+        "doorsBroken": {
+            "Description": "doors broken state",
+            "Example": "int object.doorsBroken"
+        },
+        "doorsNotAllowedToBeBrokenOff": {
+            "Description": "if the doors are not allowed to be broken off bitmask",
+            "Example": "int object.doorsNotAllowedToBeBrokenOff"
+        },
+        "doorsOpen": {
+            "Description": "doors open state",
+            "Example": "int object.doorsOpen"
+        },
+        "doorsOpenRatio": {
+            "Description": "doors open ratio",
+            "Example": "table<int, int> object.doorsOpenRatio"
+        },
+        "downforceModifierFront": {
+            "Example": "number object.downforceModifierFront"
+        },
+        "downforceModifierRear": {
+            "Example": "number object.downforceModifierRear"
+        },
+        "driftTyres": {
+            "Example": "bool object.driftTyres"
+        },
+        "engineOn": {
+            "Description": "is this vehicle's engine currently on?",
+            "Example": "bool object.engineOn"
+        },
+        "engineSkipEngineStartup": {
+            "Description": "if the audio for the engine startup should be skipped",
+            "Example": "bool object.engineSkipEngineStartup"
+        },
+        "engineStarting": {
+            "Description": "is the engine starting",
+            "Example": "bool object.engineStarting"
+        },
+        "exclusiveDriverPedID": {
+            "Description": "exclusive driver (only peds that can drive this vehicle).",
+            "Example": "table<int, int> object.exclusiveDriverPedID"
+        },
+        "flaggedForCleanup": {
+            "Description": "flagged for cleanup",
+            "Example": "bool object.flaggedForCleanup"
+        },
+        "forceOtherVehsToStop": {
+            "Description": "should other vehicles be forced to stop for this one",
+            "Example": "bool object.forceOtherVehsToStop"
+        },
+        "fullThrottleActive": {
+            "Description": "Is the Full Throttle effect being applied to this vehicle",
+            "Example": "bool object.fullThrottleActive"
+        },
+        "fullThrottleEndTime": {
+            "Description": "Network time that Full Throttle will end",
+            "Example": "int object.fullThrottleEndTime"
+        },
+        "ghost": {
+            "Example": "bool object.ghost"
+        },
+        "handBrakeOn": {
+            "Description": "indicates whether the hand brake is on",
+            "Example": "bool object.handBrakeOn"
+        },
+        "hasBeenOwnedByPlayer": {
+            "Example": "bool object.hasBeenOwnedByPlayer"
+        },
+        "hasLastDriver": {
+            "Example": "bool object.hasLastDriver"
+        },
+        "hasTimedExplosion": {
+            "Description": "is there a timed explosive on this vehicle",
+            "Example": "bool object.hasTimedExplosion"
+        },
+        "headlightsFullBeamOn": {
+            "Description": "headlights full beam on",
+            "Example": "bool object.headlightsFullBeamOn"
+        },
+        "influenceWantedLevel": {
+            "Example": "bool object.influenceWantedLevel"
+        },
+        "isDriveable": {
+            "Description": "is this vehicle drivable?",
+            "Example": "bool object.isDriveable"
+        },
+        "isParked": {
+            "Description": "is this a parked car",
+            "Example": "bool object.isParked"
+        },
+        "isStationary": {
+            "Description": "is this a stationary car",
+            "Example": "bool object.isStationary"
+        },
+        "isTrailerAttachmentEnabled": {
+            "Description": "Script can disable trailers from attaching themselves",
+            "Example": "bool object.isTrailerAttachmentEnabled"
+        },
+        "junctionArrivalTime": {
+            "Description": "Time that the vehicle arrived at its current junction",
+            "Example": "int object.junctionArrivalTime"
+        },
+        "junctionCommand": {
+            "Description": "Traffic flow command (stop, go)",
+            "Example": "int object.junctionCommand"
+        },
+        "lastDriverPedID": {
+            "Example": "int object.lastDriverPedID"
+        },
+        "lightsOn": {
+            "Description": "lights on",
+            "Example": "bool object.lightsOn"
+        },
+        "mercVeh": {
+            "Example": "bool object.mercVeh"
+        },
+        "moveAwayFromPlayer": {
+            "Description": "should this veh move away from the player",
+            "Example": "bool object.moveAwayFromPlayer"
+        },
+        "noDamageFromExplosionsOwnedByDriver": {
+            "Example": "bool object.noDamageFromExplosionsOwnedByDriver"
+        },
+        "overridelights": {
+            "Example": "int object.overridelights"
+        },
+        "placeOnRoadQueued": {
+            "Example": "bool object.placeOnRoadQueued"
+        },
+        "planeResistToExplosion": {
+            "Example": "bool object.planeResistToExplosion"
+        },
+        "pretendOccupants": {
+            "Description": "does this vehicle have pretend occupants",
+            "Example": "bool object.pretendOccupants"
+        },
+        "radioStation": {
+            "Description": "current radio station",
+            "Example": "int object.radioStation"
+        },
+        "radioStationChangedByDriver": {
+            "Description": "driver changed current radio station",
+            "Example": "bool object.radioStationChangedByDriver"
+        },
+        "removeWithEmptyCopOrWreckedVehs": {
+            "Description": "consider this veh with cop/wrecked vehs for removal purposes",
+            "Example": "bool object.removeWithEmptyCopOrWreckedVehs"
+        },
+        "roofLowered": {
+            "Description": "set when a convertible has the roof open",
+            "Example": "bool object.roofLowered"
+        },
+        "runningRespotTimer": {
+            "Description": "is this vehicle running the car respot timer",
+            "Example": "bool object.runningRespotTimer"
+        },
+        "scriptSetHandbrakeOn": {
+            "Description": "indicates whether script has specified the handbrake is on this vehicle (included in vehicle game state to ensure goes with handbrake state)",
+            "Example": "bool object.scriptSetHandbrakeOn"
+        },
+        "sirenOn": {
+            "Description": "is this vehicle's siren currently on?",
+            "Example": "bool object.sirenOn"
+        },
+        "timedExplosionCulprit": {
+            "Description": "entity responsible for the timed explosion",
+            "Example": "int object.timedExplosionCulprit"
+        },
+        "timedExplosionTime": {
+            "Description": "network time at which the timed explosion is to occur",
+            "Example": "int object.timedExplosionTime"
+        },
+        "usePlayerLightSettings": {
+            "Example": "bool object.usePlayerLightSettings"
+        },
+        "useRespotEffect": {
+            "Example": "bool object.useRespotEffect"
+        },
+        "vehicleOccupantsTakeExplosiveDamage": {
+            "Example": "bool object.vehicleOccupantsTakeExplosiveDamage"
+        },
+        "windowsDown": {
+            "Description": "windows down state",
+            "Example": "int object.windowsDown"
+        },
+        "xenonLightColor": {
+            "Example": "int object.xenonLightColor"
+        }
+    },

@@ -1,0 +1,14 @@
+    "Cherax": {
+        "GetBuild": {
+            "Example": "int Cherax.GetBuild()"
+        },
+        "GetEdition": {
+            "Example": "string Cherax.GetEdition()"
+        },
+        "GetUID": {
+            "Example": "int Cherax.GetUID()"
+        },
+        "GetVersion": {
+            "Example": "string Cherax.GetVersion()"
+        }
+    },

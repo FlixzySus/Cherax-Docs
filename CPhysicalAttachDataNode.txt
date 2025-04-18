@@ -1,0 +1,58 @@
+    "CPhysicalAttachDataNode": {
+        "InvMassScaleA": {
+            "Description": "inv mass scale A",
+            "Example": "number object.InvMassScaleA"
+        },
+        "InvMassScaleB": {
+            "Description": "inv mass scale B",
+            "Example": "number object.InvMassScaleB"
+        },
+        "IsCargoVehicle": {
+            "Description": "is the vehicle attached as a cargo vehicle",
+            "Example": "bool object.IsCargoVehicle"
+        },
+        "activatePhysicsWhenDetached": {
+            "Description": "activates the physics on the object when it is detached",
+            "Example": "bool object.activatePhysicsWhenDetached"
+        },
+        "allowInitialSeparation": {
+            "Description": "allowed initial separation",
+            "Example": "bool object.allowInitialSeparation"
+        },
+        "attached": {
+            "Description": "is this object attached?",
+            "Example": "bool object.attached"
+        },
+        "attachedObjectID": {
+            "Description": "object ID of the object attached to",
+            "Example": "int object.attachedObjectID"
+        },
+        "attachmentFlags": {
+            "Description": "attachment flags",
+            "Example": "int object.attachmentFlags"
+        },
+        "attachmentMyBone": {
+            "Description": "attachment bone",
+            "Example": "int object.attachmentMyBone"
+        },
+        "attachmentOffset": {
+            "Description": "attachment offset",
+            "Example": "V3 object.attachmentOffset"
+        },
+        "attachmentOtherBone": {
+            "Description": "attachment bone",
+            "Example": "int object.attachmentOtherBone"
+        },
+        "attachmentParentOffset": {
+            "Description": "attachment parent offset",
+            "Example": "V3 object.attachmentParentOffset"
+        },
+        "attachmentQuat": {
+            "Description": "attachment quaternion",
+            "Example": "V3 object.attachmentQuat"
+        },
+        "syncPhysicsActivation": {
+            "Description": "if set m_activatePhysicsWhenDetached is synced",
+            "Example": "bool object.syncPhysicsActivation"
+        }
+    },

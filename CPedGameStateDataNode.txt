@@ -1,0 +1,185 @@
+    "CPedGameStateDataNode": {
+        "HasValidWeaponClipset": {
+            "Description": "do we have a valid weapon clip set? Used as part of a hack fix for when pointing while holding a weapon",
+            "Example": "bool object.HasValidWeaponClipset"
+        },
+        "LookAtFlags": {
+            "Description": "eHeadIkFlags",
+            "Example": "int object.LookAtFlags"
+        },
+        "LookAtObjectID": {
+            "Description": "If looking at an object, ID of object ped is looking at",
+            "Example": "int object.LookAtObjectID"
+        },
+        "arrestState": {
+            "Description": "ped arrest state",
+            "Example": "int object.arrestState"
+        },
+        "bActionModeEnabled": {
+            "Example": "bool object.bActionModeEnabled"
+        },
+        "bDisableStartEngine": {
+            "Example": "bool object.bDisableStartEngine"
+        },
+        "bPedPerceptionModified": {
+            "Example": "bool object.bPedPerceptionModified"
+        },
+        "bStealthModeEnabled": {
+            "Example": "bool object.bStealthModeEnabled"
+        },
+        "bvehicleweaponindex": {
+            "Example": "bool object.bvehicleweaponindex"
+        },
+        "canBeIncapacitated": {
+            "Example": "bool object.canBeIncapacitated"
+        },
+        "changeToAmbientPopTypeOnMigration": {
+            "Example": "bool object.changeToAmbientPopTypeOnMigration"
+        },
+        "cleardamagecount": {
+            "Example": "int object.cleardamagecount"
+        },
+        "createdByConcealedPlayer": {
+            "Example": "bool object.createdByConcealedPlayer"
+        },
+        "custodianID": {
+            "Description": "ID of the player that is and has taken us into custody.",
+            "Example": "int object.custodianID"
+        },
+        "deathState": {
+            "Description": "ped death state",
+            "Example": "int object.deathState"
+        },
+        "disableBlindFiringInShotReactions": {
+            "Example": "bool object.disableBlindFiringInShotReactions"
+        },
+        "doingWeaponSwap": {
+            "Description": "The ped is running a CTaskSwapWeapon",
+            "Example": "bool object.doingWeaponSwap"
+        },
+        "dontActivateRagdollFromAnyPedImpact": {
+            "Example": "bool object.dontActivateRagdollFromAnyPedImpact"
+        },
+        "dontBehaveLikeLaw": {
+            "Example": "bool object.dontBehaveLikeLaw"
+        },
+        "equippedGadgets": {
+            "Description": "hashes of gadgets equipped",
+            "Example": "table<int, int> object.equippedGadgets"
+        },
+        "flashLightOn": {
+            "Example": "bool object.flashLightOn"
+        },
+        "hasCustodianOrArrestFlags": {
+            "Description": "does this ped have a custodian.",
+            "Example": "bool object.hasCustodianOrArrestFlags"
+        },
+        "hasDroppedWeapon": {
+            "Example": "bool object.hasDroppedWeapon"
+        },
+        "hasVehicle": {
+            "Description": "does this ped have a vehicle?",
+            "Example": "bool object.hasVehicle"
+        },
+        "hitByTranqWeapon": {
+            "Example": "bool object.hitByTranqWeapon"
+        },
+        "inVehicle": {
+            "Description": "is this ped in a vehicle?",
+            "Example": "bool object.inVehicle"
+        },
+        "isDuckingInVehicle": {
+            "Example": "bool object.isDuckingInVehicle"
+        },
+        "isLookingAtObject": {
+            "Description": "Is looking at an object",
+            "Example": "bool object.isLookingAtObject"
+        },
+        "isUpright": {
+            "Example": "bool object.isUpright"
+        },
+        "isUsingAlternateLowriderLeanAnims": {
+            "Example": "bool object.isUsingAlternateLowriderLeanAnims"
+        },
+        "isUsingLowriderLeanAnims": {
+            "Example": "bool object.isUsingLowriderLeanAnims"
+        },
+        "keepTasksAfterCleanup": {
+            "Description": "ped keeps his tasks given when he was a script ped",
+            "Example": "bool object.keepTasksAfterCleanup"
+        },
+        "killedByKnockdown": {
+            "Example": "bool object.killedByKnockdown"
+        },
+        "killedByStandardMelee": {
+            "Example": "bool object.killedByStandardMelee"
+        },
+        "killedByStealth": {
+            "Example": "bool object.killedByStealth"
+        },
+        "killedByTakedown": {
+            "Example": "bool object.killedByTakedown"
+        },
+        "mountID": {
+            "Description": "ID of the mount this ped is currently in",
+            "Example": "int object.mountID"
+        },
+        "nMovementModeOverrideID": {
+            "Example": "int object.nMovementModeOverrideID"
+        },
+        "numGadgets": {
+            "Description": "the number of currently equipped gadgets",
+            "Example": "int object.numGadgets"
+        },
+        "numWeaponComponents": {
+            "Description": "the number of weapon components on current equipped weapon",
+            "Example": "int object.numWeaponComponents"
+        },
+        "onMount": {
+            "Description": "is this ped on a mount?",
+            "Example": "bool object.onMount"
+        },
+        "permanentlyDisablePotentialToBeWalkedIntoResponse": {
+            "Example": "bool object.permanentlyDisablePotentialToBeWalkedIntoResponse"
+        },
+        "seat": {
+            "Description": "seat the ped is sitting in in the vehicle",
+            "Example": "int object.seat"
+        },
+        "vehicleID": {
+            "Description": "ID of the vehicle this ped is currently in",
+            "Example": "int object.vehicleID"
+        },
+        "vehicleweaponindex": {
+            "Example": "int object.vehicleweaponindex"
+        },
+        "weapon": {
+            "Description": "currently selected weapon type",
+            "Example": "int object.weapon"
+        },
+        "weaponComponents": {
+            "Description": "hashes of weapon components equipped",
+            "Example": "table<int, int> object.weaponComponents"
+        },
+        "weaponComponentsTint": {
+            "Example": "table<int, int> object.weaponComponentsTint"
+        },
+        "weaponObjectAttachLeft": {
+            "Example": "bool object.weaponObjectAttachLeft"
+        },
+        "weaponObjectExists": {
+            "Description": "is there a weapon object",
+            "Example": "bool object.weaponObjectExists"
+        },
+        "weaponObjectHasAmmo": {
+            "Example": "bool object.weaponObjectHasAmmo"
+        },
+        "weaponObjectTintIndex": {
+            "Description": "weapon object tint index (coloured weapons)",
+            "Example": "int object.weaponObjectTintIndex"
+        },
+        "weaponObjectVisible": {
+            "Description": "is the weapon object visible",
+            "Example": "bool object.weaponObjectVisible"
+        }
+    },

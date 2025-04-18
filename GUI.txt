@@ -1,0 +1,26 @@
+    "GUI": {
+        "AddToast": {
+            "Description": "Creates a toast notification.",
+            "Example": "bool GUI.AddToast(string title, string text, int duration, eToastPos pos)"
+        },
+        "GetCurrentRenderMode": {
+            "Description": "Returns which GUI Mode is currently rendering. Usefull when Both GUIs are rendering in the same frame.",
+            "Example": "eGuiMode GUI.GetCurrentRenderMode()"
+        },
+        "GetMode": {
+            "Description": "Returns the current GUI mode.",
+            "Example": "eGuiMode GUI.GetMode()"
+        },
+        "IsOpen": {
+            "Description": "Returns whether the GUI is open or not.",
+            "Example": "bool GUI.IsOpen()"
+        },
+        "SetMode": {
+            "Description": "Sets the current GUI Mode",
+            "Example": "void GUI.SetMode(eGuiMode mode)"
+        },
+        "Toggle": {
+            "Description": "Toggle the GUI.",
+            "Example": "void GUI.Toggle()"
+        }
+    },

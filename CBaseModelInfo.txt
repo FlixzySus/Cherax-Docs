@@ -1,0 +1,26 @@
+    "CBaseModelInfo": {
+        "FromAddress": {
+            "Example": "CBaseModelInfo CBaseModelInfo.FromAddress(int address)"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "IsObject": {
+            "Example": "bool object:IsObject()"
+        },
+        "IsPed": {
+            "Example": "bool object:IsPed()"
+        },
+        "IsVehicle": {
+            "Example": "bool object:IsVehicle()"
+        },
+        "IsWorldObject": {
+            "Example": "bool object:IsWorldObject()"
+        },
+        "Model": {
+            "Example": "int object.Model"
+        },
+        "ModelIndex": {
+            "Example": "int object.ModelIndex"
+        }
+    },

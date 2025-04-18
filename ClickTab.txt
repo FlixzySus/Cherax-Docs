@@ -1,0 +1,16 @@
+    "ClickTab": {
+        "LuaEditor": null,
+        "LuaTab": null,
+        "Miscellaneous": null,
+        "NumTabs": null,
+        "Player": null,
+        "PlayerList": null,
+        "Protections": null,
+        "Recovery": null,
+        "SCAPI": null,
+        "Session": null,
+        "Settings": null,
+        "Spawner": null,
+        "Vehicle": null,
+        "Weapon": null
+    },

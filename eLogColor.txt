@@ -1,0 +1,18 @@
+    "eLogColor": {
+        "BLUE": null,
+        "BROWN": null,
+        "CYAN": null,
+        "DARKGRAY": null,
+        "GREEN": null,
+        "INTENSIFY": null,
+        "LIGHTBLUE": null,
+        "LIGHTCYAN": null,
+        "LIGHTGRAY": null,
+        "LIGHTGREEN": null,
+        "LIGHTMAGENTA": null,
+        "LIGHTRED": null,
+        "MAGENTA": null,
+        "RED": null,
+        "WHITE": null,
+        "YELLOW": null
+    },

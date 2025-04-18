@@ -1,0 +1,14 @@
+    "eCurlOption": {
+        "CURLOPT_CUSTOMREQUEST": null,
+        "CURLOPT_HTTPAUTH": null,
+        "CURLOPT_NOPROGRESS": null,
+        "CURLOPT_POST": null,
+        "CURLOPT_POSTFIELDS": null,
+        "CURLOPT_URL": null,
+        "CURLOPT_USERAGENT": null,
+        "CURLOPT_WRITEDATA": null,
+        "CURLOPT_WRITEFUNCTION": null,
+        "CURLOPT_XFERINFODATA": null,
+        "CURLOPT_XFERINFOFUNCTION": null,
+        "CURLOPT_XOAUTH2_BEARER": null
+    },

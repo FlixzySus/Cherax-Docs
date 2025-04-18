@@ -1,0 +1,6 @@
+    "ImGuiMouseButton": {
+        "ImGuiMouseButton_COUNT": null,
+        "ImGuiMouseButton_Left": null,
+        "ImGuiMouseButton_Middle": null,
+        "ImGuiMouseButton_Right": null
+    },

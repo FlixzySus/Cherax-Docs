@@ -1,0 +1,23 @@
+    "CNetObject": {
+        "GetEntity": {
+            "Description": "Check if 'object.Entity' is not nil before using it. Invalid for NetObjDoor.",
+            "Example": "CPhysical object.Entity"
+        },
+        "IsRemote": {
+            "Example": "bool object.IsRemote"
+        },
+        "ObjectID": {
+            "Description": "Used to identify or to find a netobject.",
+            "Example": "int object.ObjectID"
+        },
+        "ObjectType": {
+            "Example": "int object.ObjectType"
+        },
+        "PendingPlayerId": {
+            "Description": "The next owner of the CNetObject.",
+            "Example": "int object.PendingPlayerId"
+        },
+        "PlayerId": {
+            "Example": "int object.PlayerId"
+        }
+    },

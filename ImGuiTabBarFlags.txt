@@ -1,0 +1,13 @@
+    "ImGuiTabBarFlags": {
+        "AutoSelectNewTabs": null,
+        "FittingPolicyDefault_": null,
+        "FittingPolicyMask_": null,
+        "FittingPolicyResizeDown": null,
+        "FittingPolicyScroll": null,
+        "NoCloseWithMiddleMouseButton": null,
+        "NoTabListScrollingButtons": null,
+        "NoTooltip": null,
+        "None": null,
+        "Reorderable": null,
+        "TabListPopupButton": null
+    },

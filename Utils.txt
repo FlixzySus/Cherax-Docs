@@ -1,0 +1,57 @@
+    "Utils": {
+        "ExecuteScript": {
+            "Description": "Executes the given script. File can be relative or absolute.",
+            "Example": "bool Utils.ExecuteScript(string file)\nUtils.ExecuteScript(\"MyScript.lua\")"
+        },
+        "GetClipBoardText": {
+            "Example": "string Utils.GetClipBoardText()"
+        },
+        "GetLastJoinedPlayer": {
+            "Description": "Returns the last joined player id.",
+            "Example": "int Utils.GetLastJoinedPlayer()"
+        },
+        "GetLastLeftPlayer": {
+            "Description": "Returns the last joined player id.",
+            "Example": "int Utils.GetLastLeftPlayer()"
+        },
+        "GetSelectedPlayer": {
+            "Description": "Returns the current selected player id.",
+            "Example": "int Utils.GetSelectedPlayer()"
+        },
+        "IsKeyDown": {
+            "Description": "Check if a key is down. Use the Microsoft Virtual Key Codes.",
+            "Example": "bool Utils.IsKeyDown(int vk)"
+        },
+        "IsKeyPressed": {
+            "Description": "Check if a key has been pressed or is hold down for longer time. Use the Microsoft Virtual Key Codes.",
+            "Example": "bool Utils.IsKeyPressed(int vk)"
+        },
+        "Joaat": {
+            "Description": "Hashes a string using joaat. Returns the hash as unsigned int.",
+            "Example": "int Utils.Joaat(string str)"
+        },
+        "MciSendString": {
+            "Description": "The mciSendString function sends a command string to an MCI device. The device that the command is sent to is specified in the command string. For more information browse it on the internet.",
+            "Example": "bool Utils.MciSendString(string str)"
+        },
+        "PlaySound": {
+            "Description": "Can be used to play mp3 or wav files.",
+            "Example": "bool Utils.PlaySound(string str, bool looped)"
+        },
+        "SetClipBoardText": {
+            "Description": "For no extra notification leave whatNotify empty.",
+            "Example": "Utils.SetClipBoardText(string text, string whatNotify)"
+        },
+        "SetSelectedPlayer": {
+            "Description": "Sets the current selected Player Id. Returns the previous selected player id.",
+            "Example": "int Utils.SetSelectedPlayer(int playerId)"
+        },
+        "StopSound": {
+            "Description": "Stops all currently played sounds.",
+            "Example": "void Utils.StopSound()"
+        },
+        "sJoaat": {
+            "Description": "Hashes a string using joaat. Returns the hash as signed int.",
+            "Example": "int Utils.sJoaat(string str)"
+        }
+    },

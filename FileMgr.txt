@@ -1,0 +1,34 @@
+    "FileMgr": {
+        "CreateDir": {
+            "Description": "Ensures that the given path is a directory.",
+            "Example": "bool FileMgr.CreateDir(string path)"
+        },
+        "DeleteFile": {
+            "Description": "Deletes the given file using an absolute path.",
+            "Example": "void FileMgr.DeleteFile(string path)"
+        },
+        "DoesFileExist": {
+            "Description": "Check whether the file exist using an absolute path.",
+            "Example": "bool FileMgr.DoesFileExist(string path)"
+        },
+        "FindFiles": {
+            "Description": "Returns a list of all found files.",
+            "Example": "table<int,string> FileMgr.FindFiles(string path, string extension, bool recursive)"
+        },
+        "GetMenuRootPath": {
+            "Description": "Returns the root directory of the menu.",
+            "Example": "string FileMgr.GetMenuRootPath()"
+        },
+        "ReadFileContent": {
+            "Description": "Reads the file content using an absolute path.",
+            "Example": "string FileMgr.ReadFileContent(string path)"
+        },
+        "Unzip": {
+            "Description": "Extract a .zip file to a given directory.",
+            "Example": "bool FileMgr.Unzip(string zipName, string dir)"
+        },
+        "WriteFileContent": {
+            "Description": "Writes the given content to a file using an absolute path.",
+            "Example": "bool FileMgr.WriteFileContent(string path, string content, bool append = false)"
+        }
+    },

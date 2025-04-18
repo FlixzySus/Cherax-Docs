@@ -1,0 +1,38 @@
+    "CPedAttachDataNode": {
+        "attachBone": {
+            "Description": "bone ped is attached to",
+            "Example": "int object.attachBone"
+        },
+        "attachFlags": {
+            "Description": "attachment flags",
+            "Example": "int object.attachFlags"
+        },
+        "attachHeading": {
+            "Description": "attachment heading",
+            "Example": "number object.attachHeading"
+        },
+        "attachHeadingLimit": {
+            "Description": "attachment heading limit",
+            "Example": "number object.attachHeadingLimit"
+        },
+        "attachOffset": {
+            "Description": "offset from attachment position",
+            "Example": "V3 object.attachOffset"
+        },
+        "attachQuat": {
+            "Description": "attachment quaternion",
+            "Example": "V3 object.attachQuat"
+        },
+        "attached": {
+            "Description": "is the ped attached?",
+            "Example": "bool object.attached"
+        },
+        "attachedObjectID": {
+            "Description": "ID of Object ped is attached to",
+            "Example": "int object.attachedObjectID"
+        },
+        "attachedToGround": {
+            "Description": "whether the ped is attached to ground or not",
+            "Example": "bool object.attachedToGround"
+        }
+    },

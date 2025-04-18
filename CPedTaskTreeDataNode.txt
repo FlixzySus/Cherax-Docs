@@ -1,0 +1,14 @@
+    "CPedTaskTreeDataNode": {
+        "scriptCommand": {
+            "Example": "int object.scriptCommand"
+        },
+        "taskSlotsUsed": {
+            "Example": "int object.taskSlotsUsed"
+        },
+        "taskStage": {
+            "Example": "int object.taskStage"
+        },
+        "taskTreeData": {
+            "Example": "table<int, TaskSlotData> object.taskTreeData"
+        }
+    },

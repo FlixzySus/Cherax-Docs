@@ -1,0 +1,10 @@
+    "V4": {
+        "New": {
+            "Description": "Create a new V4 object.",
+            "Example": "V4 V4.New()\nV4 V4.New(number x, number y, number z, number w)"
+        },
+        "w": null,
+        "x": null,
+        "y": null,
+        "z": null
+    },

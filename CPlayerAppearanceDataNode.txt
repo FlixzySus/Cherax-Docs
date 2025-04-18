@@ -1,0 +1,105 @@
+    "CPlayerAppearanceDataNode": {
+        "HasDecorations": {
+            "Description": "number of decorations (medals/tattoos)",
+            "Example": "bool object.HasDecorations"
+        },
+        "HasHeadBlendData": {
+            "Description": "does this player have custom head data?",
+            "Example": "bool object.HasHeadBlendData"
+        },
+        "HasRespawnObjId": {
+            "Description": "has a valid respawn object id",
+            "Example": "bool object.HasRespawnObjId"
+        },
+        "NewModelHash": {
+            "Description": "model index for player",
+            "Example": "int object.NewModelHash"
+        },
+        "PackedDecorations": {
+            "Description": "texture preset hashes (looked up from collection)",
+            "Example": "table<int, int> object.PackedDecorations"
+        },
+        "RespawnNetObjId": {
+            "Description": "ID of the ped used for Team Swapping",
+            "Example": "int object.RespawnNetObjId"
+        },
+        "VoiceHash": {
+            "Description": "voice hash code",
+            "Example": "int object.VoiceHash"
+        },
+        "crewEmblemVariation": {
+            "Example": "int object.crewEmblemVariation"
+        },
+        "crewLogoTexHash": {
+            "Example": "int object.crewLogoTexHash"
+        },
+        "crewLogoTxdHash": {
+            "Example": "int object.crewLogoTxdHash"
+        },
+        "facialClipSetId": {
+            "Description": "the facial clipset used by the player",
+            "Example": "int object.facialClipSetId"
+        },
+        "facialIdleAnimOverrideClipDictNameHash": {
+            "Description": "the dictionary used by the player",
+            "Example": "int object.facialIdleAnimOverrideClipDictNameHash"
+        },
+        "facialIdleAnimOverrideClipNameHash": {
+            "Description": "the facial clip used by the player",
+            "Example": "int object.facialIdleAnimOverrideClipNameHash"
+        },
+        "helmetProp": {
+            "Description": "which helmet prop are we using?",
+            "Example": "int object.helmetProp"
+        },
+        "helmetTextureId": {
+            "Description": "which helmet are we about to put on?",
+            "Example": "int object.helmetTextureId"
+        },
+        "isAttachingHelmet": {
+            "Description": "are we attaching a helmet via TaskMotionInAutomobile::State_PutOnHelmet",
+            "Example": "bool object.isAttachingHelmet"
+        },
+        "isRemovingHelmet": {
+            "Description": "are we playing secondary priority removing helmet anim?",
+            "Example": "bool object.isRemovingHelmet"
+        },
+        "isVisorSwitching": {
+            "Example": "bool object.isVisorSwitching"
+        },
+        "isWearingHelmet": {
+            "Description": "are we wearing a helmet (needed for when we aborting putting one on)",
+            "Example": "bool object.isWearingHelmet"
+        },
+        "networkedDamagePack": {
+            "Example": "int object.networkedDamagePack"
+        },
+        "parachutePackTintIndex": {
+            "Description": "Colour of the players' parachute pack",
+            "Example": "int object.parachutePackTintIndex"
+        },
+        "parachuteTintIndex": {
+            "Description": "Colour of the players' parachute",
+            "Example": "int object.parachuteTintIndex"
+        },
+        "phoneMode": {
+            "Example": "int object.phoneMode"
+        },
+        "supportsVisor": {
+            "Example": "bool object.supportsVisor"
+        },
+        "targetVisorState": {
+            "Example": "int object.targetVisorState"
+        },
+        "visorIsUp": {
+            "Example": "bool object.visorIsUp"
+        },
+        "visorPropDown": {
+            "Description": "which helmet prop are we using?",
+            "Example": "int object.visorPropDown"
+        },
+        "visorPropUp": {
+            "Description": "which helmet prop are we using?",
+            "Example": "int object.visorPropUp"
+        }
+    },

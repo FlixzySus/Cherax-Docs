@@ -1,0 +1,74 @@
+    "CVehicleProximityMigrationDataNode": {
+        "PopType": {
+            "Description": "population type 0x00F8",
+            "Example": "int object.PopType"
+        },
+        "RespotCounter": {
+            "Description": "remaining time from respotting 0x0130",
+            "Example": "int object.RespotCounter"
+        },
+        "SpeedMultiplier": {
+            "Description": "speed multiplier (used when calculating cruise speeds) 0x012C",
+            "Example": "number object.SpeedMultiplier"
+        },
+        "hasOccupant": {
+            "Description": "does this vehicle have passengers? 0x00C4",
+            "Example": "table<int, bool> object.hasOccupant"
+        },
+        "hasPopType": {
+            "Description": "has a population type 0x00F4",
+            "Example": "bool object.hasPopType"
+        },
+        "hasTaskData": {
+            "Description": "does the vehicle have any task data to sync 0x0132",
+            "Example": "bool object.hasTaskData"
+        },
+        "isMoving": {
+            "Description": "is the vehicle moving (if not pos and vel not sent) 0x0104",
+            "Example": "bool object.isMoving"
+        },
+        "lastDriverTime": {
+            "Description": "the last time this vehicle had a driver 0x0100",
+            "Example": "int object.lastDriverTime"
+        },
+        "maxOccupants": {
+            "Description": "maximum number of passengers for this vehicle 0x00C0",
+            "Example": "int object.maxOccupants"
+        },
+        "occupantID": {
+            "Description": "IDs of the passengers 0x00D4",
+            "Example": "table<int, int> object.occupantID"
+        },
+        "packedVelocityX": {
+            "Description": "current velocity X (packed) 0x120",
+            "Example": "int object.packedVelocityX"
+        },
+        "packedVelocityY": {
+            "Description": "current velocity Y (packed) 0x124",
+            "Example": "int object.packedVelocityY"
+        },
+        "packedVelocityZ": {
+            "Description": "current velocity Z (packed) 0x128",
+            "Example": "int object.packedVelocityZ"
+        },
+        "position": {
+            "Description": "current vehicle position 0x110",
+            "Example": "V3 object.position"
+        },
+        "status": {
+            "Description": "vehicle status flags 0x00FC",
+            "Example": "int object.status"
+        },
+        "taskMigrationData": {
+            "Description": "the migration data of the current AI task 0x013C",
+            "Example": "table<int, int> object.taskMigrationData"
+        },
+        "taskMigrationDataSize": {
+            "Description": "the size of the migration data for the current AI task 0x0138",
+            "Example": "int object.taskMigrationDataSize"
+        },
+        "taskType": {
+            "Description": "the current AI task type 0x0134",
+            "Example": "int object.taskType"
+        }
+    },

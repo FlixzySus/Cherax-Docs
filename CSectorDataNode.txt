@@ -1,0 +1,14 @@
+    "CSectorDataNode": {
+        "sectorX": {
+            "Description": "X sector this object is currently within",
+            "Example": "int object.sectorX"
+        },
+        "sectorY": {
+            "Description": "Y sector this object is currently within",
+            "Example": "int object.sectorY"
+        },
+        "sectorZ": {
+            "Description": "Z sector this object is currently within",
+            "Example": "int object.sectorZ"
+        }
+    },

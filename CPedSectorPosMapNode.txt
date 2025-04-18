@@ -1,0 +1,14 @@
+    "CPedSectorPosMapNode": {
+        "IsRagdolling": {
+            "Example": "bool object.IsRagdolling"
+        },
+        "IsStandingOnNetworkObject": {
+            "Example": "bool object.IsStandingOnNetworkObject"
+        },
+        "LocalOffset": {
+            "Example": "V3 object.LocalOffset"
+        },
+        "StandingOnNetworkObjectID": {
+            "Example": "int object.StandingOnNetworkObjectID"
+        }
+    },

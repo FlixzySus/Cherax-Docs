@@ -1,0 +1,14 @@
+    "CSectorPositionDataNode": {
+        "sectorPosX": {
+            "Description": "X position of this object within the current sector",
+            "Example": "number object.sectorPosX"
+        },
+        "sectorPosY": {
+            "Description": "Y position of this object within the current sector",
+            "Example": "number object.sectorPosY"
+        },
+        "sectorPosZ": {
+            "Description": "Z position of this object within the current sector",
+            "Example": "number object.sectorPosZ"
+        }
+    },

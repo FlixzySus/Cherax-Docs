@@ -1,0 +1,40 @@
+    "fwAttachmentEntityExtension": {
+        "AttachChild": {
+            "Example": "CPhysical object.AttachChild"
+        },
+        "AttachFlags": {
+            "Example": "int object.AttachFlags"
+        },
+        "AttachOffset": {
+            "Description": "This is world pos for constraints with world",
+            "Example": "V3 object.AttachOffset"
+        },
+        "AttachParent": {
+            "Example": "CPhysical object.AttachParent"
+        },
+        "AttachParentOffset": {
+            "Description": "Attachment offset on parent",
+            "Example": "V3 object.AttachParentOffset"
+        },
+        "AttachSibling": {
+            "Example": "CPhysical object.AttachSibling"
+        },
+        "GetRotation": {
+            "Example": "number x,y,z,w object:GetRotation()"
+        },
+        "MyAttachBone": {
+            "Example": "int object.MyAttachBone"
+        },
+        "NoCollisionEntity": {
+            "Example": "CPhysical object.NoCollisionEntity"
+        },
+        "OtherAttachBone": {
+            "Example": "int object.OtherAttachBone"
+        },
+        "SetRotation": {
+            "Example": "void object:SetRotation(number x, number y, number z, number w)"
+        },
+        "ThisEntity": {
+            "Example": "CPhysical object.ThisEntity"
+        }
+    }

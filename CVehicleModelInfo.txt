@@ -1,0 +1,62 @@
+    "CVehicleModelInfo": {
+        "FromAddress": {
+            "Example": "CVehicleModelInfo CVehicleModelInfo.FromAddress(int address)"
+        },
+        "FromBaseModelInfo": {
+            "Example": "CVehicleModelInfo CVehicleModelInfo.FromBaseModelInfo(CModelInfo base)"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "IsBicycle": {
+            "Example": "bool object:IsBicycle()"
+        },
+        "IsBike": {
+            "Example": "bool object:IsBike()"
+        },
+        "IsBlimp": {
+            "Example": "bool object:IsBlimp()"
+        },
+        "IsBoat": {
+            "Example": "bool object:IsBoat()"
+        },
+        "IsCar": {
+            "Example": "bool object:IsCar()"
+        },
+        "IsHeli": {
+            "Example": "bool object:IsHeli()"
+        },
+        "IsJetski": {
+            "Example": "bool object:IsJetski()"
+        },
+        "IsPlane": {
+            "Example": "bool object:IsPlane()"
+        },
+        "IsQuadbike": {
+            "Example": "bool object:IsQuadbike()"
+        },
+        "IsSubmarine": {
+            "Example": "bool object:IsSubmarine()"
+        },
+        "IsSubmarineCar": {
+            "Example": "bool object:IsSubmarineCar()"
+        },
+        "IsTrailer": {
+            "Example": "bool object:IsTrailer()"
+        },
+        "IsTrain": {
+            "Example": "bool object:IsTrain()"
+        },
+        "IsnAmphibiousCar": {
+            "Example": "bool object:IsAmphibiousCar()"
+        },
+        "IsnAmphibiousQuadbike": {
+            "Example": "bool object:IsAmphibiousQuadbike()"
+        },
+        "Model": {
+            "Example": "int object.Model"
+        },
+        "ModelIndex": {
+            "Example": "int object.ModelIndex"
+        }
+    },

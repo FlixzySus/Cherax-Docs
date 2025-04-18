@@ -1,0 +1,134 @@
+    "CPedScriptGameStateDataNode": {
+        "AngledDefensiveAreaV1": {
+            "Example": "V3 object.AngledDefensiveAreaV1"
+        },
+        "AngledDefensiveAreaV2": {
+            "Example": "V3 object.AngledDefensiveAreaV2"
+        },
+        "AngledDefensiveAreaWidth": {
+            "Example": "number object.AngledDefensiveAreaWidth"
+        },
+        "DefensiveAreaCentre": {
+            "Example": "V3 object.DefensiveAreaCentre"
+        },
+        "DefensiveAreaRadius": {
+            "Example": "number object.DefensiveAreaRadius"
+        },
+        "DefensiveAreaType": {
+            "Example": "int object.DefensiveAreaType"
+        },
+        "FiringPatternHash": {
+            "Example": "int object.FiringPatternHash"
+        },
+        "HasDefensiveArea": {
+            "Example": "bool object.HasDefensiveArea"
+        },
+        "HasInVehicleContextHash": {
+            "Example": "bool object.HasInVehicleContextHash"
+        },
+        "NavCapabilityFlags": {
+            "Example": "int object.NavCapabilityFlags"
+        },
+        "SeatIndexToUseInAGroup": {
+            "Example": "int object.SeatIndexToUseInAGroup"
+        },
+        "UseCentreAsGotoPos": {
+            "Example": "bool object.UseCentreAsGotoPos"
+        },
+        "ammoToDrop": {
+            "Example": "int object.ammoToDrop"
+        },
+        "combatMovement": {
+            "Example": "int object.combatMovement"
+        },
+        "fAccuracy": {
+            "Example": "number object.fAccuracy"
+        },
+        "fBlindFireChance": {
+            "Example": "number object.fBlindFireChance"
+        },
+        "fBurstDurationInCover": {
+            "Example": "number object.fBurstDurationInCover"
+        },
+        "fHomingRocketBreakLockAngle": {
+            "Example": "number object.fHomingRocketBreakLockAngle"
+        },
+        "fHomingRocketBreakLockAngleClose": {
+            "Example": "number object.fHomingRocketBreakLockAngleClose"
+        },
+        "fHomingRocketBreakLockCloseDistance": {
+            "Example": "number object.fHomingRocketBreakLockCloseDistance"
+        },
+        "fMaxInformFriendDistance": {
+            "Example": "number object.fMaxInformFriendDistance"
+        },
+        "fMaxShootingDistance": {
+            "Example": "number object.fMaxShootingDistance"
+        },
+        "fMaxVehicleTurretFiringRange": {
+            "Example": "number object.fMaxVehicleTurretFiringRange"
+        },
+        "fStrafeWhenMovingChance": {
+            "Example": "number object.fStrafeWhenMovingChance"
+        },
+        "fTimeBetweenAggressiveMovesDuringVehicleChase": {
+            "Example": "number object.fTimeBetweenAggressiveMovesDuringVehicleChase"
+        },
+        "fTimeBetweenBurstsInCover": {
+            "Example": "number object.fTimeBetweenBurstsInCover"
+        },
+        "fTimeBetweenPeeks": {
+            "Example": "number object.fTimeBetweenPeeks"
+        },
+        "fWeaponDamageModifier": {
+            "Example": "number object.fWeaponDamageModifier"
+        },
+        "fleeBehaviorFlags": {
+            "Example": "int object.fleeBehaviorFlags"
+        },
+        "hasPedType": {
+            "Example": "bool object.hasPedType"
+        },
+        "inVehicleContextHash": {
+            "Example": "int object.inVehicleContextHash"
+        },
+        "isAmbientSpeechDisabled": {
+            "Example": "bool object.isAmbientSpeechDisabled"
+        },
+        "isPainAudioDisabled": {
+            "Example": "bool object.isPainAudioDisabled"
+        },
+        "isTargettableByTeam": {
+            "Example": "int object.isTargettableByTeam"
+        },
+        "minOnGroundTimeForStun": {
+            "Example": "int object.minOnGroundTimeForStun"
+        },
+        "pedCash": {
+            "Example": "int object.pedCash"
+        },
+        "pedHasCash": {
+            "Example": "bool object.pedHasCash"
+        },
+        "pedType": {
+            "Example": "int object.pedType"
+        },
+        "popType": {
+            "Example": "int object.popType"
+        },
+        "ragdollBlockingFlags": {
+            "Example": "int object.ragdollBlockingFlags"
+        },
+        "shootRate": {
+            "Example": "number object.shootRate"
+        },
+        "targetLossResponse": {
+            "Example": "int object.targetLossResponse"
+        },
+        "uMaxNumFriendsToInform": {
+            "Example": "int object.uMaxNumFriendsToInform"
+        },
+        "vehicleweaponindex": {
+            "Example": "int object.vehicleweaponindex"
+        }
+    },

@@ -1,0 +1,14 @@
+    "CVehicleGadgetDataNode": {
+        "GadgetData": {
+            "Example": "table<int, GadgetData> object.GadgetData"
+        },
+        "IsAttachedTrailer": {
+            "Example": "bool object.IsAttachedTrailer"
+        },
+        "NumGadgets": {
+            "Example": "int object.NumGadgets"
+        },
+        "OffsetFromParentVehicle": {
+            "Example": "V3 object.OffsetFromParentVehicle"
+        }
+    },

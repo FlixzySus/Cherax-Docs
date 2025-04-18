@@ -1,0 +1,54 @@
+    "ClickGUI": {
+        "AddPlayerTab": {
+            "Description": "Adds a lua tab to the player options.",
+            "Example": "void ClickGUI.AddPlayerTab(string title, function() renderFunc)"
+        },
+        "AddTab": {
+            "Description": "Adds a lua tab to the main gui.",
+            "Example": "void ClickGUI.AddTab(string title, function() renderFunc)"
+        },
+        "BeginCustomChildWindow": {
+            "Description": "Begin custom ImgGui Child window. The text alignment range is [0.0 - 1.0]. A value of -1.0 indicates the default value.",
+            "Example": "bool ClickGUI.BeginCustomChildWindow(string label, int frames = -1, int textLines = -1, number textAlignX = -1.0, number textAlignY = -1.0)"
+        },
+        "EndCustomChildWindow": {
+            "Description": "End custom ImgGui Child window.",
+            "Example": "void ClickGUI.EndCustomChildWindow()"
+        },
+        "GetActiveMenuTab": {
+            "Description": "Get the current open menu tab.",
+            "Example": "ClickTab ClickGUI.GetActiveMenuTab()"
+        },
+        "GetPos": {
+            "Description": "Get the current position in screen coordinates.",
+            "Example": "number x,y ClickGUI.GetPos()"
+        },
+        "GetSize": {
+            "Description": "Get the current size in screen coordinates.",
+            "Example": "number x,y ClickGUI.GetSize()"
+        },
+        "LoadTheme": {
+            "Description": "Loads a Theme by its name.",
+            "Example": "bool ClickGUI.LoadTheme(string fileName)\nClickGUI.LoadTheme(\"Default\")"
+        },
+        "RemovePlayerTab": {
+            "Description": "Removes a lua tab from the player options.",
+            "Example": "void ClickGUI.RemovePlayerTab(string title)"
+        },
+        "RemoveTab": {
+            "Description": "Removes a lua tab from the main gui.",
+            "Example": "void ClickGUI.RemoveTab(string title)"
+        },
+        "RenderCustomTitleBar": {
+            "Description": "Renders a custom title bar.",
+            "Example": "void ClickGUI.RenderCustomTitleBar(string title)"
+        },
+        "RenderFeature": {
+            "Description": "Render a feature for the given feature hash and index.",
+            "Example": "bool ClickGUI.RenderFeature(int hash)\nbool ClickGUI.RenderFeature(int hash, int index)"
+        },
+        "SetActiveMenuTab": {
+            "Description": "Set the current open menu tab.",
+            "Example": "void ClickGUI.SetActiveMenuTab(ClickTab tab)"
+        }
+    },

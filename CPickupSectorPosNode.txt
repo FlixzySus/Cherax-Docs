@@ -1,0 +1,14 @@
+    "CPickupSectorPosNode": {
+        "SectorPosX": {
+            "Description": "X position of this object within the current sector",
+            "Example": "number object.SectorPosX"
+        },
+        "SectorPosY": {
+            "Description": "Y position of this object within the current sector",
+            "Example": "number object.SectorPosY"
+        },
+        "SectorPosZ": {
+            "Description": "Z position of this object within the current sector",
+            "Example": "number object.SectorPosZ"
+        }
+    },

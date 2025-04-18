@@ -1,0 +1,8 @@
+    "ImGuiSelectableFlags": {
+        "AllowDoubleClick": null,
+        "AllowItemOverlap": null,
+        "Disabled": null,
+        "DontClosePopups": null,
+        "None": null,
+        "SpanAllColumns": null
+    },

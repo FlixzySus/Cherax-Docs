@@ -1,0 +1,18 @@
+    "eFeatureType": {
+        "Button": null,
+        "Combo": null,
+        "ComboToggles": null,
+        "Custom": null,
+        "InputColor3": null,
+        "InputColor4": null,
+        "InputFloat": null,
+        "InputInt": null,
+        "InputText": null,
+        "List": null,
+        "ListWithInfo": null,
+        "SliderFloat": null,
+        "SliderFloatToggle": null,
+        "SliderInt": null,
+        "SliderIntToggle": null,
+        "Toggle": null
+    },

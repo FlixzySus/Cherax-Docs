@@ -1,0 +1,34 @@
+    "CPhysicalGameStateDataNode": {
+        "allowCloningWhileInTutorial": {
+            "Description": "if set, the entity won't be stopped from cloning for players who are not in a tutorial",
+            "Example": "bool object.allowCloningWhileInTutorial"
+        },
+        "alphaType": {
+            "Description": "the type of alpha ramp the entity is doing",
+            "Example": "int object.alphaType"
+        },
+        "alteringAlpha": {
+            "Description": "the entity is fading out / alpha ramping",
+            "Example": "bool object.alteringAlpha"
+        },
+        "customFadeDuration": {
+            "Description": "A custom max duration for fading",
+            "Example": "int object.customFadeDuration"
+        },
+        "fadingOut": {
+            "Description": "the entity is fading out",
+            "Example": "bool object.fadingOut"
+        },
+        "isInWater": {
+            "Description": "is in water game state flag",
+            "Example": "bool object.isInWater"
+        },
+        "isVisible": {
+            "Description": "gamestate flag indicating whether the object is visible",
+            "Example": "bool object.isVisible"
+        },
+        "renderScorched": {
+            "Description": "render scorched game state flag",
+            "Example": "bool object.renderScorched"
+        }
+    },

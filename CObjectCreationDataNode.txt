@@ -1,0 +1,96 @@
+    "CObjectCreationDataNode": {
+        "CanBlendWhenFixed": {
+            "Description": "indicates the network blender can run when the object is using fixed physics",
+            "Example": "bool object.CanBlendWhenFixed"
+        },
+        "DestroyFrags": {
+            "Description": "if the object is breakable, destroy any frags created by the breaking",
+            "Example": "bool object.DestroyFrags"
+        },
+        "HasExploded": {
+            "Description": "the object has exploded",
+            "Example": "bool object.HasExploded"
+        },
+        "IsAmbientFence": {
+            "Description": "the object is an uprooted fence",
+            "Example": "bool object.IsAmbientFence"
+        },
+        "IsBroken": {
+            "Description": "the object is broken / damaged",
+            "Example": "bool object.IsBroken"
+        },
+        "IsFragObject": {
+            "Description": "this object is a frag object",
+            "Example": "bool object.IsFragObject"
+        },
+        "KeepRegistered": {
+            "Description": "the object must remain registered",
+            "Example": "bool object.KeepRegistered"
+        },
+        "ScriptGrabPosition": {
+            "Description": "world position script grabbed this object from",
+            "Example": "V3 object.ScriptGrabPosition"
+        },
+        "ScriptGrabRadius": {
+            "Description": "radius used by script to grab this object",
+            "Example": "number object.ScriptGrabRadius"
+        },
+        "ScriptGrabbedFromWorld": {
+            "Description": "has script grabbed this object from a world position?",
+            "Example": "bool object.ScriptGrabbedFromWorld"
+        },
+        "dummyPosition": {
+            "Description": "position of the dummy object this object was instanced from",
+            "Example": "V3 object.dummyPosition"
+        },
+        "fragGroupIndex": {
+            "Description": "the frag group index (used by fragment cache objects)",
+            "Example": "int object.fragGroupIndex"
+        },
+        "fragParentVehicle": {
+            "Description": "if set, this object is a vehicle fragment and it belongs to this vehicle id",
+            "Example": "int object.fragParentVehicle"
+        },
+        "hasGameObject": {
+            "Description": "is there a prop object associated with this network object?",
+            "Example": "bool object.hasGameObject"
+        },
+        "hasInitPhysics": {
+            "Description": "has this object initialized physics?",
+            "Example": "bool object.hasInitPhysics"
+        },
+        "lodDistance": {
+            "Example": "int object.lodDistance"
+        },
+        "lodOrphanHd": {
+            "Example": "bool object.lodOrphanHd"
+        },
+        "modelHash": {
+            "Description": "model index",
+            "Example": "int object.modelHash"
+        },
+        "noReassign": {
+            "Description": "stop the object changing owner",
+            "Example": "bool object.noReassign"
+        },
+        "objectMatrix": {
+            "Description": "the position of the object (used when the network object has no game object)",
+            "Example": "table<int, V3> object.objectMatrix"
+        },
+        "objectPosition": {
+            "Description": "position of the object (used when there is no game object)",
+            "Example": "V3 object.objectPosition"
+        },
+        "ownedBy": {
+            "Description": "created by",
+            "Example": "int object.ownedBy"
+        },
+        "ownershipToken": {
+            "Description": "used when there is no associated prop (and sync data) for this network object",
+            "Example": "int object.ownershipToken"
+        },
+        "playerWantsControl": {
+            "Description": "does the creating player want control of this object",
+            "Example": "bool object.playerWantsControl"
+        }
+    },

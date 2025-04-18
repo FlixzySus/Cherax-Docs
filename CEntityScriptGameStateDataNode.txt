@@ -1,0 +1,13 @@
+    "CEntityScriptGameStateDataNode": {
+        "disableCollisionCompletely": {
+            "Example": "bool object.disableCollisionCompletely"
+        },
+        "isFixed": {
+            "Description": "gamestate flag indicating whether the object is using fixed physics",
+            "Example": "bool object.isFixed"
+        },
+        "usesCollision": {
+            "Description": "gamestate flag indicating whether the object is using collision",
+            "Example": "bool object.usesCollision"
+        }
+    },

@@ -1,0 +1,78 @@
+    "CTrainGameStateDataNode": {
+        "AllowRemovalByPopulation": {
+            "Description": "used by stationary trains in missions",
+            "Example": "bool object.AllowRemovalByPopulation"
+        },
+        "CarriageConfigIndex": {
+            "Description": "Config index of the carriage",
+            "Example": "int object.CarriageConfigIndex"
+        },
+        "CruiseSpeed": {
+            "Description": "the target cruise speed of the train (desired speed)",
+            "Example": "number object.CruiseSpeed"
+        },
+        "Direction": {
+            "Description": "Direction traveling on track",
+            "Example": "bool object.Direction"
+        },
+        "DistFromEngine": {
+            "Description": "the distance of this carriage from the engine (0.0 if this is an engine)",
+            "Example": "number object.DistFromEngine"
+        },
+        "EngineID": {
+            "Description": "ID of the engine this carriage is attached to (if this train is not an engine)",
+            "Example": "int object.EngineID"
+        },
+        "HasPassengerCarriages": {
+            "Description": "Does this train have any passenger carriages?",
+            "Example": "bool object.HasPassengerCarriages"
+        },
+        "IsCaboose": {
+            "Description": "Is this a caboose",
+            "Example": "bool object.IsCaboose"
+        },
+        "IsEngine": {
+            "Description": "is this train an engine or carriage?",
+            "Example": "bool object.IsEngine"
+        },
+        "IsMissionTrain": {
+            "Description": "Is this a mission created train?",
+            "Example": "bool object.IsMissionTrain"
+        },
+        "LinkedToBackwardID": {
+            "Description": "ID of the car linked backward from this train car",
+            "Example": "int object.LinkedToBackwardID"
+        },
+        "LinkedToForwardID": {
+            "Description": "ID of the car linked forward from this train car",
+            "Example": "int object.LinkedToForwardID"
+        },
+        "RenderDerailed": {
+            "Description": "Should this train be rendered as derailed?",
+            "Example": "bool object.RenderDerailed"
+        },
+        "StopForStations": {
+            "Description": "Stop for stations",
+            "Example": "bool object.StopForStations"
+        },
+        "TrackID": {
+            "Description": "the track the train is on",
+            "Example": "int object.TrackID"
+        },
+        "TrainConfigIndex": {
+            "Description": "Config index of the entire train this carriage/engine is a part of",
+            "Example": "int object.TrainConfigIndex"
+        },
+        "TrainState": {
+            "Description": "the train state",
+            "Example": "int object.TrainState"
+        },
+        "UseHighPrecisionBlending": {
+            "Description": "are we using high precision blending on the train",
+            "Example": "bool object.UseHighPrecisionBlending"
+        },
+        "doorsForcedOpen": {
+            "Description": "force the doors open",
+            "Example": "bool object.doorsForcedOpen"
+        }
+    },

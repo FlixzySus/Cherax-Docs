@@ -1,0 +1,13 @@
+    "ImGuiPopupFlags": {
+        "AnyPopup": null,
+        "AnyPopupId": null,
+        "AnyPopupLevel": null,
+        "MouseButtonDefault_": null,
+        "MouseButtonLeft": null,
+        "MouseButtonMask_": null,
+        "MouseButtonMiddle": null,
+        "MouseButtonRight": null,
+        "NoOpenOverExistingPopup": null,
+        "NoOpenOverItems": null,
+        "None": null
+    },

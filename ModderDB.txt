@@ -1,0 +1,22 @@
+    "ModderDB": {
+        "AddModder": {
+            "Example": "bool ModderDB.AddModder(int rockstarId, string detection)"
+        },
+        "AddModderByPlayerId": {
+            "Example": "bool ModderDB.AddModderByPlayerId(int playerId, string detection)"
+        },
+        "GetModderDetections": {
+            "Description": "detection format: name, count, lastTime",
+            "Example": "table<table<string, int, int>> ModderDB.GetModderDetections(int rockstarId)"
+        },
+        "GetModderDetectionsByPlayerId": {
+            "Description": "detection format: name, count, lastTime",
+            "Example": "table<table<string, int, int>> ModderDB.GetModderDetectionsByPlayerId(int playerId)"
+        },
+        "RemoveModder": {
+            "Example": "bool ModderDB.RemoveModder(int rockstarId, string reason)"
+        },
+        "RemoveModderDetection": {
+            "Example": "bool ModderDB.RemoveModderDetection(int rockstarId, string reason)"
+        }
+    },

@@ -1,0 +1,13 @@
+    "eProtectionType": {
+        "AIMING_AT_YOU": null,
+        "BAD_SCRIPT_EVENT": null,
+        "CHAT_BANNED_WORD": null,
+        "CHAT_SPAM": null,
+        "CRASH": null,
+        "KICK": null,
+        "REPORT": null,
+        "SHOOTING_AT_YOU": null,
+        "SPECTATING_YOU": null,
+        "UNKNOWN": null,
+        "VOTE_KICK": null
+    },

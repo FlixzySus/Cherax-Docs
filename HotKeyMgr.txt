@@ -1,0 +1,18 @@
+    "HotKeyMgr": {
+        "AddHotkey": {
+            "Description": "Adds a new hotkey for a feature.",
+            "Example": "void HotKeyMgr.AddHotkey(int hash, int key)"
+        },
+        "GetAllHotkeys": {
+            "Description": "Returns all hotkeys and their associated feature hash.",
+            "Example": "table<int, table<int, int>> HotKeyMgr.GetAllHotkeys()"
+        },
+        "GetHotKeys": {
+            "Description": "Returns all hotkeys for a specific feature hash.",
+            "Example": " table<int, int> HotKeyMgr.GetHotKeys(int hash)"
+        },
+        "RemoveHotkey": {
+            "Description": "Removes specific hotkey from an feature.",
+            "Example": " void HotKeyMgr.RemoveHotkey(int hash, int key)"
+        }
+    },

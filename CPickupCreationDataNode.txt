@@ -1,0 +1,53 @@
+    "CPickupCreationDataNode": {
+        "LODdistance": {
+            "Description": "LOD distance of pickup",
+            "Example": "int object.LODdistance"
+        },
+        "PlayersToBlockList": {
+            "Description": "List of blocked players for this pickup",
+            "Example": "int object.PlayersToBlockList"
+        },
+        "amount": {
+            "Description": "the amount held in the pickup (only used for money pickups currently)",
+            "Example": "int object.amount"
+        },
+        "bHasPlacement": {
+            "Description": "set if the network object has a corresponding CPickup object",
+            "Example": "bool object.bHasPlacement"
+        },
+        "bHasPlayersBlockingList": {
+            "Description": "Are there any blocked players for this pickup",
+            "Example": "bool object.bHasPlayersBlockingList"
+        },
+        "bPlayerGift": {
+            "Description": "set if this is an ambient pickup dropped for another player to collect",
+            "Example": "bool object.bPlayerGift"
+        },
+        "customModelHash": {
+            "Description": "a custom model, if specified by script",
+            "Example": "int object.customModelHash"
+        },
+        "includeProjectiles": {
+            "Description": "Allow projectiles to collide with this pickup",
+            "Example": "bool object.includeProjectiles"
+        },
+        "lifeTime": {
+            "Description": "how long the pickup has existed (only used for ambient pickups)",
+            "Example": "int object.lifeTime"
+        },
+        "numWeaponComponents": {
+            "Example": "int object.numWeaponComponents"
+        },
+        "pickupHash": {
+            "Description": "the type of the pickup",
+            "Example": "int object.pickupHash"
+        },
+        "weaponComponents": {
+            "Description": "for modded weapons dropped by players",
+            "Example": "table<int, int> object.weaponComponents"
+        },
+        "weaponTintIndex": {
+            "Description": "for modded weapons dropped by players",
+            "Example": "int object.weaponTintIndex"
+        }
+    },

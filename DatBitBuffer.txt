@@ -1,0 +1,22 @@
+    "DatBitBuffer": {
+        "ReadBool": {
+            "Description": "Reads a bool from the buffer. Format: [value, success]",
+            "Example": "bool,bool object:ReadBool()"
+        },
+        "ReadInt": {
+            "Description": "Reads a signed integer from the buffer. Format: [value, success]",
+            "Example": "int,bool object:ReadInt(int numBits)"
+        },
+        "ReadString": {
+            "Description": "Reads a zero-terminated string from the buffer. Format: [value, success]",
+            "Example": "string,bool object:ReadString(int maxChars)"
+        },
+        "ReadUns": {
+            "Description": "Reads an unsigned integer from the buffer. Format: [value, success]",
+            "Example": "int,bool object:ReadUns(int numBits)"
+        },
+        "Seek": {
+            "Description": "Sets the bit position of the cursor. This is the location of the next read/write.",
+            "Example": "bool object:SetCursorPos(int pos)"
+        }
+    },

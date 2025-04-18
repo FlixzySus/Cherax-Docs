@@ -1,0 +1,12 @@
+    "NetAddress": {
+        "ProxyAddr": {
+            "Example": "SocketAddress ProxyAddr"
+        },
+        "TargetAddr": {
+            "Example": "SocketAddress TargetAddr"
+        },
+        "Type": {
+            "Description": "Type of the NetAddress.",
+            "Example": "NetAddressType Type"
+        }
+    },

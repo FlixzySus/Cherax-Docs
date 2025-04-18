@@ -1,0 +1,29 @@
+    "ScriptLocal": {
+        "GetBool": {
+            "Example": "bool ScriptLocal.GetBool(int scriptHash, int local)"
+        },
+        "GetFloat": {
+            "Example": "number ScriptLocal.GetFloat(int scriptHash, int local)"
+        },
+        "GetInt": {
+            "Example": "int ScriptLocal.GetInt(int scriptHash, int local)"
+        },
+        "GetPtr": {
+            "Example": "int ScriptLocal.GetPtr(int scriptHash, int global)"
+        },
+        "GetString": {
+            "Example": "string ScriptLocal.GetString(int scriptHash, int local)"
+        },
+        "SetBool": {
+            "Example": "void ScriptLocal.SetBool(int scriptHash, int local, bool value)"
+        },
+        "SetFloat": {
+            "Example": "void ScriptLocal.SetFloat(int scriptHash, int local, number value)"
+        },
+        "SetInt": {
+            "Example": "void ScriptLocal.SetInt(int scriptHash, int local, int value)"
+        },
+        "SetString": {
+            "Example": "void ScriptLocal.SetString(int scriptHash, int local, string text)"
+        }
+    },

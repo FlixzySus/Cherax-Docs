@@ -1,0 +1,18 @@
+    "eEntityType": {
+        "BUILDING": null,
+        "COMPOSITE": null,
+        "DUMMY_OBJECT": null,
+        "GRASS_INSTANCE_LIST": null,
+        "INSTANCE_LIST": null,
+        "LIGHT": null,
+        "MLO": null,
+        "NOTHING": null,
+        "NOTINPOOLS": null,
+        "OBJECT": null,
+        "PARTICLESYSTEM": null,
+        "PED": null,
+        "PORTAL": null,
+        "TOTAL": null,
+        "VEHICLE": null,
+        "VEHICLEGLASSCOMPONENT": null
+    },

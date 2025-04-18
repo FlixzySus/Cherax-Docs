@@ -1,0 +1,29 @@
+    "V3": {
+        "Add": {
+            "Description": "Add a value to a V3.",
+            "Example": "V3 V3.Add(V3 vector, number value)\nV3 V3.Add(V3 vector, V3 value)"
+        },
+        "DirectionToRotation": {
+            "Description": "Takes a direction and returns a rotation.",
+            "Example": "V3 V3.DirectionToRotation(V3 vector)"
+        },
+        "Multiply": {
+            "Description": "Multiply a value with a V3.",
+            "Example": "V3 V3.Multiply(V3 vector, number value)\nV3 V3.Multiply(V3 vector, V3 value)"
+        },
+        "New": {
+            "Description": "Create a new V3 object.",
+            "Example": "V3 V3.New()\nV3 V3.New(number x, number y, number z)"
+        },
+        "RotationToDirection": {
+            "Description": "Takes a rotation and returns a direction.",
+            "Example": "V3 V3.RotationToDirection(V3 vector)"
+        },
+        "Subtract": {
+            "Description": "Subtract a value from a V3.",
+            "Example": "V3 V3.Subtract(V3 vector, number value)\nV3 V3.Subtract(V3 vector, V3 value)"
+        },
+        "x": null,
+        "y": null,
+        "z": null
+    },

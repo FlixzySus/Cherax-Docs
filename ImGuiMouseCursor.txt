@@ -1,0 +1,13 @@
+    "ImGuiMouseCursor": {
+        "Arrow": null,
+        "COUNT": null,
+        "Hand": null,
+        "None": null,
+        "NotAllowed": null,
+        "ResizeAll": null,
+        "ResizeEW": null,
+        "ResizeNESW": null,
+        "ResizeNS": null,
+        "ResizeNWSE": null,
+        "TextInput": null
+    },

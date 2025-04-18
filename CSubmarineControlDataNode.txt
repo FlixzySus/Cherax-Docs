@@ -1,0 +1,14 @@
+    "CSubmarineControlDataNode": {
+        "dive": {
+            "Description": "the current value of the dive control.",
+            "Example": "number object.dive"
+        },
+        "pitch": {
+            "Description": "the current value of the pitch control.",
+            "Example": "number object.pitch"
+        },
+        "yaw": {
+            "Description": "the current value of the yaw control.",
+            "Example": "number object.yaw"
+        }
+    },

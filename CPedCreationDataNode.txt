@@ -1,0 +1,66 @@
+    "CPedCreationDataNode": {
+        "IsRespawnObjId": {
+            "Description": "is a valid respawn object id",
+            "Example": "bool object.IsRespawnObjId"
+        },
+        "RespawnFlaggedForRemoval": {
+            "Description": "True if the respawn ped was flagged for removal",
+            "Example": "bool object.RespawnFlaggedForRemoval"
+        },
+        "attDamageToPlayer": {
+            "Description": "ID of the Player to attribute damage to.",
+            "Example": "int object.attDamageToPlayer"
+        },
+        "hasAttDamageToPlayer": {
+            "Description": "True if the ped damage should be attributed to a certain player.",
+            "Example": "bool object.hasAttDamageToPlayer"
+        },
+        "hasProp": {
+            "Description": "does this ped carry a prop",
+            "Example": "bool object.hasProp"
+        },
+        "inVehicle": {
+            "Description": "is this ped in a vehicle?",
+            "Example": "bool object.inVehicle"
+        },
+        "isStanding": {
+            "Description": "is this ped standing?",
+            "Example": "bool object.isStanding"
+        },
+        "maxHealth": {
+            "Description": "max health as it can be altered",
+            "Example": "int object.maxHealth"
+        },
+        "modelHash": {
+            "Description": "model index",
+            "Example": "int object.modelHash"
+        },
+        "popType": {
+            "Description": "population type",
+            "Example": "int object.popType"
+        },
+        "propHash": {
+            "Description": "index of the prop the ped is carrying",
+            "Example": "int object.propHash"
+        },
+        "randomSeed": {
+            "Description": "random seed",
+            "Example": "int object.randomSeed"
+        },
+        "seat": {
+            "Description": "seat the ped is sitting in in the vehicle",
+            "Example": "int object.seat"
+        },
+        "vehicleID": {
+            "Description": "ID of the vehicle this ped is currently in",
+            "Example": "int object.vehicleID"
+        },
+        "voiceHash": {
+            "Description": "voice hash code",
+            "Example": "int object.voiceHash"
+        },
+        "wearingAHelmet": {
+            "Description": "is the ped wearing a helmet *put on via CPedHelmetComponent*",
+            "Example": "bool object.wearingAHelmet"
+        }
+    },

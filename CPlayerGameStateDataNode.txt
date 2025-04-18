@@ -1,0 +1,217 @@
+    "CPlayerGameStateDataNode": {
+        "AirDragMult": {
+            "Description": "air drag multiplier",
+            "Example": "number object.AirDragMult"
+        },
+        "AntagonisticPlayerIndex": {
+            "Description": "Antagonistic player index",
+            "Example": "int object.AntagonisticPlayerIndex"
+        },
+        "ConcealedOnOwner": {
+            "Description": "true when local player concealed themselves",
+            "Example": "bool object.ConcealedOnOwner"
+        },
+        "EnableCrewEmblem": {
+            "Description": "Does the ped use the crew emblem?",
+            "Example": "bool object.EnableCrewEmblem"
+        },
+        "FadeOut": {
+            "Example": "bool object.FadeOut"
+        },
+        "GameStateFlags": {
+            "Description": "game state flags",
+            "Example": "PlayerGameStateFlags object.GameStateFlags"
+        },
+        "GarageInstanceIndex": {
+            "Example": "int object.GarageInstanceIndex"
+        },
+        "IsTargettableByTeam": {
+            "Description": "flags indicating whether the ped is targettable by each team //",
+            "Example": "int object.IsTargettableByTeam"
+        },
+        "JackSpeed": {
+            "Description": "jack speed percentage for the player",
+            "Example": "int object.JackSpeed"
+        },
+        "LockOnState": {
+            "Example": "int object.LockOnState"
+        },
+        "LockOnTargetID": {
+            "Description": "for when players use homing launchers",
+            "Example": "int object.LockOnTargetID"
+        },
+        "MaxArmour": {
+            "Description": "max armour for the player",
+            "Example": "int object.MaxArmour"
+        },
+        "MaxHealth": {
+            "Description": "max health for the player",
+            "Example": "int object.MaxHealth"
+        },
+        "MeleeDamageModifier": {
+            "Example": "number object.MeleeDamageModifier"
+        },
+        "MeleeUnarmedDamageModifier": {
+            "Example": "number object.MeleeUnarmedDamageModifier"
+        },
+        "MobileRingState": {
+            "Description": "mobile phone ring state for the player",
+            "Example": "int object.MobileRingState"
+        },
+        "OverrideReceiveChat": {
+            "Description": "Override Receive Chat",
+            "Example": "int object.OverrideReceiveChat"
+        },
+        "OverrideSendChat": {
+            "Description": "Override Send Chat //",
+            "Example": "int object.OverrideSendChat"
+        },
+        "PlayerState": {
+            "Description": "the current player state",
+            "Example": "int object.PlayerState"
+        },
+        "PlayerTeam": {
+            "Description": "current player team",
+            "Example": "int object.PlayerTeam"
+        },
+        "ScriptedWeaponFirePos": {
+            "Example": "V3 object.ScriptedWeaponFirePos"
+        },
+        "SpectatorId": {
+            "Description": "Network Object of the ped we are spectating",
+            "Example": "int object.SpectatorId"
+        },
+        "TutorialIndex": {
+            "Description": "Tutorial session index - used to split players into fake sessions including only team-mates",
+            "Example": "int object.TutorialIndex"
+        },
+        "TutorialInstanceID": {
+            "Description": "Current tutorial instance ID (only used for gang sessions)",
+            "Example": "int object.TutorialInstanceID"
+        },
+        "VehicleJumpDown": {
+            "Example": "bool object.VehicleJumpDown"
+        },
+        "VehicleShareMultiplier": {
+            "Example": "number object.VehicleShareMultiplier"
+        },
+        "WeaponDamageModifier": {
+            "Example": "number object.WeaponDamageModifier"
+        },
+        "WeaponDefenseModifier": {
+            "Example": "number object.WeaponDefenseModifier"
+        },
+        "WeaponMinigunDefenseModifier": {
+            "Example": "number object.WeaponMinigunDefenseModifier"
+        },
+        "arcadeCNCVOffender": {
+            "Example": "bool object.arcadeCNCVOffender"
+        },
+        "arcadePassiveAbilityFlags": {
+            "Example": "int object.arcadePassiveAbilityFlags"
+        },
+        "arcadeRoleInt": {
+            "Example": "int object.arcadeRoleInt"
+        },
+        "arcadeTeamInt": {
+            "Example": "int object.arcadeTeamInt"
+        },
+        "bBattleAware": {
+            "Example": "bool object.bBattleAware"
+        },
+        "bCollisionsDisabledByScript": {
+            "Description": "used for spectating players, that have other collision flags set",
+            "Example": "bool object.bCollisionsDisabledByScript"
+        },
+        "bDisableLeavePedBehind": {
+            "Description": "Disable Leave ped behind when the remote player leaves the session.",
+            "Example": "bool object.bDisableLeavePedBehind"
+        },
+        "bGhost": {
+            "Example": "bool object.bGhost"
+        },
+        "bHasScriptedWeaponFirePos": {
+            "Example": "bool object.bHasScriptedWeaponFirePos"
+        },
+        "bHasVoiceProximityOverride": {
+            "Description": "If we have a voice proximity override",
+            "Example": "bool object.bHasVoiceProximityOverride"
+        },
+        "bInCutscene": {
+            "Description": "player is in a mocap cutscene",
+            "Example": "bool object.bInCutscene"
+        },
+        "bIsChokingFromDOTEffect": {
+            "Example": "bool object.bIsChokingFromDOTEffect"
+        },
+        "bIsFriendlyFireAllowed": {
+            "Example": "bool object.bIsFriendlyFireAllowed"
+        },
+        "bIsPassiveMode": {
+            "Example": "bool object.bIsPassiveMode"
+        },
+        "bIsSCTVSpectating": {
+            "Description": "true when player is SCTV spectator",
+            "Example": "bool object.bIsSCTVSpectating"
+        },
+        "bIsShockedFromDOTEffect": {
+            "Example": "bool object.bIsShockedFromDOTEffect"
+        },
+        "bIsSuperJump": {
+            "Example": "bool object.bIsSuperJump"
+        },
+        "bOverrideTransitionChat": {
+            "Description": "Override Transition Chat",
+            "Example": "bool object.bOverrideTransitionChat"
+        },
+        "bOverrideTutorialChat": {
+            "Description": "Override Tutorial Chat",
+            "Example": "bool object.bOverrideTutorialChat"
+        },
+        "bUseExtendedPopulationRange": {
+            "Example": "bool object.bUseExtendedPopulationRange"
+        },
+        "bvehicleweaponindex": {
+            "Description": "Indicator whether the VWI is sent",
+            "Example": "bool object.bvehicleweaponindex"
+        },
+        "decoratorListCount": {
+            "Description": "count of decorator extensions ( the scripted ones )",
+            "Example": "int object.decoratorListCount"
+        },
+        "fVoiceLoudness": {
+            "Description": "Loudness of player voice through microphone",
+            "Example": "number object.fVoiceLoudness"
+        },
+        "nCharacterRank": {
+            "Example": "int object.nCharacterRank"
+        },
+        "nMentalState": {
+            "Example": "int object.nMentalState"
+        },
+        "nPedDensity": {
+            "Example": "int object.nPedDensity"
+        },
+        "nPropertyID": {
+            "Example": "int object.nPropertyID"
+        },
+        "nVoiceChannel": {
+            "Description": "Voice channel this player is in",
+            "Example": "int object.nVoiceChannel"
+        },
+        "sizeOfNetArrayData": {
+            "Description": "the total size of all the network array handler data arbitrated by this player",
+            "Example": "int object.sizeOfNetArrayData"
+        },
+        "vExtendedPopulationRangeCenter": {
+            "Example": "V3 object.vExtendedPopulationRangeCenter"
+        },
+        "vVoiceProximityOverride": {
+            "Description": "Proximity override",
+            "Example": "V3 object.vVoiceProximityOverride"
+        },
+        "vehicleweaponindex": {
+            "Description": "Vehicle Weapon Index: Missiles, Gatling, etc...",
+            "Example": "int object.vehicleweaponindex"
+        }
+    },

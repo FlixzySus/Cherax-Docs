@@ -1,0 +1,14 @@
+    "CPlayerAmbientModelStreamingNode": {
+        "AllowedPedModelStartOffset": {
+            "Example": "int object.AllowedPedModelStartOffset"
+        },
+        "AllowedVehicleModelStartOffset": {
+            "Example": "int object.AllowedVehicleModelStartOffset"
+        },
+        "TargetVehicleEntryPoint": {
+            "Example": "int object.TargetVehicleEntryPoint"
+        },
+        "TargetVehicleForAnimStreaming": {
+            "Example": "int object.TargetVehicleForAnimStreaming"
+        }
+    },

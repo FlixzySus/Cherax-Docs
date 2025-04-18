@@ -1,0 +1,13 @@
+    "eCurlCode": {
+        "CURLE_COULDNT_CONNECT": null,
+        "CURLE_COULDNT_RESOLVE_HOST": null,
+        "CURLE_COULDNT_RESOLVE_PROXY": null,
+        "CURLE_FAILED_INIT": null,
+        "CURLE_NOT_BUILT_IN": null,
+        "CURLE_OK": null,
+        "CURLE_OUT_OF_MEMORY": null,
+        "CURLE_REMOTE_ACCESS_DENIED": null,
+        "CURLE_UNSUPPORTED_PROTOCOL": null,
+        "CURLE_URL_MALFORMAT": null,
+        "CURLE_WEIRD_SERVER_REPLY": null
+    },

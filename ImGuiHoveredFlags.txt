@@ -1,0 +1,12 @@
+    "ImGuiHoveredFlags": {
+        "AllowWhenBlockedByActiveItem": null,
+        "AllowWhenBlockedByPopup": null,
+        "AllowWhenDisabled": null,
+        "AllowWhenOverlapped": null,
+        "AnyWindow": null,
+        "ChildWindows": null,
+        "None": null,
+        "RectOnly": null,
+        "RootAndChildWindows": null,
+        "RootWindow": null
+    },

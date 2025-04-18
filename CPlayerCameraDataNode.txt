@@ -1,0 +1,89 @@
+    "CPlayerCameraDataNode": {
+        "LookAtPosition": {
+            "Example": "V3 object.LookAtPosition"
+        },
+        "Position": {
+            "Description": "the position offset of the camera if aiming - or absolute position if using a free camera",
+            "Example": "V3 object.Position"
+        },
+        "UsingCinematicVehCamera": {
+            "Description": "if set, this player is using the cinematic vehicle camera",
+            "Example": "bool object.UsingCinematicVehCamera"
+        },
+        "UsingFreeCamera": {
+            "Description": "if set, this player is controlling a free camera",
+            "Example": "bool object.UsingFreeCamera"
+        },
+        "UsingLeftTriggerAimMode": {
+            "Description": "is this player using the left trigger aim camera mode",
+            "Example": "bool object.UsingLeftTriggerAimMode"
+        },
+        "aiming": {
+            "Description": "if the player is currently aiming a weapon",
+            "Example": "bool object.aiming"
+        },
+        "bAimTargetEntity": {
+            "Example": "bool object.bAimTargetEntity"
+        },
+        "canOwnerMoveWhileAiming": {
+            "Description": "can the owner move while aiming (changes based on aiming from hip / scope / weapon)",
+            "Example": "bool object.canOwnerMoveWhileAiming"
+        },
+        "eulersX": {
+            "Description": "camera matrix euler angles",
+            "Example": "number object.eulersX"
+        },
+        "eulersZ": {
+            "Description": "camera matrix euler angles",
+            "Example": "number object.eulersZ"
+        },
+        "freeAimLockedOnTarget": {
+            "Description": "if the player is free aim locked onto a target...",
+            "Example": "bool object.freeAimLockedOnTarget"
+        },
+        "inFirstPersonIdle": {
+            "Example": "bool object.inFirstPersonIdle"
+        },
+        "isLooking": {
+            "Example": "bool object.isLooking"
+        },
+        "largeOffset": {
+            "Description": "if set, the camera is far away from the player",
+            "Example": "bool object.largeOffset"
+        },
+        "lockOnTargetOffset": {
+            "Description": "if locked onto a target, offset from target position to actual lock on pos.",
+            "Example": "V3 object.lockOnTargetOffset"
+        },
+        "longRange": {
+            "Description": "if the player is aiming a long range weapon (sniper rifle - 1500m range) or short range (<150m)",
+            "Example": "bool object.longRange"
+        },
+        "morePrecision": {
+            "Description": "if set, more precise camera data is used",
+            "Example": "bool object.morePrecision"
+        },
+        "onSlope": {
+            "Example": "bool object.onSlope"
+        },
+        "playerToTargetAimOffset": {
+            "Description": "position we're aiming at (used to compute pitch and yaw on the clone).",
+            "Example": "V3 object.playerToTargetAimOffset"
+        },
+        "stickWithinStrafeAngle": {
+            "Example": "bool object.stickWithinStrafeAngle"
+        },
+        "targetId": {
+            "Description": "if we're aiming at a target we pass that info instead of pitch and yaw.",
+            "Example": "int object.targetId"
+        },
+        "usingFirstPersonCamera": {
+            "Example": "bool object.usingFirstPersonCamera"
+        },
+        "usingFirstPersonVehicleCamera": {
+            "Example": "bool object.usingFirstPersonVehicleCamera"
+        },
+        "usingSwimMotionTask": {
+            "Example": "bool object.usingSwimMotionTask"
+        }
+    },

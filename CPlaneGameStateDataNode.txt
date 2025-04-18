@@ -1,0 +1,79 @@
+    "CPlaneGameStateDataNode": {
+        "AIIgnoresBrokenPartsForHandling": {
+            "Description": "if AI can fly plane well with damaged parts",
+            "Example": "bool object.AIIgnoresBrokenPartsForHandling"
+        },
+        "AllowRollAndYawWhenCrashing": {
+            "Description": "When set, planes will spiral while crashing",
+            "Example": "bool object.AllowRollAndYawWhenCrashing"
+        },
+        "BrokenSections": {
+            "Description": "flags indicating which sections have broken off",
+            "Example": "int object.BrokenSections"
+        },
+        "ControlSectionsBreakOffFromExplosions": {
+            "Example": "bool object.ControlSectionsBreakOffFromExplosions"
+        },
+        "DamagedSections": {
+            "Description": "flags indicating which sections are damaged",
+            "Example": "int object.DamagedSections"
+        },
+        "EngineDamageScale": {
+            "Description": "damage scale for engine (overall)",
+            "Example": "number object.EngineDamageScale"
+        },
+        "HasCustomLandingGearSectionDamageScale": {
+            "Description": "Do we have custom damage scales for our landing gear sections?",
+            "Example": "bool object.HasCustomLandingGearSectionDamageScale"
+        },
+        "HasCustomSectionDamageScale": {
+            "Description": "Do we have custom damage scales for our sections?",
+            "Example": "bool object.HasCustomSectionDamageScale"
+        },
+        "IndividualPropellerFlags": {
+            "Description": "flags indicating state of individual propellers",
+            "Example": "int object.IndividualPropellerFlags"
+        },
+        "LODdistance": {
+            "Description": "LOD distance of pickup",
+            "Example": "int object.LODdistance"
+        },
+        "LandingGearPublicState": {
+            "Description": "Landing Gear Public State",
+            "Example": "int object.LandingGearPublicState"
+        },
+        "LandingGearSectionDamageScale": {
+            "Description": "damage scale for each plane section",
+            "Example": "table<int, number> object.LandingGearSectionDamageScale"
+        },
+        "LockOnState": {
+            "Description": "Lockon state (none, acquiring, acquired)",
+            "Example": "int object.LockOnState"
+        },
+        "LockOnTarget": {
+            "Description": "ID of network object this plane is locked-on to",
+            "Example": "int object.LockOnTarget"
+        },
+        "RotorBroken": {
+            "Description": "flags indicating which rotors are broken off",
+            "Example": "int object.RotorBroken"
+        },
+        "SectionDamage": {
+            "Description": "damage fraction values for each plane section",
+            "Example": "table<int, number> object.SectionDamage"
+        },
+        "SectionDamageScale": {
+            "Description": "damage scale for each plane section",
+            "Example": "table<int, number> object.SectionDamageScale"
+        },
+        "dipStraightDownWhenCrashing": {
+            "Example": "bool object.dipStraightDownWhenCrashing"
+        },
+        "disableExlodeFromBodyDamageOnCollision": {
+            "Example": "bool object.disableExlodeFromBodyDamageOnCollision"
+        },
+        "disableExpFromBodyDamage": {
+            "Description": "Does this plane take damage from body impacts?",
+            "Example": "bool object.disableExpFromBodyDamage"
+        }
+    },

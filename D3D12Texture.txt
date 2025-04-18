@@ -1,0 +1,21 @@
+    "D3D12Texture": {
+        "GetCurrent": {
+            "Example": "ImTextureID object:GetCurrent()"
+        },
+        "GetFrame": {
+            "Description": "The index starts at 0. The max index is (GetFrameCount - 1).",
+            "Example": "ImTextureID object:GetFrame(int index)"
+        },
+        "GetFrameCount": {
+            "Description": "Returns the number of frames in this texture.",
+            "Example": "int object:GetFrameCount()"
+        },
+        "GetHeight": {
+            "Description": "Returns the height this texture.",
+            "Example": "int object:GetHeight()"
+        },
+        "GetWidth": {
+            "Description": "Returns the width this texture.",
+            "Example": "int object:GetWidth()"
+        }
+    },

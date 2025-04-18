@@ -1,0 +1,20 @@
+    "V2": {
+        "Add": {
+            "Description": "Add a value to a V2.",
+            "Example": "V2 V2.Add(V2 vector, number value)\nV2 V2.Add(V2 vector, V2 value)"
+        },
+        "Multiply": {
+            "Description": "Multiply a value with a V2.",
+            "Example": "V2 V2.Multiply(V2 vector, number value)\nV2 V2.Multiply(V2 vector, V2 value)"
+        },
+        "New": {
+            "Description": "Create a new V2 object.",
+            "Example": "V2 V2.New()\nV2 V2.New(number x, number y, number z)"
+        },
+        "Subtract": {
+            "Description": "Subtract a value from a V2.",
+            "Example": "V2 V2.Subtract(V2 vector, number value)\nV2 V2.Subtract(V2 vector, V2 value)"
+        },
+        "x": null,
+        "y": null
+    },

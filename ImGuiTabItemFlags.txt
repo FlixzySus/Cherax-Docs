@@ -1,0 +1,8 @@
+    "ImGuiTabItemFlags": {
+        "NoCloseWithMiddleMouseButton": null,
+        "NoPushId": null,
+        "NoTooltip": null,
+        "None": null,
+        "SetSelected": null,
+        "UnsavedDocument": null
+    },

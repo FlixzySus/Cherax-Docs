@@ -1,0 +1,33 @@
+    "ScriptGlobal": {
+        "GetBool": {
+            "Example": "bool ScriptGlobal.GetBool(int global)"
+        },
+        "GetFloat": {
+            "Example": "number ScriptGlobal.GetFloat(int global)"
+        },
+        "GetInt": {
+            "Example": "int ScriptGlobal.GetInt(int global)"
+        },
+        "GetPtr": {
+            "Example": "int ScriptGlobal.GetPtr(int global)"
+        },
+        "GetString": {
+            "Example": "string ScriptGlobal.GetString(int global)"
+        },
+        "GetTunableByHash": {
+            "Description": "Returns a pointer to the tunable. Returns 0 if not found.",
+            "Example": "int ScriptGlobal.GetTunableByHash(int hash)"
+        },
+        "SetBool": {
+            "Example": "void ScriptGlobal.SetBool(int global, bool value)"
+        },
+        "SetFloat": {
+            "Example": "void ScriptGlobal.SetFloat(int global, number value)"
+        },
+        "SetInt": {
+            "Example": "void ScriptGlobal.SetInt(int global, int value)"
+        },
+        "SetString": {
+            "Example": "void ScriptGlobal.SetString(int global, string text)"
+        }
+    },

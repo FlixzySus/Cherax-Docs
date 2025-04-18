@@ -1,0 +1,42 @@
+    "CVehicleCreationDataNode": {
+        "lastDriverTime": {
+            "Description": "the last time this vehicle had a driver",
+            "Example": "int object.lastDriverTime"
+        },
+        "maxHealth": {
+            "Description": "max health as it can be altered",
+            "Example": "int object.maxHealth"
+        },
+        "modelHash": {
+            "Description": "vehicle model index",
+            "Example": "int object.modelHash"
+        },
+        "needsToBeHotwired": {
+            "Description": "does the car need to be hotwired?",
+            "Example": "bool object.needsToBeHotwired"
+        },
+        "popType": {
+            "Description": "population type",
+            "Example": "int object.popType"
+        },
+        "randomSeed": {
+            "Description": "random seed",
+            "Example": "int object.randomSeed"
+        },
+        "status": {
+            "Description": "vehicle status flags",
+            "Example": "int object.status"
+        },
+        "takeOutOfParkedCarBudget": {
+            "Description": "should this vehicle be taken out of the parked car population budget?",
+            "Example": "bool object.takeOutOfParkedCarBudget"
+        },
+        "tyresDontBurst": {
+            "Description": "are the tyres impervious to damage?",
+            "Example": "bool object.tyresDontBurst"
+        },
+        "usesVerticalFlightMode": {
+            "Description": "true when it's a plane and uses special flight mode",
+            "Example": "bool object.usesVerticalFlightMode"
+        }
+    },

@@ -1,0 +1,4 @@
+    "ShouldUnload": {
+        "Description": "Check if the script should unload. Use this to exit all your loops etc.",
+        "Example": "ShouldUnload()"
+    },

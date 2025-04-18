@@ -1,0 +1,134 @@
+    "CVehicle": {
+        "BodyDirtColor": {
+            "Example": "int object.BodyDirtColor"
+        },
+        "BodyHealth": {
+            "Example": "number object.BodyHealth"
+        },
+        "Brake": {
+            "Example": "number object.Brake"
+        },
+        "CheatPowerIncrease": {
+            "Example": "number object.CheatPowerIncrease"
+        },
+        "DirtLevel": {
+            "Description": "0.0=fully clean, 15.0=maximum dirt visible",
+            "Example": "number object.DirtLevel"
+        },
+        "DisableInvincible": {
+            "Example": "void object:DisableInvincible()"
+        },
+        "EnableInvincible": {
+            "Example": "void object:EnableInvincible()"
+        },
+        "FromAddress": {
+            "Example": "CVehicle CVehicle.FromAddress(int address)"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "GetAttachmentExtension": {
+            "Description": "Check if the extension is not nil before using it.",
+            "Example": "fwAttachmentEntityExtension object:GetAttachmentExtension()"
+        },
+        "GetDriver": {
+            "Example": "CPed object:GetDriver()"
+        },
+        "GetLastDriver": {
+            "Example": "CPed object:GetLastDriver()"
+        },
+        "GetMaxSeats": {
+            "Example": "int object:GetMaxSeats()"
+        },
+        "GetPedInSeat": {
+            "Example": "CPed object:GetPedInSeat(int seatIndex)"
+        },
+        "GetType": {
+            "Example": "eEntityType object:GetType()"
+        },
+        "GetVelocity": {
+            "Description": "Returns the current velocity vector in meters per second.",
+            "Example": "V3 object:GetVelocity()"
+        },
+        "HandBrake": {
+            "Example": "bool object.HandBrake"
+        },
+        "HeadlightMultiplier": {
+            "Example": "number object.HeadlightMultiplier"
+        },
+        "HeightMultiplier": {
+            "Example": "number object.HeightMultiplier"
+        },
+        "IsDynamic": {
+            "Example": "bool object.IsDynamic"
+        },
+        "IsFixed": {
+            "Example": "bool object.IsFixed"
+        },
+        "IsFixedByNetwork": {
+            "Example": "bool object.IsFixedByNetwork"
+        },
+        "IsInWater": {
+            "Example": "bool object.IsInWater"
+        },
+        "IsInvincible": {
+            "Example": "bool object:IsInvincible()"
+        },
+        "IsNotBuoyant": {
+            "Example": "bool object.IsNotBuoyant"
+        },
+        "IsObject": {
+            "Example": "bool object:IsObject()"
+        },
+        "IsPed": {
+            "Example": "bool object:IsPed()"
+        },
+        "IsPhysical": {
+            "Example": "bool object:IsPhysical()"
+        },
+        "IsRenderScorched": {
+            "Example": "bool object.IsRenderScorched"
+        },
+        "IsVehicle": {
+            "Example": "bool object:IsVehicle()"
+        },
+        "IsVisible": {
+            "Example": "bool object.IsVisible"
+        },
+        "ModelInfo": {
+            "Description": "Check if 'object.ModelInfo' is not nil before using it.",
+            "Example": "CBaseModelInfo object.ModelInfo"
+        },
+        "NetObject": {
+            "Description": "Check if 'object.NetObject' is not nil before using it.",
+            "Example": "CNetObject object.NetObject"
+        },
+        "Nitrous": {
+            "Example": "bool object.Nitrous"
+        },
+        "PetrolTankHealth": {
+            "Example": "number object.PetrolTankHealth"
+        },
+        "Position": {
+            "Example": "V3 object.Position"
+        },
+        "SecondSteerAngle": {
+            "Description": "This is for 4 wheel steering.",
+            "Example": "number object.SecondSteerAngle"
+        },
+        "SteerAngle": {
+            "Example": "number object.SteerAngle"
+        },
+        "ThicknessMultiplier": {
+            "Example": "number object.ThicknessMultiplier"
+        },
+        "Throttle": {
+            "Example": "number object.Throttle"
+        },
+        "VehicleTopSpeedPercent": {
+            "Example": "number object.VehicleTopSpeedPercent"
+        },
+        "WidthMultiplier": {
+            "Example": "number object.WidthMultiplier"
+        }
+    },

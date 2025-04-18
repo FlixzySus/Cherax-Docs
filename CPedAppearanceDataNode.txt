@@ -1,0 +1,66 @@
+    "CPedAppearanceDataNode": {
+        "PhoneMode": {
+            "Description": "for secondary task phone",
+            "Example": "int object.PhoneMode"
+        },
+        "facialClipSetId": {
+            "Description": "the facial clipset used by the ped",
+            "Example": "int object.facialClipSetId"
+        },
+        "facialIdleAnimOverrideClipDictNameHash": {
+            "Description": "the dictionary used by the ped",
+            "Example": "int object.facialIdleAnimOverrideClipDictNameHash"
+        },
+        "facialIdleAnimOverrideClipNameHash": {
+            "Description": "the facial clip used by the ped",
+            "Example": "int object.facialIdleAnimOverrideClipNameHash"
+        },
+        "helmetProp": {
+            "Description": "what helmet type are we using?",
+            "Example": "int object.helmetProp"
+        },
+        "helmetTextureId": {
+            "Description": "what texture are we going to use for the helmet?",
+            "Example": "int object.helmetTextureId"
+        },
+        "isAttachingHelmet": {
+            "Description": "are we attaching a helmet?",
+            "Example": "bool object.isAttachingHelmet"
+        },
+        "isRemovingHelmet": {
+            "Description": "are we removing a helmet?",
+            "Example": "bool object.isRemovingHelmet"
+        },
+        "isVisorSwitching": {
+            "Example": "bool object.isVisorSwitching"
+        },
+        "isWearingHelmet": {
+            "Description": "are we wearing a helmet?",
+            "Example": "bool object.isWearingHelmet"
+        },
+        "parachutePackTintIndex": {
+            "Description": "what colour the parachute pack will appear on deployment...",
+            "Example": "int object.parachutePackTintIndex"
+        },
+        "parachuteTintIndex": {
+            "Description": "what colour the parachute will appear on deployment...",
+            "Example": "int object.parachuteTintIndex"
+        },
+        "supportsVisor": {
+            "Example": "bool object.supportsVisor"
+        },
+        "targetVisorState": {
+            "Example": "int object.targetVisorState"
+        },
+        "visorDownProp": {
+            "Description": "what helmet type are we using?",
+            "Example": "int object.visorDownProp"
+        },
+        "visorIsUp": {
+            "Example": "bool object.visorIsUp"
+        },
+        "visorUpProp": {
+            "Description": "what helmet type are we using?",
+            "Example": "int object.visorUpProp"
+        }
+    },

@@ -1,0 +1,26 @@
+    "Natives": {
+        "InvokeBool": {
+            "Description": "Call a native that returns a boolean.",
+            "Example": "bool Natives.InvokeBool(hash, ...)"
+        },
+        "InvokeFloat": {
+            "Description": "Call a native that returns a float.",
+            "Example": "float Natives.InvokeFloat(hash, ...)"
+        },
+        "InvokeInt": {
+            "Description": "Call a native that returns an integer.",
+            "Example": "int Natives.InvokeInt(hash, ...)"
+        },
+        "InvokeString": {
+            "Description": "Call a native that returns a string.",
+            "Example": "string Natives.InvokeString(hash, ...)"
+        },
+        "InvokeV3": {
+            "Description": "Call a native that returns three floats representing a V3.",
+            "Example": "float, float, float Natives.InvokeV3(hash, ...)"
+        },
+        "InvokeVoid": {
+            "Description": "Call a native that does not return a value.",
+            "Example": "void Natives.InvokeVoid(hash, ...)"
+        }
+    },

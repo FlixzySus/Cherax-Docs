@@ -1,0 +1,5 @@
+    "GamerInfo": {
+        "HostKey": null,
+        "Name": null,
+        "RockstarId": null
+    },

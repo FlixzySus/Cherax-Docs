@@ -1,0 +1,32 @@
+    "CNetGamePlayer": {
+        "CxnId": {
+            "Description": "Connection Id",
+            "Example": "int object.CxnId"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "GetGamerInfo": {
+            "Description": "Returns a structure 'GamerInfo' holding information about the player.",
+            "Example": "GamerInfo object:GetGamerInfo()"
+        },
+        "GetName": {
+            "Example": "string object:GetName()"
+        },
+        "IsLocalPlayer": {
+            "Description": "Check whether its the local player or not.",
+            "Example": "bool object:IsLocalPlayer()"
+        },
+        "IsReportBitSet": {
+            "Description": "Check if a report flag is set. Also called Rockstar Anti Cheat(RAC).",
+            "Example": "bool object:isReportBitSet(eReportReason reason)"
+        },
+        "PlayerId": {
+            "Description": "Player Id",
+            "Example": "int object.PlayerId"
+        },
+        "PlayerInfo": {
+            "Description": "Returns a class 'CPlayerInfo' holding information about the player.",
+            "Example": "CPlayerInfo object.PlayerInfo"
+        }
+    },

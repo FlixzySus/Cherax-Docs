@@ -1,0 +1,30 @@
+    "CPedMovementDataNode": {
+        "DesiredMoveBlendRatioX": {
+            "Description": "desired move blend ratio in the X axis",
+            "Example": "number object.DesiredMoveBlendRatioX"
+        },
+        "DesiredMoveBlendRatioY": {
+            "Description": "desired move blend ratio in the Y axis",
+            "Example": "number object.DesiredMoveBlendRatioY"
+        },
+        "DesiredPitch": {
+            "Description": "desired pitch",
+            "Example": "number object.DesiredPitch"
+        },
+        "HasDesiredMoveBlendRatioX": {
+            "Description": "indicates whether the move blend ratio for the ped in the X axis is non-zero",
+            "Example": "bool object.HasDesiredMoveBlendRatioX"
+        },
+        "HasDesiredMoveBlendRatioY": {
+            "Description": "indicates whether the move blend ratio for the ped in the Y axis is non-zero",
+            "Example": "bool object.HasDesiredMoveBlendRatioY"
+        },
+        "HasStopped": {
+            "Description": "indicates the ped has stopped moving (velocity is zero)",
+            "Example": "bool object.HasStopped"
+        },
+        "MaxMoveBlendRatio": {
+            "Description": "script set max move blend ratio",
+            "Example": "number object.MaxMoveBlendRatio"
+        }
+    },

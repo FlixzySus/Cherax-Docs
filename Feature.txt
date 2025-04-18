@@ -1,0 +1,326 @@
+    "Feature": {
+        "AddHotKey": {
+            "Description": "Adds a hotkey for the feature and returns itself.",
+            "Example": "Feature object:AddHotKey(int keyCode)"
+        },
+        "AddInfoContentFeature": {
+            "Description": "Add an feature as info content for eFeatureType ListWithInfo.",
+            "Example": "Feature object:AddInfoContentFeature(int hash)"
+        },
+        "AddRenderAfter": {
+            "Description": "Adds a feature to a list that will be rendered after this feature.",
+            "Example": "void object:AddRenderAfter(Feature feature)"
+        },
+        "AddRenderBefore": {
+            "Description": "Adds a feature to a list that will be rendered before this feature.",
+            "Example": "void object:AddRenderBefore(Feature feature)"
+        },
+        "ClearHotkeys": {
+            "Description": "Removes all hotkeys for this feature.",
+            "Example": "Feature object:ClearHotkeys()"
+        },
+        "ClearRenderAfter": {
+            "Example": "void object:ClearRenderAfter(Feature feature)"
+        },
+        "ClearRenderBefore": {
+            "Example": "void object:ClearRenderBefore(Feature feature)"
+        },
+        "Desc": {
+            "Description": "Description of the feature",
+            "Example": "string object.Desc"
+        },
+        "GetArrayIndex": {
+            "Description": "If this feature is part of an feature array, this is the index.",
+            "Example": "int object:GetArrayIndex()"
+        },
+        "GetBoolValue": {
+            "Description": "Gets the current boolean value.",
+            "Example": "bool object:GetBoolValue()"
+        },
+        "GetColor": {
+            "Description": "Gets the current color in rgba.",
+            "Example": "int r, g, b, a object:GetColor()"
+        },
+        "GetColorFloats": {
+            "Description": "Gets the current color in rgba as floats from 0.0 to 1.0 .",
+            "Example": "number r, g, b, a object:GetColorFloats()"
+        },
+        "GetColorU32": {
+            "Description": "Gets the current color in packed rgba.",
+            "Example": "int object:GetColorU32()"
+        },
+        "GetDesc": {
+            "Description": "Get the description of the feature.",
+            "Example": "string object:GetDesc(bool translate = true)"
+        },
+        "GetFastStepSizeFloat": {
+            "Description": "Gets the feature fast step size used in a slider.",
+            "Example": "number object:GetStepSize()"
+        },
+        "GetFastStepSizeInt": {
+            "Description": "Gets the feature fast step size used in a slider.",
+            "Example": "int object:GetStepSize()"
+        },
+        "GetFloatLimitValues": {
+            "Description": "Returns the minimum and maximum floating value.",
+            "Example": "number,number object:GetFloatLimitValues()"
+        },
+        "GetFloatMaxValue": {
+            "Description": "Returns the maximum floating value.",
+            "Example": "number object:GetFloatMaxValue()"
+        },
+        "GetFloatMinValue": {
+            "Description": "Returns the minimum floating value.",
+            "Example": "number object:GetFloatMinValue()"
+        },
+        "GetFloatValue": {
+            "Description": "Gets the current floating value.",
+            "Example": "number object:GetFloatValue()"
+        },
+        "GetFormat": {
+            "Description": "Returns the format used for slider and input values.",
+            "Example": "string object:GetFormat()"
+        },
+        "GetHash": {
+            "Example": "int object:GetHash()"
+        },
+        "GetHotkeys": {
+            "Description": "Get all hotkeys for this feature.",
+            "Example": "table<int, int> object:GetHotkeys()"
+        },
+        "GetId": {
+            "Description": "Returns the feature id in creation order.",
+            "Example": "int object:GetId()"
+        },
+        "GetIntLimitValues": {
+            "Description": "Returns the minimum and maximum integer value.",
+            "Example": "int,int object:GetIntLimitValues()"
+        },
+        "GetIntMaxValue": {
+            "Description": "Returns the maximum integer value.",
+            "Example": "int object:GetIntMaxValue()"
+        },
+        "GetIntMinValue": {
+            "Description": "Returns the minimum integer value.",
+            "Example": "int object:GetIntMinValue()"
+        },
+        "GetIntValue": {
+            "Description": "Gets the current integer value.",
+            "Example": "int object:GetIntValue()"
+        },
+        "GetList": {
+            "Description": "Gets the list for feature types like combo.",
+            "Example": "table<int, string> object:GetList()"
+        },
+        "GetListIndex": {
+            "Description": "Gets the current list index of the feature.",
+            "Example": "int object:GetListIndex()"
+        },
+        "GetName": {
+            "Description": "Get the name of the feature.",
+            "Example": "string object:GetName(bool translate = true)"
+        },
+        "GetPlayerIndex": {
+            "Description": "Same as GetArrayIndex but you might prefer this if you are using a player feature.",
+            "Example": "int object:GetPlayerIndex()"
+        },
+        "GetRenderAfter": {
+            "Description": "Returns a list of features that will be rendered after this feature.",
+            "Example": "table<int, int> object:GetRenderAfter()"
+        },
+        "GetRenderBefore": {
+            "Description": "Returns a list of features that will be rendered before this feature.",
+            "Example": "table<int, int> object:GetRenderBefore()"
+        },
+        "GetStepSizeFloat": {
+            "Description": "Gets the feature step size used in a slider.",
+            "Example": "number object:GetStepSize()"
+        },
+        "GetStepSizeInt": {
+            "Description": "Gets the feature step size used in a slider.",
+            "Example": "int object:GetStepSize()"
+        },
+        "GetStringValue": {
+            "Description": "Gets the current string value.",
+            "Example": "string object:GetStringValue()"
+        },
+        "GetType": {
+            "Description": "Gets the feature type. E.g eFeatureType.Button",
+            "Example": "eFeatureType object:GetType()"
+        },
+        "IsListIndexToggled": {
+            "Description": "Returns whether the list index has been toggled for types like ComboToggles.",
+            "Example": "bool object:IsListIndexToggled(int index)"
+        },
+        "IsPlayerFeature": {
+            "Description": "Returns whether the feature is a player feature or not.",
+            "Example": "bool object:IsPlayerFeature()"
+        },
+        "IsSaveable": {
+            "Description": "Returns whether the feature should be safed in settings or not..",
+            "Example": "bool object:IsSaveable()"
+        },
+        "IsSearchable": {
+            "Description": "Gets whether a feature can be found by search or not.",
+            "Example": "bool object:IsSearchable()"
+        },
+        "IsToggleFeature": {
+            "Description": "Returns whether the feature can be toggled or not.",
+            "Example": "bool object:IsToggleFeature()"
+        },
+        "IsToggled": {
+            "Description": "Returns whether the feature is currently toggled or not.",
+            "Example": "bool object:IsToggled()"
+        },
+        "IsVisible": {
+            "Description": "Returns whether the feature should be shown in the GUI or not.",
+            "Example": "bool object:IsVisible()"
+        },
+        "LoadSettings": {
+            "Description": "Load the specific settings for this feature from a file.",
+            "Example": "bool object:LoadSettings(string file)\nobject:LoadSettings(\"Default.json\");"
+        },
+        "Name": {
+            "Description": "Name of the feature",
+            "Example": "string object.Name"
+        },
+        "OnClick": {
+            "Description": "Triggers the callback as if it would be called from the GUI.",
+            "Example": "void object:OnClick()"
+        },
+        "OnSettingsLoad": {
+            "Description": "Triggers the callback as if it would be called from the settings loader.",
+            "Example": "void object:OnSettingsLoad()"
+        },
+        "RegisterCallbackTrigger": {
+            "Description": "Registers Callback Trigger for the feature and returns itself.",
+            "Example": "Feature object:RegisterCallbackTrigger(eCallbackTrigger flags)"
+        },
+        "RemoveHotkey": {
+            "Description": "Remove specific hotkeys for this feature.",
+            "Example": "Feature object:RemoveHotkey(int keyCode, bool all)"
+        },
+        "RemoveRenderAfter": {
+            "Description": "Returns true when at least one feature was removed",
+            "Example": "bool object:RemoveRenderAfter(Feature feature)"
+        },
+        "RemoveRenderBefore": {
+            "Description": "Returns true when at least one feature was removed",
+            "Example": "bool object:RemoveRenderBefore(Feature feature)"
+        },
+        "Render": {
+            "Description": "Renders the feature in the current context. Return true if rendered.",
+            "Example": "bool object:Render()"
+        },
+        "Reset": {
+            "Description": "Restore the current values with the default values.",
+            "Example": "Feature object:Reset()"
+        },
+        "SetBoolValue": {
+            "Description": "Sets the current boolean value.",
+            "Example": "Feature object:SetBoolValue(bool value)"
+        },
+        "SetColor": {
+            "Description": "Sets the current color value.",
+            "Example": "Feature object:SetColor(int r, int g, int b, int a)"
+        },
+        "SetColorFloats": {
+            "Description": "Sets the current color value.",
+            "Example": "Feature object:SetColorFloats(number r, number g, number b, number a)"
+        },
+        "SetColorU32": {
+            "Description": "Sets the current color in packed rgba.",
+            "Example": "Feature object:SetColorU32(int color)"
+        },
+        "SetDefaultValue": {
+            "Description": "Sets the default feature value and returns itself.",
+            "Example": "Feature object:SetDefaultValue(true):SetDefaultValue(1337)\nFeature object:SetDefaultValue(3.33):SetDefaultValue(\"Test\")"
+        },
+        "SetDesc": {
+            "Description": "Set the description of the feature.",
+            "Example": "Feature object:SetDesc(string desc)"
+        },
+        "SetFastStepSize": {
+            "Description": "Sets the feature fast step size used in a slider.",
+            "Example": "Feature object:SetFastStepSize(5)\nFeature object:SetFastStepSize(0.5)"
+        },
+        "SetFloatValue": {
+            "Description": "Sets the current floating value.",
+            "Example": "Feature object:SetFloatValue(number value)"
+        },
+        "SetFormat": {
+            "Description": "Sets the format used for slider and input values.",
+            "Example": "object:SetFormat(string fmt)\nobject:SetFormat(\"%X\""
+        },
+        "SetIntValue": {
+            "Description": "Sets the current integer value.",
+            "Example": "Feature object:SetIntValue(int value)"
+        },
+        "SetLimitValues": {
+            "Description": "Sets the feature minimum and maximum values and returns itself.",
+            "Example": "Feature object:SetLimitValues(20, 40):SetLimitValues(0.5, 2.5)"
+        },
+        "SetList": {
+            "Description": "Sets the list for feature types like combo.",
+            "Example": "Feature object:SetList(table<int, string>)"
+        },
+        "SetListIndex": {
+            "Description": "Sets the current list index of the feature.",
+            "Example": "Feature object:SetListIndex(int index)"
+        },
+        "SetMaxValue": {
+            "Description": "Sets the feature maximum value and returns itself.",
+            "Example": "Feature object:SetMaxValue(20):SetMaxValue(20.1)"
+        },
+        "SetMinValue": {
+            "Description": "Sets the feature minimum value and returns itself.",
+            "Example": "Feature object:SetMinValue(20):SetMinValue(20.1)"
+        },
+        "SetName": {
+            "Description": "Set the name of the feature.",
+            "Example": "Feature object:SetName(string name)"
+        },
+        "SetNoCallbackOnPress": {
+            "Description": "This disables the callback for OnClick.",
+            "Example": "Feature object:SetNoCallbackOnClick(bool disable)"
+        },
+        "SetNoCallbackOnSettingsLoad": {
+            "Description": "This disables the callback for OnSettingsLoad.",
+            "Example": "Feature object:SetNoCallbackOnSettingsLoad(bool disable)"
+        },
+        "SetSaveable": {
+            "Description": "Sets whether the feature should be safed in settings or not.",
+            "Example": "Feature object:SetSaveable(bool saveable)"
+        },
+        "SetSearchable": {
+            "Description": "Sets whether a feature can be found by search or not.",
+            "Example": "Feature object:SetSearchable(bool searchable)"
+        },
+        "SetStepSize": {
+            "Description": "Sets the feature step size used in a slider.",
+            "Example": "Feature object:SetStepSize(5)\nFeature object:SetStepSize(0.5)"
+        },
+        "SetStringValue": {
+            "Description": "Sets the current string value.",
+            "Example": "Feature object:SetStringValue(string value)"
+        },
+        "SetValue": {
+            "Description": "Sets the current feature value and returns itself.",
+            "Example": "Feature object:SetValue(true):SetValue(1337)\nFeature object:SetValue(3.33):SetValue(\"Test\")"
+        },
+        "SetVisible": {
+            "Description": "Sets whether the feature should be shown in the GUI or not.",
+            "Example": "Feature object:SetVisible(bool visible)"
+        },
+        "Toggle": {
+            "Description": "Flips the current boolean value of this feature.",
+            "Example": "Feature object:Toggle()\nFeature object:Toggle(bool on)"
+        },
+        "ToggleListIndex": {
+            "Description": "Toggles the list index for types like ComboToggles.",
+            "Example": "Feature object:ToggleListIndex(int index, bool toggle)"
+        },
+        "TriggerCallback": {
+            "Example": "void object:TriggerCallback()"
+        }
+    },

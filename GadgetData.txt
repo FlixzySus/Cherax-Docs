@@ -1,0 +1,8 @@
+    "GadgetData": {
+        "Data": {
+            "Example": "table<int, int> object.Data"
+        },
+        "Type": {
+            "Example": "int object.int32_t Type"
+        }
+    },

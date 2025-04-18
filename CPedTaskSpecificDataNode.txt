@@ -1,0 +1,8 @@
+    "CPedTaskSpecificDataNode": {
+        "taskData": {
+            "Example": "CTaskData object.taskData"
+        },
+        "taskIndex": {
+            "Example": "int object.taskIndex"
+        }
+    },

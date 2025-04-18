@@ -1,0 +1,18 @@
+    "CDynamicEntityGameStateDataNode": {
+        "InteriorProxyLoc": {
+            "Description": "0x00C0",
+            "Example": "int object.InteriorProxyLoc"
+        },
+        "decoratorListCount": {
+            "Description": "0x00C8",
+            "Example": "int object.decoratorListCount"
+        },
+        "loadsCollisions": {
+            "Description": "0x00C4",
+            "Example": "bool object.loadsCollisions"
+        },
+        "retained": {
+            "Description": "0x00C5",
+            "Example": "bool object.retained"
+        }
+    },

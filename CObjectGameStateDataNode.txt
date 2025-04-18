@@ -1,0 +1,29 @@
+    "CObjectGameStateDataNode": {
+        "HasBeenPickedUpByHook": {
+            "Example": "bool object.HasBeenPickedUpByHook"
+        },
+        "brokenFlags": {
+            "Example": "int object.brokenFlags"
+        },
+        "hasAddedPhysics": {
+            "Example": "bool object.hasAddedPhysics"
+        },
+        "objectHasExploded": {
+            "Example": "bool object.objectHasExploded"
+        },
+        "popTires": {
+            "Example": "bool object.popTires"
+        },
+        "taskDataSize": {
+            "Example": "int object.taskDataSize"
+        },
+        "taskSpecificData": {
+            "Example": "table<int, int> object.taskSpecificData"
+        },
+        "taskType": {
+            "Example": "int object.taskType"
+        },
+        "visible": {
+            "Example": "bool object.visible"
+        }
+    },

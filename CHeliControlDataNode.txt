@@ -1,0 +1,154 @@
+    "CHeliControlDataNode": {
+        "BVTHControlVertVel": {
+            "Description": "CTaskBringVehicleToHalt bControlVerticalVelocity",
+            "Example": "bool object.BVTHControlVertVel"
+        },
+        "BVTHStoppingDist": {
+            "Description": "CTaskBringVehicleToHalt stopping dist",
+            "Example": "number object.BVTHStoppingDist"
+        },
+        "HasTargetGravityScale": {
+            "Description": "For hover vehicles",
+            "Example": "bool object.HasTargetGravityScale"
+        },
+        "HasTopSpeedPercentage": {
+            "Example": "bool object.HasTopSpeedPercentage"
+        },
+        "StickY": {
+            "Example": "number object.StickY"
+        },
+        "SubCarDive": {
+            "Description": "the current value of the dive control for sub cars",
+            "Example": "number object.SubCarDive"
+        },
+        "SubCarPitch": {
+            "Description": "the current value of the pitch control for sub cars",
+            "Example": "number object.SubCarPitch"
+        },
+        "TargetGravityScale": {
+            "Example": "number object.TargetGravityScale"
+        },
+        "bAllLowriderHydraulicsRaised": {
+            "Description": "CTaskVehiclePlayerDriveAutomobile::ProcessDriverInputsForPlayerOnUpdate; player has raised all lowrider suspension",
+            "Example": "bool object.bAllLowriderHydraulicsRaised"
+        },
+        "bHasLandingGear": {
+            "Description": "if the helicopter has landing gear",
+            "Example": "bool object.bHasLandingGear"
+        },
+        "bIsClosingAnyDoor": {
+            "Example": "bool object.bIsClosingAnyDoor"
+        },
+        "bIsNitrousOverrideActive": {
+            "Example": "bool object.bIsNitrousOverrideActive"
+        },
+        "bModifiedLowriderSuspension": {
+            "Description": "CTaskVehiclePlayerDriveAutomobile::ProcessDriverInputsForPlayerOnUpdate; player has modified suspension of lowrider",
+            "Example": "bool object.bModifiedLowriderSuspension"
+        },
+        "bNitrousActive": {
+            "Example": "bool object.bNitrousActive"
+        },
+        "bPlayHydraulicsActivationSound": {
+            "Description": "Hydraulics sound effect when activated",
+            "Example": "bool object.bPlayHydraulicsActivationSound"
+        },
+        "bPlayHydraulicsBounceSound": {
+            "Description": "Hydraulics sound effect when bouncing",
+            "Example": "bool object.bPlayHydraulicsBounceSound"
+        },
+        "bPlayHydraulicsDeactivationSound": {
+            "Description": "Hydraulics sound effect when de-activated",
+            "Example": "bool object.bPlayHydraulicsDeactivationSound"
+        },
+        "brakePedal": {
+            "Description": "the current value of the brake pedal",
+            "Example": "number object.brakePedal"
+        },
+        "bringVehicleToHalt": {
+            "Description": "CTaskBringVehicleToHalt is running as a secondary task",
+            "Example": "bool object.bringVehicleToHalt"
+        },
+        "fLowriderSuspension": {
+            "Description": "Syncs modified lowrider suspension values",
+            "Example": "table<int, number> object.fLowriderSuspension"
+        },
+        "hasActiveAITask": {
+            "Description": "should the heli be fixed if no collision around it?",
+            "Example": "bool object.hasActiveAITask"
+        },
+        "hasJetpackStrafeForceScale": {
+            "Description": "does the heli have the jetpack effect",
+            "Example": "bool object.hasJetpackStrafeForceScale"
+        },
+        "isInBurnout": {
+            "Example": "bool object.isInBurnout"
+        },
+        "isSubCar": {
+            "Example": "bool object.isSubCar"
+        },
+        "jetPackStrafeForceScale": {
+            "Description": "force of jetpack strafe",
+            "Example": "number object.jetPackStrafeForceScale"
+        },
+        "jetPackThrusterThrottle": {
+            "Description": "force of jetpack thrusters",
+            "Example": "number object.jetPackThrusterThrottle"
+        },
+        "kersActive": {
+            "Description": "indicates if the kers system is active",
+            "Example": "bool object.kersActive"
+        },
+        "landingGearState": {
+            "Description": "landing gear state - if the helicopter has landing gear",
+            "Example": "int object.landingGearState"
+        },
+        "lockedToXY": {
+            "Description": "anchor state for anchorable sea helis",
+            "Example": "bool object.lockedToXY"
+        },
+        "mainRotorStopped": {
+            "Description": "is the main rotor stopped?",
+            "Example": "bool object.mainRotorStopped"
+        },
+        "numWheels": {
+            "Description": "number of wheels on this car",
+            "Example": "int object.numWheels"
+        },
+        "pitchControl": {
+            "Description": "pitch control of the helicopter",
+            "Example": "number object.pitchControl"
+        },
+        "reducedSuspensionForce": {
+            "Description": "reduced suspension force used to \"stance\" tuner pack vehicles",
+            "Example": "bool object.reducedSuspensionForce"
+        },
+        "roadNodeAddress": {
+            "Description": "the current road node the vehicle is driving from",
+            "Example": "int object.roadNodeAddress"
+        },
+        "rollControl": {
+            "Description": "roll control of the helicopter",
+            "Example": "number object.rollControl"
+        },
+        "subCarYaw": {
+            "Description": "the current value of the yaw control for sub cars",
+            "Example": "number object.subCarYaw"
+        },
+        "throttle": {
+            "Description": "the current value of the throttle",
+            "Example": "number object.throttle"
+        },
+        "throttleControl": {
+            "Description": "throttle control of the helicopter",
+            "Example": "number object.throttleControl"
+        },
+        "topSpeedPercent": {
+            "Description": "set to the maximum speed a vehicle can travel at",
+            "Example": "number object.topSpeedPercent"
+        },
+        "yawControl": {
+            "Description": "yaw control of the helicopter",
+            "Example": "number object.yawControl"
+        }
+    },

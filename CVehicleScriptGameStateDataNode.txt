@@ -1,0 +1,159 @@
+    "CVehicleScriptGameStateDataNode": {
+        "AllowSpecialFlightMode": {
+            "Example": "bool object.AllowSpecialFlightMode"
+        },
+        "BombAmmoCount": {
+            "Example": "int object.BombAmmoCount"
+        },
+        "BuoyancyForceMultiplier": {
+            "Description": "shows us how much the boat wants to float back up. 0 when the boat is sinking the fastest.",
+            "Example": "number object.BuoyancyForceMultiplier"
+        },
+        "CanEngineMissFire": {
+            "Example": "bool object.CanEngineMissFire"
+        },
+        "CollisionWithMapDamageScale": {
+            "Example": "number object.CollisionWithMapDamageScale"
+        },
+        "CountermeasureAmmoCount": {
+            "Example": "int object.CountermeasureAmmoCount"
+        },
+        "DamageThreshold": {
+            "Example": "int object.DamageThreshold"
+        },
+        "DisableBreaking": {
+            "Example": "bool object.DisableBreaking"
+        },
+        "DisableHoverModeFlight": {
+            "Example": "bool object.DisableHoverModeFlight"
+        },
+        "DisableVericalFlightModeTransition": {
+            "Example": "bool object.DisableVericalFlightModeTransition"
+        },
+        "ExtraBoundAttachAllowance": {
+            "Example": "number object.ExtraBoundAttachAllowance"
+        },
+        "GarageInstanceIndex": {
+            "Example": "int object.GarageInstanceIndex"
+        },
+        "HasOutriggerDeployed": {
+            "Example": "bool object.HasOutriggerDeployed"
+        },
+        "HeliRopeLength": {
+            "Example": "number object.HeliRopeLength"
+        },
+        "InSubmarineMode": {
+            "Example": "bool object.InSubmarineMode"
+        },
+        "IsCarParachuting": {
+            "Example": "bool object.IsCarParachuting"
+        },
+        "PopType": {
+            "Example": "int object.PopType"
+        },
+        "RadioEnabledByScript": {
+            "Example": "bool object.RadioEnabledByScript"
+        },
+        "ScriptForceHd": {
+            "Example": "bool object.ScriptForceHd"
+        },
+        "ScriptMaxSpeed": {
+            "Example": "number object.ScriptMaxSpeed"
+        },
+        "SpecialFlightModeUsed": {
+            "Example": "bool object.SpecialFlightModeUsed"
+        },
+        "TeamLockOverrides": {
+            "Example": "int object.TeamLockOverrides"
+        },
+        "TeamLocks": {
+            "Example": "int object.TeamLocks"
+        },
+        "TransformInstantly": {
+            "Example": "bool object.TransformInstantly"
+        },
+        "UsingAutoPilot": {
+            "Example": "bool object.UsingAutoPilot"
+        },
+        "VehicleProducingSlipstream": {
+            "Example": "int object.VehicleProducingSlipstream"
+        },
+        "bBlockWeaponSelection": {
+            "Example": "bool object.bBlockWeaponSelection"
+        },
+        "bBoatIgnoreLandProbes": {
+            "Example": "bool object.bBoatIgnoreLandProbes"
+        },
+        "bIncreaseWheelCrushDamage": {
+            "Example": "bool object.bIncreaseWheelCrushDamage"
+        },
+        "canPickupEntitiesThatHavePickupDisabled": {
+            "Example": "bool object.canPickupEntitiesThatHavePickupDisabled"
+        },
+        "disableCollisionUponCreation": {
+            "Description": "Disable collision for 1 frame upon creation",
+            "Example": "bool object.disableCollisionUponCreation"
+        },
+        "disablePlayerCanStandOnTop": {
+            "Example": "bool object.disablePlayerCanStandOnTop"
+        },
+        "disableRampCarImpactDamage": {
+            "Example": "bool object.disableRampCarImpactDamage"
+        },
+        "fOverrideArriveDistForVehPersuitAttack": {
+            "Example": "number object.fOverrideArriveDistForVehPersuitAttack"
+        },
+        "fRampImpulseScale": {
+            "Example": "number object.fRampImpulseScale"
+        },
+        "fScriptDamageScale": {
+            "Example": "number object.fScriptDamageScale"
+        },
+        "fScriptWeaponDamageScale": {
+            "Example": "number object.fScriptWeaponDamageScale"
+        },
+        "gliderState": {
+            "Example": "int object.gliderState"
+        },
+        "hasHeliRopeLengthSet": {
+            "Example": "bool object.hasHeliRopeLengthSet"
+        },
+        "hasParachuteObject": {
+            "Example": "bool object.hasParachuteObject"
+        },
+        "homingCanLockOnToObjects": {
+            "Example": "bool object.homingCanLockOnToObjects"
+        },
+        "isBeastVehicle": {
+            "Example": "bool object.isBeastVehicle"
+        },
+        "isinair": {
+            "Description": "is the vehicle in the air",
+            "Example": "bool object.isinair"
+        },
+        "lockedToXY": {
+            "Description": "is this amphibious locked in the XY plane (anchored)",
+            "Example": "bool object.lockedToXY"
+        },
+        "parachuteObjectId": {
+            "Example": "int object.parachuteObjectId"
+        },
+        "parachuteStickX": {
+            "Example": "number object.parachuteStickX"
+        },
+        "parachuteStickY": {
+            "Example": "number object.parachuteStickY"
+        },
+        "restrictedAmmoCount": {
+            "Example": "table<int, int> object.restrictedAmmoCount"
+        },
+        "rocketBoostRechargeRate": {
+            "Example": "number object.rocketBoostRechargeRate"
+        },
+        "tuckInWheelsForQuadBike": {
+            "Example": "bool object.tuckInWheelsForQuadBike"
+        },
+        "vehicleParachuteTintIndex": {
+            "Example": "int object.vehicleParachuteTintIndex"
+        }
+    },

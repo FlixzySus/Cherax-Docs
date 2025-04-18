@@ -1,0 +1,9 @@
+    "SocketAddress": {
+        "IPv4": {
+            "Description": "This value is a raw 4 byte integer."
+        },
+        "Port": null,
+        "ToString": {
+            "Example": "string object:ToString(bool port)\nstring SocketAddress.ToString(SocketAddress address, bool port)"
+        }
+    },

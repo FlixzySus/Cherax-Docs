@@ -1,0 +1,105 @@
+    "CPed": {
+        "Armor": {
+            "Example": "number object.Armor"
+        },
+        "CurVehicle": {
+            "Example": "CVehicle object.CurVehicle"
+        },
+        "DisableInvincible": {
+            "Example": "void object:DisableInvincible()"
+        },
+        "EnableInvincible": {
+            "Example": "void object:EnableInvincible()"
+        },
+        "FromAddress": {
+            "Example": "CPed CPed.FromAddress(int address)"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "GetAttachmentExtension": {
+            "Description": "Check if the extension is not nil before using it.",
+            "Example": "fwAttachmentEntityExtension object:GetAttachmentExtension()"
+        },
+        "GetType": {
+            "Example": "eEntityType object:GetType()"
+        },
+        "GetVelocity": {
+            "Description": "Returns the current velocity vector in meters per second.",
+            "Example": "V3 object:GetVelocity()"
+        },
+        "Health": {
+            "Example": "number object.Health"
+        },
+        "HeightMultiplier": {
+            "Example": "number object.HeightMultiplier"
+        },
+        "IsDynamic": {
+            "Example": "bool object.IsDynamic"
+        },
+        "IsFixed": {
+            "Example": "bool object.IsFixed"
+        },
+        "IsFixedByNetwork": {
+            "Example": "bool object.IsFixedByNetwork"
+        },
+        "IsInVehicle": {
+            "Example": "bool object:IsInVehicle()"
+        },
+        "IsInWater": {
+            "Example": "bool object.IsInWater"
+        },
+        "IsInvincible": {
+            "Example": "bool object:IsInvincible()"
+        },
+        "IsNotBuoyant": {
+            "Example": "bool object.IsNotBuoyant"
+        },
+        "IsObject": {
+            "Example": "bool object:IsObject()"
+        },
+        "IsPed": {
+            "Example": "bool object:IsPed()"
+        },
+        "IsPhysical": {
+            "Example": "bool object:IsPhysical()"
+        },
+        "IsPlayer": {
+            "Example": "bool object:IsPlayer()"
+        },
+        "IsRenderScorched": {
+            "Example": "bool object.IsRenderScorched"
+        },
+        "IsVehicle": {
+            "Example": "bool object:IsVehicle()"
+        },
+        "IsVisible": {
+            "Example": "bool object.IsVisible"
+        },
+        "LastVehicle": {
+            "Example": "CVehicle object.LastVehicle"
+        },
+        "MaxHealth": {
+            "Example": "number object.MaxHealth"
+        },
+        "ModelInfo": {
+            "Description": "Check if 'object.ModelInfo' is not nil before using it.",
+            "Example": "CBaseModelInfo object.ModelInfo"
+        },
+        "NetObject": {
+            "Description": "Check if 'object.NetObject' is not nil before using it.",
+            "Example": "CNetObject object.NetObject"
+        },
+        "PlayerInfo": {
+            "Example": "CPlayerInfo object.PlayerInfo"
+        },
+        "Position": {
+            "Example": "V3 object.Position"
+        },
+        "ThicknessMultiplier": {
+            "Example": "number object.ThicknessMultiplier"
+        },
+        "WidthMultiplier": {
+            "Example": "number object.WidthMultiplier"
+        }
+    },

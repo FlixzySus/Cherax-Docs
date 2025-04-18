@@ -1,0 +1,6 @@
+    "CSubmarineGameStateDataNode": {
+        "IsAnchored": {
+            "Description": "is this submarine anchored?",
+            "Example": "bool object.IsAnchored"
+        }
+    },

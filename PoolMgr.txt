@@ -1,0 +1,94 @@
+    "PoolMgr": {
+        "GetCCamera": {
+            "Description": "Return the camera class object. Can have a performance impact if called to frequently.",
+            "Example": "CPhysical PoolMgr.GetCCamera(int index)"
+        },
+        "GetCObject": {
+            "Description": "Return the object class object. Can have a performance impact if called to frequently.",
+            "Example": "CPhysical PoolMgr.GetCObject(int index)"
+        },
+        "GetCPed": {
+            "Description": "Return the ped class object. Can have a performance impact if called to frequently.",
+            "Example": "CPed PoolMgr.GetCPed(int index)"
+        },
+        "GetCPickup": {
+            "Description": "Return the pickup class object. Can have a performance impact if called to frequently.",
+            "Example": "CPhysical PoolMgr.GetCPickup(int index)"
+        },
+        "GetCVehicle": {
+            "Description": "Return the vehicle class object. Can have a performance impact if called to frequently.",
+            "Example": "CVehicle PoolMgr.GetCVehicle(int index)"
+        },
+        "GetCamera": {
+            "Description": "Return the camera handle for a specific index. Can have a performance impact if called to frequently.",
+            "Example": "int PoolMgr.GetCamera(int index)"
+        },
+        "GetCurrentCameraCount": {
+            "Description": "Return the current amount of cameras.",
+            "Example": "int PoolMgr.GetCurrentCameraCount()"
+        },
+        "GetCurrentObjectCount": {
+            "Description": "Return the current amount of objects.",
+            "Example": "int PoolMgr.GetCurrentObjectCount()"
+        },
+        "GetCurrentPedCount": {
+            "Description": "Return the current amount of peds.",
+            "Example": "int PoolMgr.GetCurrentPedCount()"
+        },
+        "GetCurrentPickupCount": {
+            "Description": "Return the current amount of pickups.",
+            "Example": "int PoolMgr.GetCurrentPickupCount()"
+        },
+        "GetCurrentVehicleCount": {
+            "Description": "Return the current amount of vehicles.",
+            "Example": "int PoolMgr.GetCurrentVehicleCount()"
+        },
+        "GetMaxCameraCount": {
+            "Description": "Return the maximum amount of cameras.",
+            "Example": "int PoolMgr.GetMaxCameraCount()"
+        },
+        "GetMaxObjectCount": {
+            "Description": "Return the maximum amount of objects.",
+            "Example": "int PoolMgr.GetMaxObjectCount()"
+        },
+        "GetMaxPedCount": {
+            "Description": "Return the maximum amount of peds.",
+            "Example": "int PoolMgr.GetMaxPedCount()"
+        },
+        "GetMaxPickupCount": {
+            "Description": "Return the maximum amount of pickups.",
+            "Example": "int PoolMgr.GetMaxPickupCount()"
+        },
+        "GetMaxVehicleCount": {
+            "Description": "Return the maximum amount of vehicles.",
+            "Example": "int PoolMgr.GetMaxVehicleCount()"
+        },
+        "GetObject": {
+            "Description": "Return the object handle for a specific index. Can have a performance impact if called to frequently.",
+            "Example": "int PoolMgr.GetObject(int index)"
+        },
+        "GetPed": {
+            "Description": "Return the ped handle for a specific index. Can have a performance impact if called to frequently.",
+            "Example": "int PoolMgr.GetPed(int index)"
+        },
+        "GetPickup": {
+            "Description": "Return the pickup handle for a specific index. Can have a performance impact if called to frequently.",
+            "Example": "int PoolMgr.GetPickup(int index)"
+        },
+        "GetRenderedObjects": {
+            "Description": "Return all currrently rendered CObject pointers",
+            "Example": "table<int, CObject> PoolMgr.GetRenderedObjects()"
+        },
+        "GetRenderedPeds": {
+            "Description": "Return all currrently rendered CPed pointers",
+            "Example": "table<int, CPed> PoolMgr.GetRenderedPeds()"
+        },
+        "GetRenderedVehicles": {
+            "Description": "Return all currrently rendered CVehicle pointers",
+            "Example": "table<int, CVehicle> PoolMgr.GetRenderedVehicles()"
+        },
+        "GetVehicle": {
+            "Description": "Return the vehicle handle for a specific index. Can have a performance impact if called to frequently.",
+            "Example": "int PoolMgr.GetVehicle(int index)"
+        }
+    },

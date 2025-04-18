@@ -1,0 +1,4 @@
+    "SetShouldUnload": {
+        "Description": "Mark the script as done. It will automatically be unloaded by the menu.",
+        "Example": "SetShouldUnload()"
+    },

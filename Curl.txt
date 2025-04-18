@@ -1,0 +1,30 @@
+    "Curl": {
+        "AddHeader": {
+            "Description": "Adds the defined header.",
+            "Example": "LuaCurl object:AddHeader(string header)"
+        },
+        "DisableErrorLog": {
+            "Description": "Disables the logging of errors.",
+            "Example": "LuaCurl object:DisableErrorLog()"
+        },
+        "Easy": {
+            "Description": "Create a new curl object. Never lose this object until you are completely done with it. Never do 'Curl.Easy():Setopt' because this will cause the object to be lost by lua gc.",
+            "Example": "LuaCurl Curl.Easy()\ncurlObject = Curl.Easy()\ncurlObject:Setopt(eCurlOption.CURLOPT_URL, \"https://www.google.com/\"):Perform()\n--Peform is an async task so keep the curlObject somewhere where it does not get freed from lua gc."
+        },
+        "GetFinished": {
+            "Description": "Get whether or not the Perform call has finished.",
+            "Example": "bool object:GetFinished()"
+        },
+        "GetResponse": {
+            "Description": "Get the response. The response string is only valid when no custom Write Function was used.",
+            "Example": "eCurlCode,string object:GetResponse()"
+        },
+        "Perform": {
+            "Description": "Perform the curl operation after set up. Perform is called asynchronously. Call GetFinished() to check the current state.",
+            "Example": "void object:Perform()"
+        },
+        "Setopt": {
+            "Description": "Set specific curl options during initialize.",
+            "Example": "LuaCurl object:Setopt(eCurlOption option, string str)\nLuaCurl object:Setopt(eCurlOption option, int value)\nLuaCurl object:Setopt(eCurlOption.CURLOPT_URL, \"https://www.google.com/\")"
+        }
+    },

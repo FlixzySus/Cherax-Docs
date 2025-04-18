@@ -1,0 +1,7 @@
+    "ImGuiCond": {
+        "Always": null,
+        "Appearing": null,
+        "FirstUseEver": null,
+        "None": null,
+        "Once": null
+    },

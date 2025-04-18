@@ -1,0 +1,153 @@
+    "GTA": {
+        "AddChatMessageToPool": {
+            "Description": "Adds a chat message locally on your pc only. You can specify the sender of the message. The message has a max length of 255 characters.",
+            "Example": "void GTA.AddChatMessageToPool(int playerId, string message, bool team)"
+        },
+        "BasketAddItem": {
+            "Description": "Adds an item to the Basket Transaction.",
+            "Example": "bool GTA.BasketAddItem(table<int, int>)"
+        },
+        "BasketStart": {
+            "Description": "Initializes a Basket Transaction.",
+            "Example": "bool valid, int transactionId GTA.BasketStart(int category, int action, int flags)"
+        },
+        "BeginService": {
+            "Description": "Initializes a new Service Transaction.",
+            "Example": "bool valid, int transactionId GTA.BeginService(int type, int category, int service, int action, int price, int flags)"
+        },
+        "CheckoutStart": {
+            "Description": "Starts the checkout of a transaction. Should be used for services and baskets.",
+            "Example": "bool GTA.CheckoutStart(int transactionId)"
+        },
+        "ConvertSectorToWorldPosition": {
+            "Description": "Converts the sector pos to world cords.",
+            "Example": "V3 GTA.ConvertSectorToWorldPosition(V3 sectorIn, V3 relativePos)"
+        },
+        "ConvertWorldToSectorPosition": {
+            "Description": "Converts the world pos to sector and relative position. This is being used in sync data nodes to sync the actual position of entities. ",
+            "Example": "V3,V3 GTA.ConvertWorldToSectorPosition(V3 pos)"
+        },
+        "CreateObject": {
+            "Description": "Spawns an object. Should only be executed in a native thread.",
+            "Example": "int GTA.CreateObject(int hash, float x, float y, float z, bool dynamic, bool isNetworked = true)\nint GTA.CreateObject(string model, float x, float y, float z, bool dynamic, bool isNetworked = true)"
+        },
+        "CreatePed": {
+            "Description": "Spawns a ped. Should only be executed in a native thread.",
+            "Example": "int GTA.CreatePed(int hash, int pedType, float x, float y, float z, number heading, bool isNetworked = true, bool autoCleanup = true)\nint GTA.CreatePed(string model, int pedType, float x, float y, float z, number heading, bool isNetworked = true, bool autoCleanup = true)"
+        },
+        "CreateRandomPed": {
+            "Description": "Creates a random ped. Should only be executed in a native thread.",
+            "Example": "int GTA.CreateRandomPed(float x, float y, float z)"
+        },
+        "CreateWorldObject": {
+            "Description": "Spawns an world object using a bypass. Should only be executed in a native thread.",
+            "Example": "int GTA.CreateWorldObject(int hash, float x, float y, float z, bool dynamic, bool isNetworked = true)\nint GTA.CreateWorldObject(string model, float x, float y, float z, bool dynamic, bool isNetworked = true)"
+        },
+        "DrawPedPreview": {
+            "Description": "Renders a given CPed on the frontend.",
+            "Example": "void GTA.DrawPedPreview(CPed ped, v2 relativeScreen, float distance, float pitch, float yaw, float lightning)\nGTA.DrawPedPreview(pPed, v2.new(0.5, 0.5), -4.0, 0.0, 0.0, 1.0)"
+        },
+        "ForceScriptHost": {
+            "Description": "Forces yourself to script host of the given script.",
+            "Example": "void GTA.ForceScriptHost(int scriptHash)"
+        },
+        "GetBonePos2D": {
+            "Description": "Does the same as GetBonePos3D and then converts them to normalized screen coordinates.",
+            "Example": "V2 GTA.GetBonePos2D(CPed ped, int wMask)"
+        },
+        "GetBonePos3D": {
+            "Description": "Gets the bone world position based on the specified ped and mask.",
+            "Example": "V3 GTA.GetBonePos3D(CPed ped, int wMask)"
+        },
+        "GetDisplayNameFromHash": {
+            "Description": "Returns the display name of a specific hash.",
+            "Example": "string GTA.GetDisplayNameFromHash(int hash)"
+        },
+        "GetGroundZ": {
+            "Description": "Returns whether the ground was found and the Z coordinate it was found at.",
+            "Example": "bool, number GTA.GetGroundZ(number x, number y)"
+        },
+        "GetLabelText": {
+            "Description": "Returns a specific label for a given text entry.",
+            "Example": "string GTA.GetLabelText(string str)\nstring GTA.GetLabelText(int hashCode)"
+        },
+        "GetLocalPed": {
+            "Description": "Returns the local player CPed. Might be nil.",
+            "Example": "CPed GTA.GetLocalPed()"
+        },
+        "GetLocalPlayerId": {
+            "Description": "Returns the local player id.",
+            "Example": "int GTA.GetLocalPlayerId()"
+        },
+        "GetLocalVehicle": {
+            "Description": "Returns the local player's current CVehicle. Might be nil.",
+            "Example": "CVehicle GTA.GetLocalVehicle()"
+        },
+        "GetModelInfoFromHash": {
+            "Description": "Returns Model Info by hash. Returns nil if no CBaseModelInfo found.",
+            "Example": "CBaseModelInfo GTA.GetModelInfoFromHash(int hash)"
+        },
+        "GetModelInfoIndexFromHash": {
+            "Description": "Returns Model Info Index by hash. Returns -1 if invalid.",
+            "Example": "int GTA.GetModelInfoIndexFromHash(int hash)"
+        },
+        "GetModelNameFromHash": {
+            "Description": "Returns the model name of the model hash.",
+            "Example": "string GTA.GetModelNameFromHash(int hash)"
+        },
+        "GetScriptEventName": {
+            "Description": "Returns sucess and the name.",
+            "Example": "bool, string GTA.GetScriptEventName(int scriptEvent)"
+        },
+        "GiveControl": {
+            "Description": "Force another player take control of the given entity.",
+            "Example": "void GTA.GiveControl(int playerId, int iEntity)"
+        },
+        "GiveScriptHost": {
+            "Description": "Give a sepcific player script host of the given script.",
+            "Example": "void GTA.GiveScriptHost(int playerId, int scriptHash)"
+        },
+        "HandleToPointer": {
+            "Description": "Converts an entity handle into a CPhysical pointer.",
+            "Example": "CPhysical GTA.HandleToPointer(int handle)"
+        },
+        "PointerToHandle": {
+            "Description": "Converts a CPhysical pointer into an entity handle.",
+            "Example": "int GTA.PointerToHandle(CPhysical ptr)"
+        },
+        "RegisterFile": {
+            "Description": "Registers the given file for the game so it can be used by natives.",
+            "Example": "bool GTA.RegisterFile(string path)\nGTA.RegisterFile(path .. \"MyAssets.ytd\")\nGRAPHICS.REQUEST_STREAMED_TEXTURE_DICT(\"MyAssets\")"
+        },
+        "RemoveLabelText": {
+            "Example": "void GTA.RemoveLabelText(string label)\nGTA.RemoveLabelText(\"LOADING_MPLAYER_L\")"
+        },
+        "SendChatMessageToEveryone": {
+            "Description": "Sends a chat message to every player in the session. Note: You won't see that message yourself unless you manually add it to the chat pool. The message has a max length of 255 characters.",
+            "Example": "void GTA.SendChatMessageToEveryone(string message, bool team)"
+        },
+        "SendChatMessageToPlayer": {
+            "Description": "Sends a chat message to a given player in the session. Note: You won't see that message yourself unless you manually add it to the chat pool. The message has a max length of 255 characters.",
+            "Example": "void GTA.SendChatMessageToPlayer(int playerId, string message, bool team)"
+        },
+        "SetLabelText": {
+            "Description": "Overwrites the text for a specifc label which is being used by the game.",
+            "Example": "void GTA.SetLabelText(string label, string text)\nGTA.SetLabelText(\"LOADING_MPLAYER_L\", \"Loading GTA Online with Cherax\")"
+        },
+        "SpawnVehicle": {
+            "Description": "Should only be executed in a native thread.",
+            "Example": "int GTA.SpawnVehicle(int hash, float x, float y, float z, number heading, bool isNetworked = true, bool autoCleanup = true)\nint GTA.SpawnVehicle(string model, float x, float y, float z, number heading, bool isNetworked = true, bool autoCleanup = true)"
+        },
+        "SpawnVehicleForPlayer": {
+            "Description": "Spawns a vehicle in front of the given player. Should only be executed in a native thread.",
+            "Example": "int GTA.SpawnVehicleForPlayer(int hash, int player, number forward = 5.0)\nint GTA.SpawnVehicleForPlayer(string model, int player, number forward = 5.0)"
+        },
+        "TriggerScriptEvent": {
+            "Description": "Triggers a script event for given player(s).",
+            "Example": "int GTA.TriggerScriptEvent(int bitflags, table<int, int> arguments)\nint GTA.TriggerScriptEvent(int bitflags, variadic_args arguments)\n"
+        },
+        "WorldToScreen": {
+            "Description": "Converts a 3D world position to a 2D normalized screen position. To get the actual screen coordinates multiply them with the screen size.",
+            "Example": "float, float GTA.WorldToScreen(float x, y, z)\n"
+        }
+    },

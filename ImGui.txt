@@ -1,0 +1,361 @@
+    "ImGui": {
+        "AddCircle": {
+            "Example": "void ImGui.AddCircle(number x, number y, number radius, int r, int g, int b, int a, int numSegments = 0, number thickness = 1.0)"
+        },
+        "AddCircleFilled": {
+            "Example": "void ImGui.AddCircleFilled(number x, number y, number radius, int r, int g, int b, int a, int numSegments = 0)"
+        },
+        "AddImage": {
+            "Description": "min and max represent the upper-left and lower-right corners of the rectangle.\nuv_min and uv_max represent the normalized texture coordinates to use for those corners. Using (0,0)->(1,1) texture coordinates will generally display the entire texture.",
+            "Example": "void ImGui.AddImage(ImTextureID texture, number min_x, number min_y, number max_x, number max_y, number uv_min_x = 0.0, number uv_min_y = 0.0, number uv_max_x = 1.0, number uv_max_y = 1.0, int color = 255 << 24 | 255 << 16 | 255 << 8 | 255)"
+        },
+        "AddImageQuad": {
+            "Example": "void ImGui.AddImageQuad(ImTextureID texture, V2 p1, V2 p2, V2 p3, V2 p4, V2 uv1 = Vector2.New(0.0, 0.0), V2 uv2 = Vector2.New(1.0, 0.0), V2 uv3 = Vector2.New(1.0, 1.0), V2 uv4 = Vector2.New(0.0, 1.0), int alpha = 255)"
+        },
+        "AddImageRotated": {
+            "Example": "void ImGui.AddImageRotated(ImTextureID texture, number center_x, number center_y, number width, number height, number angle, int alpha = 255)"
+        },
+        "AddImageRounded": {
+            "Description": "Same as AddImage with rounding.",
+            "Example": "void ImGui.AddImageRounded(ImTextureID texture, number min_x, number min_y, number max_x, number max_y, number uv_min_x = 0.0, number uv_min_y = 0.0, number uv_max_x = 1.0, number uv_max_y = 1.0, int color = 255 << 24 | 255 << 16 | 255 << 8 | 255, number rounding = 16.0)"
+        },
+        "AddLine": {
+            "Example": "void ImGui.AddLine(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number thickness = 1.0)"
+        },
+        "AddRect": {
+            "Example": "void ImGui.AddRect(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number rounding = 1.0, int drawFlags = 0, number thickness = 1.0)"
+        },
+        "AddRectFilled": {
+            "Example": "void ImGui.AddRectFilled(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number rounding = 1.0, int drawFlags = 0)"
+        },
+        "AddRectFilledMultiColor": {
+            "Example": "void ImGui.AddRectFilledMultiColor(number x1, number y1, number x2, number y2, int col_upr_left, int col_upr_right, int col_bot_right, int col_bot_left)\nImGui.AddRectFilledMultiColor(0, 0, 100, 100, ColorConvertRGBAToU32({255, 255, 255, 255}), ColorConvertRGBAToU32({255, 255, 255, 255}), ColorConvertRGBAToU32({0, 0, 0, 255}), ColorConvertRGBAToU32({0, 0, 0, 255}))"
+        },
+        "AddText": {
+            "Example": "void ImGui.AddText(number x, number y, strig text, int r, int g, int b, int a)"
+        },
+        "AddTriangle": {
+            "Example": "void ImGui.AddTriangle(number x1, number y1, number x2, number y2, number x3, number y3, int r, int g, int b, int a, number thickness = 1.0)"
+        },
+        "AddTriangleFilled": {
+            "Example": "void ImGui.AddTriangleFilled(number x1, number y1, number x2, number y2, number x3, number y3, int r, int g, int b, int a)"
+        },
+        "AlignTextToFramePadding": null,
+        "ArrowButton": null,
+        "Begin": null,
+        "BeginChild": null,
+        "BeginChildFrame": null,
+        "BeginCombo": null,
+        "BeginGroup": null,
+        "BeginMainMenuBar": null,
+        "BeginMenu": null,
+        "BeginMenuBar": null,
+        "BeginPopup": null,
+        "BeginPopupContextItem": null,
+        "BeginPopupContextVoid": null,
+        "BeginPopupContextWindow": null,
+        "BeginPopupModal": null,
+        "BeginTabBar": null,
+        "BeginTabItem": null,
+        "BeginTable": {
+            "Example": "bool ImGui.BeginTable(string strId, int columns, ImGuiTableFlags flags)"
+        },
+        "BeginTooltip": null,
+        "BgAddCircle": {
+            "Example": "void ImGui.BgAddCircle(number x, number y, number radius, int r, int g, int b, int a, int numSegments = 0, number thickness = 1.0)"
+        },
+        "BgAddCircleFilled": {
+            "Example": "void ImGui.BgAddCircleFilled(number x, number y, number radius, int r, int g, int b, int a, int numSegments = 0)"
+        },
+        "BgAddImage": {
+            "Description": "min and max represent the upper-left and lower-right corners of the rectangle.\nuv_min and uv_max represent the normalized texture coordinates to use for those corners. Using (0,0)->(1,1) texture coordinates will generally display the entire texture.",
+            "Example": "void ImGui.BgAddImage(ImTextureID texture, number min_x, number min_y, number max_x, number max_y, number uv_min_x = 0.0, number uv_min_y = 0.0, number uv_max_x = 1.0, number uv_max_y = 1.0, int color = 255 << 24 | 255 << 16 | 255 << 8 | 255)"
+        },
+        "BgAddImageQuad": {
+            "Example": "void ImGui.BgAddImageQuad(ImTextureID texture, V2 p1, V2 p2, V2 p3, V2 p4, V2 uv1 = Vector2.New(0.0, 0.0), V2 uv2 = Vector2.New(1.0, 0.0), V2 uv3 = Vector2.New(1.0, 1.0), V2 uv4 = Vector2.New(0.0, 1.0), int alpha = 255)"
+        },
+        "BgAddImageRotated": {
+            "Example": "void ImGui.BgAddImageRotated(ImTextureID texture, number center_x, number center_y, number width, number height, number angle, int alpha = 255)"
+        },
+        "BgAddImageRounded": {
+            "Description": "Same as AddImage with rounding.",
+            "Example": "void ImGui.BgAddImageRounded(ImTextureID texture, number min_x, number min_y, number max_x, number max_y, number uv_min_x = 0.0, number uv_min_y = 0.0, number uv_max_x = 1.0, number uv_max_y = 1.0, int color = 255 << 24 | 255 << 16 | 255 << 8 | 255, number rounding = 16.0)"
+        },
+        "BgAddLine": {
+            "Example": "void ImGui.BgAddLine(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number thickness = 1.0)"
+        },
+        "BgAddRect": {
+            "Example": "void ImGui.BgAddRect(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number rounding = 1.0, int drawFlags = 0, number thickness = 1.0)"
+        },
+        "BgAddRectFilled": {
+            "Example": "void ImGui.BgAddRectFilled(number x1, number y1, number x2, number y2, int r, int g, int b, int a, number rounding = 1.0, int drawFlags = 0)"
+        },
+        "BgAddRectFilledMultiColor": {
+            "Example": "void ImGui.BgAddRectFilledMultiColor(number x1, number y1, number x2, number y2, int col_upr_left, int col_upr_right, int col_bot_right, int col_bot_left)\nImGui.BgAddRectFilledMultiColor(0, 0, 100, 100, ColorConvertRGBAToU32({255, 255, 255, 255}), ColorConvertRGBAToU32({255, 255, 255, 255}), ColorConvertRGBAToU32({0, 0, 0, 255}), ColorConvertRGBAToU32({0, 0, 0, 255}))"
+        },
+        "BgAddText": {
+            "Example": "void ImGui.BgAddText(number x, number y, strig text, int r, int g, int b, int a)"
+        },
+        "BgAddTriangle": {
+            "Example": "void ImGui.BgAddTriangle(number x1, number y1, number x2, number y2, number x3, number y3, int r, int g, int b, int a, number thickness = 1.0)"
+        },
+        "BgAddTriangleFilled": {
+            "Example": "void ImGui.AddTriangleFilled(number x1, number y1, number x2, number y2, number x3, number y3, int r, int g, int b, int a)"
+        },
+        "Bullet": null,
+        "BulletText": null,
+        "Button": null,
+        "CalcItemWidth": null,
+        "CalcTextSize": null,
+        "CaptureKeyboardFromApp": null,
+        "CaptureMouseFromApp": null,
+        "Checkbox": null,
+        "CloseCurrentPopup": null,
+        "CollapsingHeader": null,
+        "ColorConvertFloat4ToU32": {
+            "Description": "Converts a float 4 into a packed color.",
+            "Example": "int ImGui.ColorConvertFloat4ToU32(table<int, number> color)"
+        },
+        "ColorConvertHSVtoRGB": null,
+        "ColorConvertRGBAToU32": {
+            "Description": "Converts an rgba table to a packed color.",
+            "Example": "int ImGui.ColorConvertRGBAToU32(table<int, int> rgba)"
+        },
+        "ColorConvertRGBtoHSV": null,
+        "ColorConvertU32ToFloat4": {
+            "Description": "Converts a packed color into a float 4.",
+            "Example": "table<int, number> ImGui.ColorConvertU32ToFloat4(int color)"
+        },
+        "ColorEdit3": null,
+        "ColorEdit4": null,
+        "ColorPicker3": null,
+        "ColorPicker4": null,
+        "Columns": null,
+        "Combo": null,
+        "DragFloat": null,
+        "DragFloat2": null,
+        "DragFloat3": null,
+        "DragFloat4": null,
+        "DragInt": null,
+        "DragInt2": null,
+        "DragInt3": null,
+        "DragInt4": null,
+        "Dummy": null,
+        "End": null,
+        "EndChild": null,
+        "EndChildFrame": null,
+        "EndCombo": null,
+        "EndGroup": null,
+        "EndMainMenuBar": null,
+        "EndMenu": null,
+        "EndMenuBar": null,
+        "EndPopup": null,
+        "EndTabBar": null,
+        "EndTabItem": null,
+        "EndTable": {
+            "Example": "void ImGui.EndTable()"
+        },
+        "EndTooltip": null,
+        "GetClipboardText": null,
+        "GetColorU32": null,
+        "GetColumnIndex": null,
+        "GetColumnOffset": null,
+        "GetColumnWidth": null,
+        "GetColumnsCount": null,
+        "GetContentRegionAvail": null,
+        "GetContentRegionMax": null,
+        "GetCursorPos": null,
+        "GetCursorPosX": null,
+        "GetCursorPosY": null,
+        "GetCursorScreenPos": null,
+        "GetCursorStartPos": null,
+        "GetDisplaySize": {
+            "Example": "number, number ImGui.GetDisplaySize()"
+        },
+        "GetFont": null,
+        "GetFontSize": null,
+        "GetFontTexUvWhitePixel": null,
+        "GetFrameCount": null,
+        "GetFrameHeight": null,
+        "GetFrameHeightWithSpacing": null,
+        "GetFrameRate": {
+            "Example": "number ImGui.GetFrameRate()"
+        },
+        "GetID": null,
+        "GetItemRectMax": null,
+        "GetItemRectMin": null,
+        "GetItemRectSize": null,
+        "GetMouseCursor": null,
+        "GetMouseDragDelta": null,
+        "GetMousePos": null,
+        "GetMousePosOnOpeningCurrentPopup": null,
+        "GetScrollMaxX": null,
+        "GetScrollMaxY": null,
+        "GetScrollX": null,
+        "GetScrollY": null,
+        "GetStyleColorName": null,
+        "GetStyleColorVec4": null,
+        "GetTextLineHeight": null,
+        "GetTextLineHeightWithSpacing": null,
+        "GetTime": null,
+        "GetTreeNodeToLabelSpacing": null,
+        "GetWindowContentRegionMax": null,
+        "GetWindowContentRegionMin": null,
+        "GetWindowContentRegionWidth": null,
+        "GetWindowDpiScale": null,
+        "GetWindowHeight": null,
+        "GetWindowPos": null,
+        "GetWindowSize": null,
+        "GetWindowWidth": null,
+        "Indent": null,
+        "InputDouble": null,
+        "InputFloat": null,
+        "InputFloat2": null,
+        "InputFloat3": null,
+        "InputFloat4": null,
+        "InputInt": null,
+        "InputInt2": null,
+        "InputInt3": null,
+        "InputInt4": null,
+        "InputText": null,
+        "InputTextMultiline": null,
+        "InputTextWithHint": null,
+        "InvisibleButton": null,
+        "IsAnyItemActive": null,
+        "IsAnyItemFocused": null,
+        "IsAnyItemHovered": null,
+        "IsAnyMouseDown": null,
+        "IsItemActivated": null,
+        "IsItemActive": null,
+        "IsItemClicked": null,
+        "IsItemDeactivated": null,
+        "IsItemDeactivatedAfterEdit": null,
+        "IsItemEdited": null,
+        "IsItemFocused": null,
+        "IsItemHovered": null,
+        "IsItemToggledOpen": null,
+        "IsItemVisible": null,
+        "IsKeyDown": null,
+        "IsKeyPressed": null,
+        "IsKeyReleased": null,
+        "IsMouseClicked": null,
+        "IsMouseDoubleClicked": null,
+        "IsMouseDown": null,
+        "IsMouseDragging": null,
+        "IsMouseHoveringRect": null,
+        "IsMouseReleased": null,
+        "IsPopupOpen": null,
+        "IsRectVisible": null,
+        "IsWindowAppearing": null,
+        "IsWindowCollapsed": null,
+        "IsWindowFocused": null,
+        "IsWindowHovered": null,
+        "LabelText": null,
+        "ListBox": null,
+        "ListBoxFooter": null,
+        "ListBoxHeader": null,
+        "LogButtons": null,
+        "LogFinish": null,
+        "LogText": null,
+        "LogToClipboard": null,
+        "LogToFile": null,
+        "LogToTTY": null,
+        "MenuItem": null,
+        "NewLine": null,
+        "NextColumn": null,
+        "OpenPopup": null,
+        "OpenPopupOnItemClick": null,
+        "PopAllowKeyboardFocus": null,
+        "PopButtonRepeat": null,
+        "PopClipRect": null,
+        "PopFont": null,
+        "PopID": null,
+        "PopItemWidth": null,
+        "PopStyleColor": null,
+        "PopStyleVar": null,
+        "PopTextWrapPos": null,
+        "ProgressBar": null,
+        "PushAllowKeyboardFocus": null,
+        "PushButtonRepeat": null,
+        "PushClipRect": null,
+        "PushFont": null,
+        "PushID": null,
+        "PushItemWidth": null,
+        "PushStyleColor": null,
+        "PushStyleVar": null,
+        "PushTextWrapPos": null,
+        "RadioButton": null,
+        "ResetMouseDragDelta": null,
+        "SameLine": null,
+        "Selectable": null,
+        "Separator": null,
+        "SetClipboardText": null,
+        "SetColumnOffset": null,
+        "SetColumnWidth": null,
+        "SetCursorPos": null,
+        "SetCursorPosX": null,
+        "SetCursorPosY": null,
+        "SetCursorScreenPos": null,
+        "SetItemAllowOverlap": null,
+        "SetItemDefaultFocus": null,
+        "SetKeyboardFocusHere": null,
+        "SetMouseCursor": null,
+        "SetNextItemOpen": null,
+        "SetNextItemWidth": null,
+        "SetNextWindowBgAlpha": null,
+        "SetNextWindowCollapsed": null,
+        "SetNextWindowContentSize": null,
+        "SetNextWindowFocus": null,
+        "SetNextWindowPos": null,
+        "SetNextWindowSize": null,
+        "SetNextWindowSizeConstraints": null,
+        "SetScrollFromPosX": null,
+        "SetScrollFromPosY": null,
+        "SetScrollHereX": null,
+        "SetScrollHereY": null,
+        "SetScrollX": null,
+        "SetScrollY": null,
+        "SetTabItemClosed": null,
+        "SetTooltip": null,
+        "SetWindowCollapsed": null,
+        "SetWindowFocus": null,
+        "SetWindowFontScale": null,
+        "SetWindowPos": null,
+        "SetWindowSize": null,
+        "SliderAngle": null,
+        "SliderFloat": null,
+        "SliderFloat2": null,
+        "SliderFloat3": null,
+        "SliderFloat4": null,
+        "SliderInt": null,
+        "SliderInt2": null,
+        "SliderInt3": null,
+        "SliderInt4": null,
+        "SmallButton": null,
+        "Spacing": null,
+        "TableNextColumn": {
+            "Example": "void ImGui.TableNextColumn()"
+        },
+        "TableNextRow": {
+            "Example": "void ImGui.TableNextRow()"
+        },
+        "TableSetColumnIndex": {
+            "Example": "bool ImGui.TableSetColumnIndex(int column)"
+        },
+        "TableSetupColumn": {
+            "Example": "void ImGui.TableSetupColumn(string strId, ImGuiTableColumnFlags flags)"
+        },
+        "Text": null,
+        "TextColored": null,
+        "TextDisabled": null,
+        "TextUnformatted": null,
+        "TextWrapped": null,
+        "TreeNode": null,
+        "TreeNodeEx": null,
+        "TreePop": null,
+        "TreePush": null,
+        "Unindent": null,
+        "VSliderFloat": null,
+        "VSliderInt": null,
+        "Value": null
+    },

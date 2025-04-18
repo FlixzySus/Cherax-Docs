@@ -1,0 +1,10 @@
+    "EventMgr": {
+        "RegisterHandler": {
+            "Description": "Register a handler that will be called for a specific event.",
+            "Example": "int EventMgr.RegisterHandler(eLuaEvent event, function func() end)"
+        },
+        "RemoveHandler": {
+            "Description": "Remove a previously registered handler by id.",
+            "Example": "void EventMgr.RemoveHandler(int id)"
+        }
+    },

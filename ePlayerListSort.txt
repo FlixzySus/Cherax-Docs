@@ -1,0 +1,6 @@
+    "ePlayerListSort": {
+        "ALPHABETICAL": null,
+        "DISTANCE": null,
+        "HOST_QUEUE": null,
+        "PLAYER_ID": null
+    },

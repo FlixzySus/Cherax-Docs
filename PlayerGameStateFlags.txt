@@ -1,0 +1,173 @@
+    "PlayerGameStateFlags": {
+        "PRF_BlockRemotePlayerRecording": {
+            "Example": "bool object.bool PRF_BlockRemotePlayerRecording"
+        },
+        "PRF_UseScriptedWeaponFirePosition": {
+            "Example": "bool object.bool PRF_UseScriptedWeaponFirePosition"
+        },
+        "PlayerPreferFrontSeat": {
+            "Example": "bool object.PlayerPreferFrontSeat"
+        },
+        "allowBikeAlternateAnimations": {
+            "Example": "bool object.bool allowBikeAlternateAnimations"
+        },
+        "bHasMaxHealth": {
+            "Example": "bool object.bool bHasMaxHealth"
+        },
+        "bHasMicrophone": {
+            "Example": "bool object.bool bHasMicrophone"
+        },
+        "bHelmetHasBeenShot": {
+            "Example": "bool object.bool bHelmetHasBeenShot"
+        },
+        "bInvincible": {
+            "Example": "bool object.bool bInvincible"
+        },
+        "cantBeKnockedOffBike": {
+            "Example": "int object.int8_t cantBeKnockedOffBike"
+        },
+        "controlsDisabledByScript": {
+            "Example": "bool object.bool controlsDisabledByScript"
+        },
+        "disableHelmetArmor": {
+            "Example": "bool object.bool disableHelmetArmor"
+        },
+        "disableHomingMissileLockForVehiclePedInside": {
+            "Example": "bool object.bool disableHomingMissileLockForVehiclePedInside"
+        },
+        "disableStartEngine": {
+            "Example": "bool object.bool disableStartEngine"
+        },
+        "disableVehicleCombat": {
+            "Example": "bool object.bool disableVehicleCombat"
+        },
+        "dontActivateRagdollFromExplosions": {
+            "Example": "bool object.bool dontActivateRagdollFromExplosions"
+        },
+        "dontActivateRagdollFromVehicleImpact": {
+            "Example": "bool object.bool dontActivateRagdollFromVehicleImpact"
+        },
+        "dontDragMeOutOfCar": {
+            "Example": "bool object.bool dontDragMeOutOfCar"
+        },
+        "dontTakeOffHelmet": {
+            "Example": "bool object.bool dontTakeOffHelmet"
+        },
+        "everybodyBackOff": {
+            "Example": "bool object.bool everybodyBackOff"
+        },
+        "forceHelmetVisorSwitch": {
+            "Example": "bool object.bool forceHelmetVisorSwitch"
+        },
+        "hasHelmet": {
+            "Example": "bool object.bool hasHelmet"
+        },
+        "hasSetJackSpeed": {
+            "Example": "bool object.bool hasSetJackSpeed"
+        },
+        "ignoreInteriorCheckForSprinting": {
+            "Example": "bool object.bool ignoreInteriorCheckForSprinting"
+        },
+        "ignoreMeleeFistWeaponDamageMult": {
+            "Example": "bool object.bool ignoreMeleeFistWeaponDamageMult"
+        },
+        "ignoresExplosions": {
+            "Example": "bool object.bool ignoresExplosions"
+        },
+        "inTutorial": {
+            "Example": "bool object.bool inTutorial"
+        },
+        "isAntagonisticToPlayer": {
+            "Example": "bool object.bool isAntagonisticToPlayer"
+        },
+        "isPerformingVehicleMelee": {
+            "Example": "bool object.bool isPerformingVehicleMelee"
+        },
+        "isScuba": {
+            "Example": "bool object.bool isScuba"
+        },
+        "isSpectating": {
+            "Example": "bool object.bool isSpectating"
+        },
+        "isSwitchingHelmetVisor": {
+            "Example": "bool object.bool isSwitchingHelmetVisor"
+        },
+        "lawOnlyAttackIfPlayerIsWanted": {
+            "Example": "bool object.bool lawOnlyAttackIfPlayerIsWanted"
+        },
+        "lawPedsCanFleeFromNonWantedPlayer": {
+            "Example": "bool object.bool lawPedsCanFleeFromNonWantedPlayer"
+        },
+        "myVehicleIsMyInteresting": {
+            "Example": "bool object.bool myVehicleIsMyInteresting"
+        },
+        "neverTarget": {
+            "Example": "bool object.bool neverTarget"
+        },
+        "newMaxHealthArmour": {
+            "Example": "bool object.bool newMaxHealthArmour"
+        },
+        "noCriticalHits": {
+            "Example": "bool object.bool noCriticalHits"
+        },
+        "notDamagedByBullets": {
+            "Example": "bool object.bool notDamagedByBullets"
+        },
+        "notDamagedByCollisions": {
+            "Example": "bool object.bool notDamagedByCollisions"
+        },
+        "notDamagedByFlames": {
+            "Example": "bool object.bool notDamagedByFlames"
+        },
+        "notDamagedByMelee": {
+            "Example": "bool object.bool notDamagedByMelee"
+        },
+        "notDamagedBySmoke": {
+            "Example": "bool object.bool notDamagedBySmoke"
+        },
+        "notDamagedBySteam": {
+            "Example": "bool object.bool notDamagedBySteam"
+        },
+        "pedIsArresting": {
+            "Example": "bool object.bool pedIsArresting"
+        },
+        "pendingTutorialSessionChange": {
+            "Example": "bool object.bool pendingTutorialSessionChange"
+        },
+        "playerIsWeird": {
+            "Example": "bool object.bool playerIsWeird"
+        },
+        "playersDontDragMeOutOfCar": {
+            "Example": "bool object.bool playersDontDragMeOutOfCar"
+        },
+        "randomPedsFlee": {
+            "Example": "bool object.bool randomPedsFlee"
+        },
+        "respawning": {
+            "Example": "bool object.bool respawning"
+        },
+        "swatHeliSpawnWithinLastSpottedLocation": {
+            "Example": "bool object.bool swatHeliSpawnWithinLastSpottedLocation"
+        },
+        "treatFriendlyTargettingAndDamage": {
+            "Example": "bool object.bool treatFriendlyTargettingAndDamage"
+        },
+        "useKinematicModeWhenStationary": {
+            "Example": "bool object.bool useKinematicModeWhenStationary"
+        },
+        "useKinematicPhysics": {
+            "Example": "bool object.bool useKinematicPhysics"
+        },
+        "useLockpickVehicleEntryAnimations": {
+            "Example": "bool object.bool useLockpickVehicleEntryAnimations"
+        },
+        "useOverrideFootstepPtFx": {
+            "Example": "bool object.bool useOverrideFootstepPtFx"
+        },
+        "willJackAnyPlayer": {
+            "Example": "bool object.bool willJackAnyPlayer"
+        },
+        "willJackWantedPlayersRatherThanStealCar": {
+            "Example": "bool object.bool willJackWantedPlayersRatherThanStealCar"
+        }
+    },

@@ -1,0 +1,20 @@
+    "Stats": {
+        "GetBool": {
+            "Example": "bool,int Stats.GetBool(int hash)"
+        },
+        "GetFloat": {
+            "Example": "bool,number Stats.GetFloat(int hash)"
+        },
+        "GetInt": {
+            "Example": "bool,int Stats.GetInt(int hash)"
+        },
+        "SetBool": {
+            "Example": "bool Stats.SetBool(int hash, int value)"
+        },
+        "SetFloat": {
+            "Example": "bool Stats.SetFloat(int hash, number value)"
+        },
+        "SetInt": {
+            "Example": "bool Stats.SetInt(int hash, int value)"
+        }
+    },

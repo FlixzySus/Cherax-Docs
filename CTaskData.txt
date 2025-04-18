@@ -1,0 +1,11 @@
+    "CTaskData": {
+        "TaskData": {
+            "Example": "table<int, int> object.TaskData"
+        },
+        "TaskDataSize": {
+            "Example": "int object.TaskDataSize"
+        },
+        "TaskType": {
+            "Example": "int object.TaskType"
+        }
+    },

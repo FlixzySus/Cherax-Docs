@@ -1,0 +1,122 @@
+    "Memory": {
+        "Alloc": {
+            "Description": "Allocates a block of size bytes of memory, returning a pointer to the beginning of the block. The content of the newly allocated block of memory is not initialized, remaining with indeterminate values. Consider using Memory.MemSet",
+            "Example": "int Memory.Alloc(int size = 24)"
+        },
+        "AllocInt": {
+            "Description": "Allocates a 4 byte buffer where an integer can be stored.",
+            "Example": "int Memory.AllocInt()"
+        },
+        "Free": {
+            "Description": "Deallocates a block of memory, making it available again for further allocations",
+            "Example": "void Memory.Free(int ptr)"
+        },
+        "GetBaseAddress": {
+            "Description": "Returns the base address of the given module.",
+            "Example": "int Memory.GetBaseAddress(string moduleName = \"GTA5.exe\")"
+        },
+        "LuaCallCFunction": {
+            "Description": "Calls a function with user-defined arguments.",
+            "Example": "void Memory.LuaCallCFunction(int addr, variadic_args arguments)"
+        },
+        "LuaCallCFunctionWithReturnValue": {
+            "Description": "Calls a function with user-defined arguments and returns a pointer to the return value. You must free the return value yourself using Memory.Free.",
+            "Example": "int Memory.LuaCallCFunctionWithReturnValue(int addr, variadic_args arguments)"
+        },
+        "MemSet": {
+            "Description": "Sets the first num bytes of the block of memory pointed by ptr to the specified value (interpreted as an unsigned char).",
+            "Example": "int Memory.MemSet(int ptr, int val, int num)"
+        },
+        "ReadByte": {
+            "Description": "Reads an 8-bit integer at the given address.",
+            "Example": "int Memory.ReadByte(int address)"
+        },
+        "ReadFloat": {
+            "Description": "Reads a float at the given address.",
+            "Example": "float Memory.ReadFloat(int address)"
+        },
+        "ReadInt": {
+            "Description": "Reads a 32-bit integer at the given address.",
+            "Example": "int Memory.ReadInt(int address)"
+        },
+        "ReadLong": {
+            "Description": "Reads a 64-bit integer at the given address.",
+            "Example": "int Memory.ReadLong(int address)"
+        },
+        "ReadShort": {
+            "Description": "Reads an 16-bit integer at the given address.",
+            "Example": "int Memory.ReadShort(int address)"
+        },
+        "ReadString": {
+            "Description": "Reads a string at the given address.",
+            "Example": "string Memory.ReadString(int address)"
+        },
+        "ReadUByte": {
+            "Description": "Reads an unsigned 8-bit integer at the given address.",
+            "Example": "int Memory.ReadUByte(int address)"
+        },
+        "ReadUInt": {
+            "Description": "Reads a unsigned 32-bit integer at the given address.",
+            "Example": "int Memory.ReadUInt(int address)"
+        },
+        "ReadUShort": {
+            "Description": "Reads an unsigned 16-bit integer at the given address.",
+            "Example": "int Memory.ReadUShort(int address)"
+        },
+        "ReadV3": {
+            "Description": "Reads a Vector3 at the given address.",
+            "Example": "V3 Memory.ReadV3(int address)"
+        },
+        "Rip": {
+            "Description": "Rips the given address and returns the ripped address.",
+            "Example": "int Memory.Rip(int address)"
+        },
+        "Scan": {
+            "Description": "Scans for a given pattern in a specific module and returns the address if found.",
+            "Example": "int Memory.Scan(string pattern, string moduleName = \"GTA5.exe\")"
+        },
+        "ScanScript": {
+            "Description": "Scans for a given pattern in a specific script and returns the address if found.",
+            "Example": "int Memory.ScanScript(int scriptHash, string pattern)"
+        },
+        "WriteByte": {
+            "Description": "Writes an 8-bit integer to the given address.",
+            "Example": "void Memory.WriteByte(int address, int value)"
+        },
+        "WriteFloat": {
+            "Description": "Writes a float to the given address.",
+            "Example": "void Memory.WriteFloat(int address, float value)"
+        },
+        "WriteInt": {
+            "Description": "Writes a 32-bit integer to the given address.",
+            "Example": "void Memory.WriteInt(int address, int value)"
+        },
+        "WriteLong": {
+            "Description": "Writes a 64-bit integer to the given address.",
+            "Example": "void Memory.WriteLong(int address, int value)"
+        },
+        "WriteShort": {
+            "Description": "Writes an 16-bit integer to the given address.",
+            "Example": "void Memory.WriteShort(int address, int value)"
+        },
+        "WriteString": {
+            "Description": "Writes a string to the given address.",
+            "Example": "void Memory.WriteString(int address, string value)"
+        },
+        "WriteUByte": {
+            "Description": "Writes an unsigned 8-bit integer to the given address.",
+            "Example": "void Memory.WriteUByte(int address, int value)"
+        },
+        "WriteUInt": {
+            "Description": "Writes a unsigned 32-bit integer to the given address.",
+            "Example": "void Memory.WriteUInt(int address, int value)"
+        },
+        "WriteUShort": {
+            "Description": "Writes an unsigned 16-bit integer to the given address.",
+            "Example": "void Memory.WriteUShort(int address, int value)"
+        },
+        "WriteV3": {
+            "Description": "Writes a Vector3 to the given address.",
+            "Example": "void Memory.WriteV3(int address, V3 value)"
+        }
+    },

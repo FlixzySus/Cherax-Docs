@@ -1,0 +1,134 @@
+    "CPlayerInfo": {
+        "CachedSprintMultThisFrame": {
+            "Example": "number object.CachedSprintMultThisFrame"
+        },
+        "ExplosiveDamageModifier": {
+            "Example": "number object.ExplosiveDamageModifier"
+        },
+        "ForceAirDragMult": {
+            "Description": "Affects the air drag of the player's current car/bike",
+            "Example": "number object.ForceAirDragMult"
+        },
+        "FriendStatus": {
+            "Example": "int object.FriendStatus"
+        },
+        "HavocCaused": {
+            "Description": "A counter going up when the player does bad stuff.",
+            "Example": "int object.HavocCaused"
+        },
+        "JackSpeed": {
+            "Description": "2 bytes",
+            "Example": "int object.JackSpeed"
+        },
+        "LastChangeWeaponFrame": {
+            "Example": "int object.LastChangeWeaponFrame"
+        },
+        "LastTargetVehicle": {
+            "Description": "Last vehicle player tried to enter.",
+            "Example": "CVehicle object.LastTargetVehicle"
+        },
+        "MaxArmour": {
+            "Description": "2 bytes",
+            "Example": "int object.MaxArmour"
+        },
+        "MaxExplosiveDamage": {
+            "Example": "number object.MaxExplosiveDamage"
+        },
+        "MaxHealth": {
+            "Description": "2 bytes",
+            "Example": "int object.MaxHealth"
+        },
+        "MaxSprintEnergy": {
+            "Example": "number object.MaxSprintEnergy"
+        },
+        "MeleeUnarmedDamageModifier": {
+            "Example": "number object.MeleeUnarmedDamageModifier"
+        },
+        "MeleeWeaponDamageModifier": {
+            "Example": "number object.MeleeWeaponDamageModifier"
+        },
+        "MeleeWeaponDefenseModifier": {
+            "Example": "number object.MeleeWeaponDefenseModifier"
+        },
+        "MeleeWeaponForceModifier": {
+            "Example": "number object.MeleeWeaponForceModifier"
+        },
+        "NetData": {
+            "Description": "structure to GamerInfo holding information about the player",
+            "Example": "GamerInfo object.NetData"
+        },
+        "NumEnemiesInCombat": {
+            "Description": "A count of the number of enemy peds in combat targetting this player.",
+            "Example": "int object.NumEnemiesInCombat"
+        },
+        "NumEnemiesShootingInCombat": {
+            "Description": "A count of the number of enemy peds shooting at this player.",
+            "Example": "int object.NumEnemiesShootingInCombat"
+        },
+        "OnlyEnterThisVehicle": {
+            "Description": "Restrict the player to only being able to enter this vehicle (script-controlled)\t",
+            "Example": "CVehicle object.OnlyEnterThisVehicle"
+        },
+        "PlayerGroup": {
+            "Example": "int object.PlayerGroup"
+        },
+        "PlayerPed": {
+            "Description": "Pointer to the player ped (should always be set)",
+            "Example": "CPed object.PlayerPed"
+        },
+        "PlayerState": {
+            "Description": "PLAYERSTATE_INVALID = -1, PLAYERSTATE_PLAYING, PLAYERSTATE_HASDIED, PLAYERSTATE_HASBEENARRESTED, PLAYERSTATE_FAILEDMISSION, PLAYERSTATE_LEFTGAME, PLAYERSTATE_RESPAWN, PLAYERSTATE_IN_MP_CUTSCENE",
+            "Example": "int object.PlayerState"
+        },
+        "PreferFrontPassengerSeatVehicle": {
+            "Description": "Script can prefer the player to enter the front passenger seat for this vehicle",
+            "Example": "CVehicle object.PreferFrontPassengerSeatVehicle"
+        },
+        "PreferRearSeatsVehicle": {
+            "Description": "Script can prefer the player to enter the rear seats for this vehicle",
+            "Example": "CVehicle object.PreferRearSeatsVehicle"
+        },
+        "RunSprintSpeedMultiplier": {
+            "Example": "number object.RunSprintSpeedMultiplier"
+        },
+        "SpotterOfStolenVehicle": {
+            "Example": "CPed object.SpotterOfStolenVehicle"
+        },
+        "SprintControlCounter": {
+            "Example": "number object.SprintControlCounter"
+        },
+        "SprintEnergy": {
+            "Example": "number object.SprintEnergy"
+        },
+        "StealthRate": {
+            "Example": "number object.StealthRate"
+        },
+        "SwimSpeedMultiplier": {
+            "Example": "number object.SwimSpeedMultiplier"
+        },
+        "Team": {
+            "Description": "The player's team (in network game)",
+            "Example": "int object.Team"
+        },
+        "TimeBikeSprintPressed": {
+            "Example": "int object.TimeBikeSprintPressed"
+        },
+        "VehicleDamageModifier": {
+            "Example": "number object.VehicleDamageModifier"
+        },
+        "VehicleDefenseModifier": {
+            "Example": "number object.VehicleDefenseModifier"
+        },
+        "WeaponDamageModifier": {
+            "Example": "number object.WeaponDamageModifier"
+        },
+        "WeaponDefenseModifier": {
+            "Example": "number object.WeaponDefenseModifier"
+        },
+        "WeaponMinigunDefenseModifier": {
+            "Example": "number object.WeaponMinigunDefenseModifier"
+        },
+        "WeaponTakedownDefenseModifier": {
+            "Example": "number object.WeaponTakedownDefenseModifier"
+        }
+    },

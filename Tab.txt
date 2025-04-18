@@ -1,0 +1,49 @@
+    "Tab": {
+        "AddFeature": {
+            "Description": "Adds a feature to the tab.",
+            "Example": "void object:AddFeature(int hash)\nvoid object:AddFeature(int hash, int index)"
+        },
+        "AddSeperator": {
+            "Example": "object:AddSeperator(string text)"
+        },
+        "AddSubTab": {
+            "Description": "Adds Tab Button and returns the created tab.",
+            "Example": "Tab object:AddSubTab(string text, string desc)"
+        },
+        "GetContent": {
+            "Example": "ListWidget object:GetContent(int index)"
+        },
+        "GetContentSize": {
+            "Description": "Returns the number of widgets in this tab.",
+            "Example": "int object:GetContentSize()"
+        },
+        "GetDesc": {
+            "Example": "string object:GetDesc()"
+        },
+        "GetSelectedContent": {
+            "Example": "ListWidget object:GetSelectedContent()"
+        },
+        "GetSelectedContentId": {
+            "Example": "int object:GetSelectedContentId()"
+        },
+        "GetSubTab": {
+            "Description": "Returns a sub tab by name.",
+            "Example": "Tab object:GetSubTab(string text)"
+        },
+        "GetText": {
+            "Example": "string object:GetText()"
+        },
+        "RemoveSubTab": {
+            "Description": "Removes a sub tab and returns the amount of removed tab buttons.",
+            "Example": "int object:RemoveSubTab(Tab tab)"
+        },
+        "SetDesc": {
+            "Example": "object:SetDesc(string desc)"
+        },
+        "SetSelectedContentId": {
+            "Example": "object:SetSelectedContentId(int index)"
+        },
+        "SetText": {
+            "Example": "object:SetText(string text)"
+        }
+    },

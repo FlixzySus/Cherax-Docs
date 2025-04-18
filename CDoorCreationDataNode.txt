@@ -1,0 +1,6 @@
+    "CDoorCreationDataNode": {
+        "DoorModel": {
+            "Description": "0xC0",
+            "Example": "int object.DoorModel"
+        }
+    },

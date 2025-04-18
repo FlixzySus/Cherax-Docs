@@ -1,0 +1,42 @@
+    "CPlayerSectorPosNode": {
+        "IsOnStairs": {
+            "Description": "is this player standing on stairs?",
+            "Example": "bool object.IsOnStairs"
+        },
+        "IsRagdolling": {
+            "Description": "is this player ragdolling?",
+            "Example": "bool object.IsRagdolling"
+        },
+        "IsStandingOnNetworkObject": {
+            "Description": "is this player currently standing on another network object?",
+            "Example": "bool object.IsStandingOnNetworkObject"
+        },
+        "LocalOffset": {
+            "Description": "Offset from the center of the object",
+            "Example": "V3 object.LocalOffset"
+        },
+        "PackedStealthNoise": {
+            "Description": "the serialised players current stealth noise",
+            "Example": "int object.PackedStealthNoise"
+        },
+        "SectorPosX": {
+            "Description": "X position of this object within the current sector",
+            "Example": "number object.SectorPosX"
+        },
+        "SectorPosY": {
+            "Description": "Y position of this object within the current sector",
+            "Example": "number object.SectorPosY"
+        },
+        "SectorPosZ": {
+            "Description": "Z position of this object within the current sector",
+            "Example": "number object.SectorPosZ"
+        },
+        "StandingOnNetworkObjectID": {
+            "Description": "ID of the object this player is standing on",
+            "Example": "int object.StandingOnNetworkObjectID"
+        },
+        "StealthNoise": {
+            "Description": "the players current stealth noise",
+            "Example": "number object.StealthNoise"
+        }
+    },

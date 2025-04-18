@@ -1,0 +1,14 @@
+    "eReportReason": {
+        "CODE_TAMPERING": null,
+        "CRC_CODE_CRCS": null,
+        "CRC_COMPROMISED": null,
+        "CRC_EXE_SIZE": null,
+        "CRC_NOT_REPLIED": null,
+        "CRC_REQUEST_FLOOD": null,
+        "GAME_SERVER_CASH_BANK": null,
+        "GAME_SERVER_CASH_WALLET": null,
+        "GAME_SERVER_INVENTORY": null,
+        "GAME_SERVER_SERVER_INTEGRITY": null,
+        "SCRIPT_CHEAT_DETECTION": null,
+        "TELEMETRY_BLOCK": null
+    },

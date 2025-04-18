@@ -1,0 +1,17 @@
+    "GamerHandle": {
+        "IsValid": {
+            "Description": "Returns true if the GamerHandle is valid.",
+            "Example": "bool object:IsValid()"
+        },
+        "New": {
+            "Description": "Create a new GamerHandle object.",
+            "Example": "GamerHandle GamerHandle()\nGamerHandle GamerHandle.New(int rockstarId)"
+        },
+        "Platform": null,
+        "RockstarId": null,
+        "ToBuffer": {
+            "Description": "Converts the GamerHandle into a GamerHandleBuffer used by most natives.",
+            "Example": "GamerHandleBuffer object:ToBuffer()"
+        },
+        "UNK1": null
+    },

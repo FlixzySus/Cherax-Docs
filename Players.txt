@@ -1,0 +1,74 @@
+    "Players": {
+        "Get": {
+            "Description": "Returns the players for a given filter.",
+            "Example": "table<int, int> Players.Get(ePlayerListSort filter, string search)"
+        },
+        "GetByConId": {
+            "Description": "Returns the NetGamePlayer for a given connection id.",
+            "Example": "CNetGamePlayer Players.GetByConId(int cxn)"
+        },
+        "GetByEndpointId": {
+            "Description": "Returns the NetGamePlayer for a given endpoint id.",
+            "Example": "CNetGamePlayer Players.GetByEndpointId(int ep)"
+        },
+        "GetByGamerId": {
+            "Description": "Returns the NetGamePlayer for a given gamer id.",
+            "Example": "CNetGamePlayer Players.GetByGamerId(int gamerId)"
+        },
+        "GetByIP": {
+            "Description": "Returns the NetGamePlayer for a given ip.",
+            "Example": "CNetGamePlayer Players.GetByIP(netSocketAddress addr)\nCNetGamePlayer Players.GetByIP(int ip)"
+        },
+        "GetById": {
+            "Description": "Returns the NetGamePlayer for a given playerId.",
+            "Example": "CNetGamePlayer Players.GetById(int playerId)"
+        },
+        "GetByPeerId": {
+            "Description": "Returns the NetGamePlayer for a given peer id.",
+            "Example": "CNetGamePlayer Players.GetByPeerId(int peerId)"
+        },
+        "GetByRockstarId": {
+            "Description": "Returns the NetGamePlayer for a given rockstar id.",
+            "Example": "CNetGamePlayer Players.GetByRockstarId(int rid)"
+        },
+        "GetCPed": {
+            "Description": "Gets the player's CPed.",
+            "Example": "CPed Players.GetCPed(int playerId)"
+        },
+        "GetCam": {
+            "Description": "Gets the player's cam position.",
+            "Example": "V3 Players.GetCam(int playerId)"
+        },
+        "GetCamRot": {
+            "Description": "Gets the player's cam rotation in eulers.",
+            "Example": "V3 Players.GetCamRot(int playerId)"
+        },
+        "GetIP": {
+            "Description": "Returns the player SocketAddress.",
+            "Example": "SocketAddress Players.GetIP(int playerId)"
+        },
+        "GetIPInfo": {
+            "Description": "Returns info about players ip.",
+            "Example": "table<string, string> Players.GetIPInfo(int playerId)"
+        },
+        "GetIPString": {
+            "Description": "Returns a readable player ip string including the type of the connection.",
+            "Example": "string Players.GetIPString(int playerId)"
+        },
+        "GetName": {
+            "Description": "Returns the player name.",
+            "Example": "string Players.GetName(int playerId)"
+        },
+        "GetNetAddress": {
+            "Description": "Returns the player NetAddress.",
+            "Example": "NetAddress Players.GetNetAddress(int playerId)"
+        },
+        "GetTags": {
+            "Description": "Returns the player tags as string.",
+            "Example": "string Players.GetTags(int playerId)"
+        },
+        "GetWaypoint": {
+            "Description": "Gets if the player has a waypoint, the position of the waypoint, and the owner of the waypoint.",
+            "Example": "bool, V3, int Players.GetWaypoint(int playerId)"
+        }
+    },

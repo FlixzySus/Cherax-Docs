@@ -1,0 +1,18 @@
+    "GamerHandleBuffer": {
+        "GetBuffer": {
+            "Description": "Returns the buffer address.",
+            "Example": "int object:GetBuffer()"
+        },
+        "GetSize": {
+            "Description": "Returns the size of the GamerHandleBuffer.",
+            "Example": "int object:GetSize()"
+        },
+        "New": {
+            "Description": "Create a new GamerHandleBuffer object.",
+            "Example": "GamerHandleBuffer GamerHandleBuffer.New()"
+        },
+        "ToHandle": {
+            "Description": "Converts the GamerHandleBuffer into a GamerHandle.",
+            "Example": "GamerHandle object:ToHandle()"
+        }
+    },

@@ -1,0 +1,17 @@
+    "TaskSlotData": {
+        "taskActive": {
+            "Example": "bool object.taskActive"
+        },
+        "taskPriority": {
+            "Example": "int object.taskPriority"
+        },
+        "taskSequenceId": {
+            "Example": "int object.taskSequenceId"
+        },
+        "taskTreeDepth": {
+            "Example": "int object.taskTreeDepth"
+        },
+        "taskType": {
+            "Example": "int object.taskType"
+        }
+    },

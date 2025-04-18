@@ -1,0 +1,7 @@
+    "NetAddressType": {
+        "DIRECT": null,
+        "INVALID": null,
+        "NUM_TYPES": null,
+        "PEER_RELAY": null,
+        "RELAY_SERVER": null
+    },

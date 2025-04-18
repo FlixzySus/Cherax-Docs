@@ -1,0 +1,18 @@
+    "CPlayerCreationDataNode": {
+        "ModelHash": {
+            "Example": "int object.ModelHash"
+        },
+        "NumBloodMarks": {
+            "Example": "int object.NumBloodMarks"
+        },
+        "NumScars": {
+            "Example": "int object.NumScars"
+        },
+        "hasCommunicationPrivileges": {
+            "Example": "bool object.hasCommunicationPrivileges"
+        },
+        "wearingAHelmet": {
+            "Description": "only want to apply this once and then it's derived locally...",
+            "Example": "bool object.wearingAHelmet"
+        }
+    },

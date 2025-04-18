@@ -1,0 +1,17 @@
+    "CPedTaskSequenceDataNode": {
+        "hasSequence": {
+            "Example": "bool object.hasSequence"
+        },
+        "numTasks": {
+            "Example": "int object.numTasks"
+        },
+        "repeatMode": {
+            "Example": "int object.repeatMode"
+        },
+        "sequenceResourceId": {
+            "Example": "int object.sequenceResourceId"
+        },
+        "taskData": {
+            "Example": "table<int, CTaskData> object.taskData"
+        }
+    },

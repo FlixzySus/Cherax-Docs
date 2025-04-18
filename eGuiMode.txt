@@ -1,0 +1,5 @@
+    "eGuiMode": {
+        "Both": null,
+        "ClickGUI": null,
+        "ListGUI": null
+    },

@@ -1,0 +1,16 @@
+    "Texture": {
+        "GetTexture": {
+            "Example": "D3D12Texture Texture.GetTexture(int id)"
+        },
+        "IsTextureValid": {
+            "Example": "bool Texture.IsTextureValid(int id)"
+        },
+        "LoadTexture": {
+            "Description": "Creates a new texture that can load files such as gif,jpg,png etc.",
+            "Example": "int Texture.LoadTexture(string file)"
+        },
+        "LoadTextureAsync": {
+            "Description": "Creates a new texture that can load files such as gif,jpg,png etc.",
+            "Example": "int Texture.LoadTextureAsync(string file)"
+        }
+    },

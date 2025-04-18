@@ -1,0 +1,18 @@
+    "Time": {
+        "Get": {
+            "Description": "Retrieves the current system time in seconds.",
+            "Example": "int Time.Get()"
+        },
+        "GetEpoche": {
+            "Description": "Retrieves the time since Epoche in seconds.",
+            "Example": "int Time.GetEpoche()"
+        },
+        "GetEpocheMs": {
+            "Description": "Retrieves the time since Epoche in milliseconds.",
+            "Example": "int Time.GetEpocheMs()"
+        },
+        "GetEpocheNs": {
+            "Description": "Retrieves the time since Epoche in nanoseconds, might not equal system time.",
+            "Example": "int Time.GetEpocheNs()"
+        }
+    },

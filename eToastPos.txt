@@ -1,0 +1,6 @@
+    "eToastPos": {
+        "BOTTOM_LEFT": null,
+        "BOTTOM_RIGHT": null,
+        "TOP_LEFT": null,
+        "TOP_RIGHT": null
+    },

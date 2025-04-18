@@ -1,0 +1,90 @@
+    "CVehicleHealthDataNode": {
+        "bodyhealth": {
+            "Description": "body health",
+            "Example": "int object.bodyhealth"
+        },
+        "extinguishedFireCount": {
+            "Example": "int object.extinguishedFireCount"
+        },
+        "fixedCount": {
+            "Description": "counter that is sync'd to trigger remote fix of vehicle when local fix of vehicle happens",
+            "Example": "int object.fixedCount"
+        },
+        "hasDamageEntity": {
+            "Description": "has this vehicle been damaged by another entity?",
+            "Example": "bool object.hasDamageEntity"
+        },
+        "hasMaxHealth": {
+            "Description": "health is max",
+            "Example": "bool object.hasMaxHealth"
+        },
+        "health": {
+            "Description": "health",
+            "Example": "int object.health"
+        },
+        "healthsame": {
+            "Description": "if the health is the same as body health",
+            "Example": "bool object.healthsame"
+        },
+        "isBlownUp": {
+            "Description": "was the vehicle wrecked by explosion?",
+            "Example": "bool object.isBlownUp"
+        },
+        "isWrecked": {
+            "Description": "is this vehicle wrecked?",
+            "Example": "bool object.isWrecked"
+        },
+        "lastDamagedMaterialId": {
+            "Description": "last material id that was damaged for vehicle",
+            "Example": "int object.lastDamagedMaterialId"
+        },
+        "numWheels": {
+            "Description": "number of wheels on this car",
+            "Example": "int object.numWheels"
+        },
+        "packedEngineHealth": {
+            "Description": "packed engine health value",
+            "Example": "int object.packedEngineHealth"
+        },
+        "packedPetrolTankHealth": {
+            "Description": "packed petrol tank health value",
+            "Example": "int object.packedPetrolTankHealth"
+        },
+        "suspensionHealth": {
+            "Description": "the health of the suspension for the wheels",
+            "Example": "table<int, number> object.suspensionHealth"
+        },
+        "suspensionHealthDefault": {
+            "Description": "is the suspension health for all wheels at the default",
+            "Example": "bool object.suspensionHealthDefault"
+        },
+        "tyreBrokenOff": {
+            "Example": "table<int, bool> object.tyreBrokenOff"
+        },
+        "tyreDamaged": {
+            "Description": "indicates which tyres are damaged",
+            "Example": "table<int, bool> object.tyreDamaged"
+        },
+        "tyreDestroyed": {
+            "Description": "indicates which tyres are destroyed",
+            "Example": "table<int, bool> object.tyreDestroyed"
+        },
+        "tyreFire": {
+            "Example": "table<int, bool> object.tyreFire"
+        },
+        "tyreHealthDefault": {
+            "Description": "is the tyre health for all wheels at the default",
+            "Example": "bool object.tyreHealthDefault"
+        },
+        "tyreWearRate": {
+            "Example": "table<int, number> object.tyreWearRate"
+        },
+        "weaponDamageEntity": {
+            "Description": "weapon damage entity (only for script objects???????????????)",
+            "Example": "int object.weaponDamageEntity"
+        },
+        "weaponDamageHash": {
+            "Description": "weapon damage Hash",
+            "Example": "int object.weaponDamageHash"
+        }
+    },

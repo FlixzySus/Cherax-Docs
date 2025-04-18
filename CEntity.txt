@@ -1,0 +1,59 @@
+    "CEntity": {
+        "FromAddress": {
+            "Example": "CEntity CEntity.FromAddress(int address)"
+        },
+        "GetAddress": {
+            "Example": "int object:GetAddress()"
+        },
+        "GetAttachmentExtension": {
+            "Description": "Check if the extension is not nil before using it.",
+            "Example": "fwAttachmentEntityExtension object:GetAttachmentExtension()"
+        },
+        "GetType": {
+            "Example": "eEntityType object:GetType()"
+        },
+        "GetVelocity": {
+            "Description": "Returns the current velocity vector in meters per second.",
+            "Example": "V3 object:GetVelocity()"
+        },
+        "HeightMultiplier": {
+            "Example": "number object.HeightMultiplier"
+        },
+        "IsDynamic": {
+            "Example": "bool object.IsDynamic"
+        },
+        "IsFixed": {
+            "Example": "bool object.IsFixed"
+        },
+        "IsFixedByNetwork": {
+            "Example": "bool object.IsFixedByNetwork"
+        },
+        "IsObject": {
+            "Example": "bool object:IsObject()"
+        },
+        "IsPed": {
+            "Example": "bool object:IsPed()"
+        },
+        "IsPhysical": {
+            "Example": "bool object:IsPhysical()"
+        },
+        "IsVehicle": {
+            "Example": "bool object:IsVehicle()"
+        },
+        "IsVisible": {
+            "Example": "bool object.IsVisible"
+        },
+        "ModelInfo": {
+            "Description": "Check if 'object.ModelInfo' is not nil before using it.",
+            "Example": "CBaseModelInfo object.ModelInfo"
+        },
+        "Position": {
+            "Example": "V3 object.Position"
+        },
+        "ThicknessMultiplier": {
+            "Example": "number object.ThicknessMultiplier"
+        },
+        "WidthMultiplier": {
+            "Example": "number object.WidthMultiplier"
+        }
+    },

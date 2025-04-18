@@ -1,0 +1,17 @@
+    "ListWidget": {
+        "GetDesc": {
+            "Example": "string object:GetDesc()"
+        },
+        "GetText": {
+            "Example": "string object:GetText()"
+        },
+        "IsVisible": {
+            "Example": "bool object:IsVisible()"
+        },
+        "SetDesc": {
+            "Example": "object:SetDesc(string desc)"
+        },
+        "SetText": {
+            "Example": "object:SetText(string text)"
+        }
+    },

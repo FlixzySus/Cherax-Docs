@@ -1,0 +1,185 @@
+    "CVehicleAppearanceDataNode": {
+        "LicencePlateTexIndex": {
+            "Description": "Licence plate texture index.",
+            "Example": "int object.LicencePlateTexIndex"
+        },
+        "VehicleBadge": {
+            "Example": "bool object.VehicleBadge"
+        },
+        "allKitMods": {
+            "Example": "table<int, int> object.allKitMods"
+        },
+        "bSmokeColor": {
+            "Description": "has a smoke color",
+            "Example": "bool object.bSmokeColor"
+        },
+        "bVehicleBadgeData": {
+            "Example": "table<int, bool> object.bVehicleBadgeData"
+        },
+        "bWindowTint": {
+            "Description": "has a window tint",
+            "Example": "bool object.bWindowTint"
+        },
+        "bodyColour1": {
+            "Description": "vehicle body colour 1",
+            "Example": "int object.bodyColour1"
+        },
+        "bodyColour2": {
+            "Description": "vehicle body colour 2",
+            "Example": "int object.bodyColour2"
+        },
+        "bodyColour3": {
+            "Description": "vehicle body colour 3",
+            "Example": "int object.bodyColour3"
+        },
+        "bodyColour4": {
+            "Description": "vehicle body colour 4",
+            "Example": "int object.bodyColour4"
+        },
+        "bodyColour5": {
+            "Description": "vehicle body colour 5",
+            "Example": "int object.bodyColour5"
+        },
+        "bodyColour6": {
+            "Description": "vehicle body colour 6",
+            "Example": "int object.bodyColour6"
+        },
+        "bodyDirtLevel": {
+            "Description": "vehicle body dirt level",
+            "Example": "int object.bodyDirtLevel"
+        },
+        "customPrimaryB": {
+            "Description": "custom secondary color B",
+            "Example": "int object.customPrimaryB"
+        },
+        "customPrimaryColor": {
+            "Example": "bool object.customPrimaryColor"
+        },
+        "customPrimaryG": {
+            "Description": "custom secondary color G",
+            "Example": "int object.customPrimaryG"
+        },
+        "customPrimaryR": {
+            "Description": "custom secondary color R",
+            "Example": "int object.customPrimaryR"
+        },
+        "customSecondaryB": {
+            "Description": "custom secondary color B",
+            "Example": "int object.customSecondaryB"
+        },
+        "customSecondaryColor": {
+            "Example": "bool object.customSecondaryColor"
+        },
+        "customSecondaryG": {
+            "Description": "custom secondary color G",
+            "Example": "int object.customSecondaryG"
+        },
+        "customSecondaryR": {
+            "Description": "custom secondary color R",
+            "Example": "int object.customSecondaryR"
+        },
+        "disableExtras": {
+            "Description": "bit flags indicating which \"extra\" car parts are disabled",
+            "Example": "int object.disableExtras"
+        },
+        "envEffScale": {
+            "Example": "int object.envEffScale"
+        },
+        "hasDifferentRearWheel": {
+            "Description": "has a rear wheel that might have a different type (bikes)",
+            "Example": "bool object.hasDifferentRearWheel"
+        },
+        "hasLivery2ID": {
+            "Example": "bool object.hasLivery2ID"
+        },
+        "hasLiveryID": {
+            "Example": "bool object.hasLiveryID"
+        },
+        "horntype": {
+            "Example": "int object.horntype"
+        },
+        "kitIndex": {
+            "Description": "the kit index that the variation data is using",
+            "Example": "int object.kitIndex"
+        },
+        "licencePlate": {
+            "Description": "Licence Plate",
+            "Example": "table<int, int> object.licencePlate"
+        },
+        "livery2ID": {
+            "Description": "ID of the livery2 for the vehicle",
+            "Example": "int object.livery2ID"
+        },
+        "liveryID": {
+            "Description": "ID of the livery for the vehicle",
+            "Example": "int object.liveryID"
+        },
+        "neonBOn": {
+            "Example": "bool object.neonBOn"
+        },
+        "neonColorB": {
+            "Description": "neon color B",
+            "Example": "int object.neonColorB"
+        },
+        "neonColorG": {
+            "Description": "neon color G",
+            "Example": "int object.neonColorG"
+        },
+        "neonColorR": {
+            "Description": "neon color R",
+            "Example": "int object.neonColorR"
+        },
+        "neonFOn": {
+            "Example": "bool object.neonFOn"
+        },
+        "neonLOn": {
+            "Example": "bool object.neonLOn"
+        },
+        "neonOn": {
+            "Example": "bool object.neonOn"
+        },
+        "neonROn": {
+            "Example": "bool object.neonROn"
+        },
+        "neonSuppressed": {
+            "Example": "bool object.neonSuppressed"
+        },
+        "rearWheelMod": {
+            "Description": "rear wheel mod value (for bikes)",
+            "Example": "int object.rearWheelMod"
+        },
+        "smokeColorB": {
+            "Description": "smoke color B",
+            "Example": "int object.smokeColorB"
+        },
+        "smokeColorG": {
+            "Description": "smoke color G",
+            "Example": "int object.smokeColorG"
+        },
+        "smokeColorR": {
+            "Description": "smoke color R",
+            "Example": "int object.smokeColorR"
+        },
+        "toggleMods": {
+            "Description": "bitfield of the toggle mods that are switched on",
+            "Example": "int object.toggleMods"
+        },
+        "wheelMod": {
+            "Description": "wheel mod value",
+            "Example": "int object.wheelMod"
+        },
+        "wheelType": {
+            "Description": "wheel type value",
+            "Example": "int object.wheelType"
+        },
+        "wheelVariation0": {
+            "Example": "bool object.wheelVariation0"
+        },
+        "wheelVariation1": {
+            "Example": "bool object.wheelVariation1"
+        },
+        "windowTint": {
+            "Description": "window tint",
+            "Example": "int object.windowTint"
+        }
+    },

@@ -1,0 +1,11 @@
+    "CVehicleTaskDataNode": {
+        "taskData": {
+            "Example": "table<int, int> object.taskData"
+        },
+        "taskDataSize": {
+            "Example": "int object.taskDataSize"
+        },
+        "taskType": {
+            "Example": "int object.taskType"
+        }
+    },

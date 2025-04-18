@@ -1,0 +1,11 @@
+    "Logger": {
+        "Log": {
+            "Example": "void Logger.Log(eLogColor color, string prefix, string str)"
+        },
+        "LogError": {
+            "Example": "void Logger.LogError(string str)"
+        },
+        "LogInfo": {
+            "Example": "void Logger.LogInfo(string str)"
+        }
+    },

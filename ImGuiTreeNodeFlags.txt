@@ -1,0 +1,18 @@
+    "ImGuiTreeNodeFlags": {
+        "AllowItemOverlap": null,
+        "Bullet": null,
+        "CollapsingHeader": null,
+        "DefaultOpen": null,
+        "FramePadding": null,
+        "Framed": null,
+        "Leaf": null,
+        "NavLeftJumpsBackHere": null,
+        "NoAutoOpenOnLog": null,
+        "NoTreePushOnOpen": null,
+        "None": null,
+        "OpenOnArrow": null,
+        "OpenOnDoubleClick": null,
+        "Selected": null,
+        "SpanAvailWidth": null,
+        "SpanFullWidth": null
+    },

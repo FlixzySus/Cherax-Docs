@@ -1,0 +1,42 @@
+    "ListGUI": {
+        "GetCurrentTab": {
+            "Description": "Returns the top most tab.",
+            "Example": "Tab ListGUI.GetCurrentTab()"
+        },
+        "GetPlayerTab": {
+            "Description": "Returns a specific player tab. (ranges from 0-31).",
+            "Example": "Tab ListGUI.GetPlayerTab(int player)"
+        },
+        "GetPos": {
+            "Description": "Get the current position in screen coordinates.",
+            "Example": "number x,y ListGUI.GetPos()"
+        },
+        "GetRootTab": {
+            "Description": "Returns the root tab.",
+            "Example": "Tab ListGUI.GetRootTab()"
+        },
+        "GetSize": {
+            "Description": "Get the current size in screen coordinates.",
+            "Example": "number x,y ListGUI.GetSize()"
+        },
+        "LoadTheme": {
+            "Description": "Loads a Theme by its name.",
+            "Example": "bool ListGUI.LoadTheme(string fileName)\nListGUI.LoadTheme(\"Default\")"
+        },
+        "RemoveTabFromStack": {
+            "Description": "Remoces the tab from the stack and jump back to the tab before.",
+            "Example": "ListGUI.RemoveTabFromStack(Tab tab)"
+        },
+        "SetCurrentTab": {
+            "Description": "Adds the tab to the tab stack or jumps back if it is already in the tab stack.",
+            "Example": "ListGUI.SetCurrentTab(Tab tab)"
+        },
+        "SetPos": {
+            "Description": "Set the current position in screen coordinates.",
+            "Example": "void ListGUI.SetPos(number x, number y)"
+        },
+        "SetSize": {
+            "Description": "Set the current size in screen coordinates.",
+            "Example": "void ListGUI.SetSize(number x, number y)"
+        }
+    },

@@ -1,0 +1,13 @@
+    "eCallbackTrigger": {
+        "OnNewVehicle": null,
+        "OnPlayerJoin": null,
+        "OnPlayerLeave": null,
+        "OnPlayerPedChange": null,
+        "OnPlayerPedRespawn": null,
+        "OnPostPresent": null,
+        "OnPresent": null,
+        "OnSessionChange": null,
+        "OnTick": null,
+        "OnWeaponChange": null,
+        "OnWeaponReloaded": null
+    },

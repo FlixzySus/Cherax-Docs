@@ -1,0 +1,29 @@
+    "CPedInventoryDataNode": {
+        "allAmmoInfinite": {
+            "Example": "bool object.allAmmoInfinite"
+        },
+        "ammoInfinite": {
+            "Example": "table<int, bool> object.ammoInfinite"
+        },
+        "ammoQuantity": {
+            "Example": "table<int, int> object.ammoQuantity"
+        },
+        "ammoSlots": {
+            "Example": "table<int, int> object.ammoSlots"
+        },
+        "itemSlotNumComponents": {
+            "Example": "table<int, int> object.itemSlotNumComponents"
+        },
+        "itemSlotTint": {
+            "Example": "table<int, int> object.itemSlotTint"
+        },
+        "itemSlots": {
+            "Example": "table<int, int> object.itemSlots"
+        },
+        "numAmmos": {
+            "Example": "int object.numAmmos"
+        },
+        "numItems": {
+            "Example": "int object.numItems"
+        }
+    },
